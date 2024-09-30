@@ -16,7 +16,7 @@
     "build": "npm run svgr && rollup -c",
     "svgr": "svgr --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d src -- assets"
   },
-  "author": "Rahul Keswani",
+  "author": "SigNoz",
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.16.4",
