@@ -18,7 +18,7 @@ const SvgSquarePi = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M4.667 4.667h6.666m-4.666 0v6.666m4 0A1.333 1.333 0 0 1 9.333 10V4.667M3.333 2h9.334C13.403 2 14 2.597 14 3.333v9.334c0 .736-.597 1.333-1.333 1.333H3.333A1.333 1.333 0 0 1 2 12.667V3.333C2 2.597 2.597 2 3.333 2Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

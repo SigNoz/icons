@@ -16,7 +16,7 @@ const SvgEllipse192 = ({
 }: IconProps): React.ReactElement => {
  const element = (
   <svg width={10} height={5} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-   <ellipse cx={5} cy={2.5} rx={4.285} ry={1.786} stroke="#fff" strokeWidth={1.333} />
+   <ellipse cx={5} cy={2.5} rx={4.285} ry={1.786} stroke="inherit" strokeWidth={1.333} />
   </svg>
  );
  const hasViewBox = element.props.viewBox != null;

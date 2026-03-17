@@ -19,7 +19,7 @@ const SvgBuilding2 = ({
    <g clipPath="url(#building-2_svg__a)">
     <path
      d="M4 14.667v-12a1.333 1.333 0 0 1 1.333-1.334h5.333A1.333 1.333 0 0 1 12 2.667v12m-8 0h8m-8 0H2.666a1.334 1.334 0 0 1-1.333-1.334v-4A1.333 1.333 0 0 1 2.666 8H4m8 6.667h1.333a1.333 1.333 0 0 0 1.333-1.334v-6A1.333 1.333 0 0 0 13.333 6H12M6.666 4h2.667M6.666 6.667h2.667M6.666 9.333h2.667M6.666 12h2.667"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

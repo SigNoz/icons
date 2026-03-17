@@ -18,7 +18,7 @@ const SvgSquareDashedBottomCode = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M6.667 6.333 5.333 8l1.334 1.667M9.333 14H10m-.667-7.667L10.667 8 9.333 9.667m-6 4.333A1.334 1.334 0 0 1 2 12.667V3.333A1.333 1.333 0 0 1 3.333 2h9.334A1.333 1.333 0 0 1 14 3.333v9.334A1.334 1.334 0 0 1 12.667 14M6 14h.667"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

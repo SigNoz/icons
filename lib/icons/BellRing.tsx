@@ -19,7 +19,7 @@ const SvgBellRing = ({
    <g clipPath="url(#bell-ring_svg__a)">
     <path
      d="M6.866 14a1.293 1.293 0 0 0 2.267 0M2.666 1.333c-.8 1.134-1.333 2.467-1.333 4m13.333 0c0-1.533-.533-2.866-1.333-4M4 5.333a4 4 0 0 1 8 0c0 4.667 2 6 2 6H2s2-1.333 2-6Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

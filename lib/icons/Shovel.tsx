@@ -19,7 +19,7 @@ const SvgShovel = ({
    <g clipPath="url(#shovel_svg__a)">
     <path
      d="m6.333 9.667 4.333-4.334m-9.333 9.334v-3.334L4.666 8 8 11.333l-3.334 3.334H1.333Zm10-13.334 3.333 3.334-.333.333A2.353 2.353 0 0 1 11 5a2.355 2.355 0 0 1 0-3.333l.333-.334Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

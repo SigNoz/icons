@@ -19,7 +19,7 @@ const SvgSnowflake = ({
    <g clipPath="url(#snowflake_svg__a)">
     <path
      d="M1.333 8h13.333M8 1.333v13.334m5.333-4L10.666 8l2.667-2.667m-10.667 0L5.333 8l-2.667 2.667m8-8L8 5.333 5.333 2.667m0 10.666L8 10.667l2.666 2.666"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

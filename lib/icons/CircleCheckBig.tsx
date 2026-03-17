@@ -19,7 +19,7 @@ const SvgCircleCheckBig = ({
    <g clipPath="url(#circle-check-big_svg__a)">
     <path
      d="M14.666 7.387V8a6.666 6.666 0 1 1-3.953-6.093M6 7.333l2 2 6.666-6.666"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

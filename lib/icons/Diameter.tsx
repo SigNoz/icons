@@ -19,7 +19,7 @@ const SvgDiameter = ({
    <g clipPath="url(#diameter_svg__a)">
     <path
      d="M4.32 2.44a6.667 6.667 0 0 1 9.24 9.24M4.273 4.273l7.454 7.454M2.44 4.32a6.667 6.667 0 0 0 9.24 9.24m2.32-.893a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0ZM4.666 3.333a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.667 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

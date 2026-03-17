@@ -19,7 +19,7 @@ const SvgTrainTrack = ({
    <g clipPath="url(#train-track_svg__a)">
     <path
      d="m1.333 11.333 10-10m-10 8 5.333 5.334M3.333 7.333l5.333 5.334M5.333 5.333l5.333 5.334M7.333 3.333l5.333 5.334M9.333 1.333l5.333 5.334m-10 8 10-10"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

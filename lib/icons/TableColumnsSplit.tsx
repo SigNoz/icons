@@ -19,7 +19,7 @@ const SvgTableColumnsSplit = ({
    <g clipPath="url(#table-columns-split_svg__a)">
     <path
      d="M9.333 9.333v1.334m0 2.666v1.334m0-13.334v1.334m0 2.666v1.334m-8 3.333h5.333M1.333 2h4a1.333 1.333 0 0 1 1.333 1.333v9.334A1.333 1.333 0 0 1 5.333 14h-4m0-8h5.333m8 4H12m2.666-8h-1.333A1.333 1.333 0 0 0 12 3.333v9.334A1.333 1.333 0 0 0 13.333 14h1.333m0-8H12M3.333 2v12"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

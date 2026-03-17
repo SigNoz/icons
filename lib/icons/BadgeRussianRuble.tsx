@@ -19,7 +19,7 @@ const SvgBadgeRussianRuble = ({
    <g clipPath="url(#badge-russian-ruble_svg__a)">
     <path
      d="M6 10.667h3.333M6 8h3.333a1.333 1.333 0 0 0 0-2.667h-2v6M2.567 5.747a2.667 2.667 0 0 1 3.186-3.18 2.667 2.667 0 0 1 4.494 0 2.666 2.666 0 0 1 3.187 3.186 2.666 2.666 0 0 1 0 4.494 2.667 2.667 0 0 1-3.18 3.186 2.668 2.668 0 0 1-4.5 0 2.667 2.667 0 0 1-3.187-3.18 2.667 2.667 0 0 1 0-4.506Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

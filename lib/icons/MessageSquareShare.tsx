@@ -18,7 +18,7 @@ const SvgMessageSquareShare = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M14 8v2a1.333 1.333 0 0 1-1.333 1.333h-8L2 14V3.333A1.333 1.333 0 0 1 3.333 2H8m2.667 0H14m0 0v3.333M14 2l-3.333 3.333"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

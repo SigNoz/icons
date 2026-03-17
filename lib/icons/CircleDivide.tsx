@@ -19,7 +19,7 @@ const SvgCircleDivide = ({
    <g clipPath="url(#circle-divide_svg__a)">
     <path
      d="M5.333 8h5.333m-2 2.667a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0Zm0-5.334a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0Zm6 2.667A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

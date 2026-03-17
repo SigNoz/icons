@@ -19,7 +19,7 @@ const SvgCrosshair = ({
    <g clipPath="url(#crosshair_svg__a)">
     <path
      d="M14.666 8A6.667 6.667 0 0 1 8 14.667M14.666 8A6.667 6.667 0 0 0 8 1.333M14.666 8H12m-4 6.667A6.667 6.667 0 0 1 1.333 8M8 14.667V12M1.333 8A6.667 6.667 0 0 1 8 1.333M1.333 8H4m4-6.667V4"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

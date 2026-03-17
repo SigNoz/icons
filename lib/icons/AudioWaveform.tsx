@@ -19,7 +19,7 @@ const SvgAudioWaveform = ({
    <g clipPath="url(#audio-waveform_svg__a)">
     <path
      d="M1.333 8.667a1.333 1.333 0 0 0 1.333-1.334V4.667a1.333 1.333 0 0 1 2.667 0v8.666a1.333 1.333 0 0 0 2.667 0V2.667a1.333 1.333 0 0 1 2.666 0v8.666a1.333 1.333 0 0 0 2.667 0V8.667a1.334 1.334 0 0 1 1.333-1.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

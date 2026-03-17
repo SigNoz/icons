@@ -18,7 +18,7 @@ const SvgMoonStar = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M13.333 2v2.667m1.334-1.334H12M8 2a4.243 4.243 0 1 0 6 6 6 6 0 1 1-6-6Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

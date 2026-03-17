@@ -19,7 +19,7 @@ const SvgLink2Off = ({
    <g clipPath="url(#link-2-off_svg__a)">
     <path
      d="M6 11.333H4.666a3.333 3.333 0 1 1 0-6.666m5.334 0h1.333A3.333 3.333 0 0 1 14 10M5.333 8H8M1.333 1.333l13.333 13.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

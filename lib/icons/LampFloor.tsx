@@ -18,7 +18,7 @@ const SvgLampFloor = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M8 6v8.667m-2 0h4M6 1.333h4L12 6H4l2-4.667Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

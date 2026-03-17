@@ -25,7 +25,7 @@ const SvgArrowUpCircle = ({
     <path
      d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334Z"
      fill="#C0C1C3"
-     stroke="#C0C1C3"
+     stroke="inherit"
     />
     <path d="M9 5.333 6.333 8 9 10.667" stroke="#0B0C0E" />
    </g>

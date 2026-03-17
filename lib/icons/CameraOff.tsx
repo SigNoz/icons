@@ -19,7 +19,7 @@ const SvgCameraOff = ({
    <g clipPath="url(#camera-off_svg__a)">
     <path
      d="m1.333 1.333 13.333 13.334m-10-10h-2A1.333 1.333 0 0 0 1.333 6v6a1.333 1.333 0 0 0 1.333 1.333h10.667m-7-10.666h3.333l1.667 2h2A1.333 1.333 0 0 1 14.666 6v5m-5.252-.92a2.001 2.001 0 1 1-2.828-2.827"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

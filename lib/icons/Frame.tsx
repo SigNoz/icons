@@ -19,7 +19,7 @@ const SvgFrame = ({
    <g clipPath="url(#frame_svg__a)">
     <path
      d="M14.666 4H1.333m13.333 8H1.333M4 1.333v13.334m8-13.334v13.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

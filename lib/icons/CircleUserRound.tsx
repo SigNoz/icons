@@ -19,7 +19,7 @@ const SvgCircleUserRound = ({
    <g clipPath="url(#circle-user-round_svg__a)">
     <path
      d="M12 13.333a4 4 0 0 0-4-4m0 0a4 4 0 0 0-4 4m4-4A2.667 2.667 0 1 0 8 4a2.667 2.667 0 0 0 0 5.333ZM14.666 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

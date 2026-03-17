@@ -18,7 +18,7 @@ const SvgPlug2 = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M6 1.333v4m4-4v4m-2 6v3.334m0-3.334a4 4 0 0 0 4-4v-2H4v2a4 4 0 0 0 4 4Zm-4.667-6h9.333"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

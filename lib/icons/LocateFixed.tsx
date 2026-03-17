@@ -19,7 +19,7 @@ const SvgLocateFixed = ({
    <g clipPath="url(#locate-fixed_svg__a)">
     <path
      d="M1.333 8h2m0 0A4.667 4.667 0 0 0 8 12.667M3.333 8A4.667 4.667 0 0 1 8 3.333M12.666 8h2m-2 0A4.667 4.667 0 0 1 8 12.667M12.666 8A4.667 4.667 0 0 0 8 3.333m0-2v2m0 9.334v2M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

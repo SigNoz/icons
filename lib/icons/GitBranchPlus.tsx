@@ -18,7 +18,7 @@ const SvgGitBranchPlus = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M4 2v8m0 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm0 0a6 6 0 0 1 6-6m0 0a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm2 6v4m2-2h-4"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

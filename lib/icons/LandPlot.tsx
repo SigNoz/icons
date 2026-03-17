@@ -19,7 +19,7 @@ const SvgLandPlot = ({
    <g clipPath="url(#land-plot_svg__a)">
     <path
      d="m8 5.333 4-2-4-2V8m-2.666-.007-3.667 2.094a.666.666 0 0 0 0 1.16l5.667 3.24a1.334 1.334 0 0 0 1.333 0l5.667-3.24a.667.667 0 0 0 0-1.16L10.667 8m-6.34.567 7.347 4.2m0-4.2-7.34 4.2"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

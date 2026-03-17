@@ -19,7 +19,7 @@ const SvgCigaretteOff = ({
    <g clipPath="url(#cigarette-off_svg__a)">
     <path
      d="m1.333 1.333 13.333 13.334M8 8H1.333v2.667h9.333m4-2.667v2.667M12 8h-.334m-7 0v2.667M12 5.333C12 3.667 10.666 3.667 10.666 2m4 3.333c0-1.666-1.333-1.666-1.333-3.333"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

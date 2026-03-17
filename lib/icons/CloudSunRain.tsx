@@ -19,7 +19,7 @@ const SvgCloudSunRain = ({
    <g clipPath="url(#cloud-sun-rain_svg__a)">
     <path
      d="M8 1.333v1.334m-4.714.62.94.94M13.333 8h1.333m-1.953-4.713-.94.94m-1.142 4.206a2.666 2.666 0 0 0-3.95-2.752M2 13.333a3.333 3.333 0 1 1 5.933-2.666h.733A2 2 0 0 1 10 14.16m-2.667-.827v1.334m-2.667-2V14"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

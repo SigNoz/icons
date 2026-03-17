@@ -10974,16 +10974,6 @@
     "require": "./dist/lib/icons/Pin.cjs"
    }
   },
-  "./Pin1": {
-   "import": {
-    "types": "./dist/types/esm/icons/Pin1.d.ts",
-    "import": "./dist/lib/icons/Pin1.js"
-   },
-   "require": {
-    "types": "./dist/types/cjs/icons/Pin1.d.cts",
-    "require": "./dist/lib/icons/Pin1.cjs"
-   }
-  },
   "./PinOff": {
    "import": {
     "types": "./dist/types/esm/icons/PinOff.d.ts",

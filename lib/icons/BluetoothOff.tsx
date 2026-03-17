@@ -19,7 +19,7 @@ const SvgBluetoothOff = ({
    <g clipPath="url(#bluetooth-off_svg__a)">
     <path
      d="M11.333 11.333 8 14.667V8l-3.334 3.333m-3.333-10 13.333 13.334m-5-8.334 1.667-1.666L8 1.333v3"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

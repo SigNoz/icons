@@ -19,7 +19,7 @@ const SvgMouseOff = ({
    <g clipPath="url(#mouse-off_svg__a)">
     <path
      d="M8 4v.229m4.145 7.916A4.667 4.667 0 0 1 3.333 10V6c0-.747.178-1.482.521-2.145m8.812 5.04V6a4.667 4.667 0 0 0-6.96-4.065m8.96 12.732L1.333 1.333"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

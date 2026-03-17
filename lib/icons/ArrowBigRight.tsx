@@ -18,7 +18,7 @@ const SvgArrowBigRight = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M4 6h4V3.333L12.667 8 8 12.667V10H4V6Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

@@ -20,14 +20,14 @@ const SvgTag = ({
     <path d="M5 5.333a.333.333 0 1 0 0-.666.333.333 0 0 0 0 .666Z" fill="#2A2E37" />
     <path
      d="M8.39 1.724c-.25-.25-.589-.39-.942-.39H2.666a1.333 1.333 0 0 0-1.333 1.333v4.781c0 .354.14.693.39.943l5.803 5.802a1.617 1.617 0 0 0 2.28 0l4.387-4.386a1.617 1.617 0 0 0 0-2.28L8.39 1.724Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
     />
     <path
      d="M5 5.333a.333.333 0 1 0 0-.666.333.333 0 0 0 0 .666Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

@@ -19,7 +19,7 @@ const SvgThumbsDown = ({
    <g clipPath="url(#thumbs-down_svg__a)">
     <path
      d="M11.333 9.333v-8M6 12.08l.666-2.747H2.78A1.333 1.333 0 0 1 1.5 7.627l1.553-5.334a1.333 1.333 0 0 1 1.28-.96h9a1.333 1.333 0 0 1 1.333 1.334V8a1.334 1.334 0 0 1-1.333 1.333h-1.84a1.333 1.333 0 0 0-1.193.74L8 14.667a2.087 2.087 0 0 1-2-2.587Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

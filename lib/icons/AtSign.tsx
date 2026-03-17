@@ -19,7 +19,7 @@ const SvgAtSign = ({
    <g clipPath="url(#at-sign_svg__a)">
     <path
      d="M10.666 5.333v3.334a2 2 0 0 0 4 0V8A6.667 6.667 0 1 0 12 13.333M10.666 8a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

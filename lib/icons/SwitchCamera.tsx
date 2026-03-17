@@ -19,7 +19,7 @@ const SvgSwitchCamera = ({
    <g clipPath="url(#switch-camera_svg__a)">
     <path
      d="M7.333 12.667H2.666a1.333 1.333 0 0 1-1.333-1.334V4.667a1.333 1.333 0 0 1 1.333-1.334H6m0 0-2-2m2 2-2 2m4.666-2h4.667a1.333 1.333 0 0 1 1.333 1.334v6.666a1.333 1.333 0 0 1-1.333 1.334H10m0 0 2 2m-2-2 2-2M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

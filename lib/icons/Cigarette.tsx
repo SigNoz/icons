@@ -18,7 +18,7 @@ const SvgCigarette = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M12 8H1.333v2.667H12M14.666 8v2.667M4.666 8v2.667M12 5.333C12 3.667 10.666 3.667 10.666 2m4 3.333c0-1.666-1.333-1.666-1.333-3.333"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

@@ -19,7 +19,7 @@ const SvgAntenna = ({
    <g clipPath="url(#antenna_svg__a)">
     <path
      d="m1.333 8 3.333-6.667m0 6.667L8 1.333M8 8l3.333-6.667m0 6.667 3.333-6.667M3 4.667h10m-5 6v4"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

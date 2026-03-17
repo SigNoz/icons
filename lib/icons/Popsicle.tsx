@@ -19,7 +19,7 @@ const SvgPopsicle = ({
    <g clipPath="url(#popsicle_svg__a)">
     <path
      d="M14.666 14.667 11 11m1.4-1.4a1.289 1.289 0 0 0 0-1.867L7 2.333a3.347 3.347 0 1 0-4.734 4.734l5.4 5.4c.6.466 1.4.466 1.934-.067l2.8-2.8Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

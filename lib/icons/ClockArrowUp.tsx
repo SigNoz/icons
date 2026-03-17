@@ -19,7 +19,7 @@ const SvgClockArrowUp = ({
    <g clipPath="url(#clock-arrow-up_svg__a)">
     <path
      d="M8.819 14.617a6.667 6.667 0 1 1 5.844-6.392M8 4v4l1.041.52M9.333 12 12 9.333m0 0L14.667 12M12 9.333v5.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

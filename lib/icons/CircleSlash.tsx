@@ -19,7 +19,7 @@ const SvgCircleSlash = ({
    <g clipPath="url(#circle-slash_svg__a)">
     <path
      d="m6 10 4-4m4.666 2A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

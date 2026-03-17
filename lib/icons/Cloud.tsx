@@ -18,7 +18,7 @@ const SvgCloud = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M11.667 12.667H6a4.666 4.666 0 1 1 4.474-6h1.193a3 3 0 0 1 0 6Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

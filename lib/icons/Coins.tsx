@@ -19,7 +19,7 @@ const SvgCoins = ({
    <g clipPath="url(#coins_svg__a)">
     <path
      d="M12.06 6.913A4 4 0 1 1 6.893 12M4.666 4h.667v2.667m5.807 2.586.466.474-1.88 1.88m-.393-6.274a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

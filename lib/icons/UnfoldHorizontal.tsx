@@ -19,7 +19,7 @@ const SvgUnfoldHorizontal = ({
    <g clipPath="url(#unfold-horizontal_svg__a)">
     <path
      d="M10.666 8h4m0 0-2 2m2-2-2-2M5.333 8h-4m0 0 2-2m-2 2 2 2M8 1.333v1.334m0 2.666v1.334m0 2.666v1.334m0 2.666v1.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

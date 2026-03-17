@@ -19,7 +19,7 @@ const SvgLaugh = ({
    <g clipPath="url(#laugh_svg__a)">
     <path
      d="M6 6h.006M10 6h.006m4.66 2A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0ZM12 8.667A4 4 0 0 1 8 12a4 4 0 0 1-4-3.333h8Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

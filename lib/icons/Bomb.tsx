@@ -19,7 +19,7 @@ const SvgBomb = ({
    <g clipPath="url(#bomb_svg__a)">
     <path
      d="m9.566 3.1 1.3-1.3a1.607 1.607 0 0 1 2.267 0L14.2 2.867a1.6 1.6 0 0 1 0 2.266l-1.3 1.3m1.766-5.1-1 1m-.333 6.334a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

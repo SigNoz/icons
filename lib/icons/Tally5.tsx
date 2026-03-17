@@ -18,7 +18,7 @@ const SvgTally5 = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M2.666 2.667v10.666M6 2.667v10.666M9.333 2.667v10.666m3.333-10.666v10.666m2-9.333L1.333 12"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

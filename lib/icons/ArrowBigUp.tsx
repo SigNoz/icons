@@ -18,7 +18,7 @@ const SvgArrowBigUp = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M6 12V8H3.333L8 3.333 12.666 8H10v4H6Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

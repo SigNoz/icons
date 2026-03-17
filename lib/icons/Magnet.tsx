@@ -19,7 +19,7 @@ const SvgMagnet = ({
    <g clipPath="url(#magnet_svg__a)">
     <path
      d="M3.333 5.333 6 8m2 2 2.666 2.667M4 10 1.333 7.333l4.5-4.513a5.193 5.193 0 0 1 7.333 7.333l-4.5 4.514L6 12l4.26-4.24a1.427 1.427 0 0 0-2-2L4 10Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

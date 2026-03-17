@@ -19,7 +19,7 @@ const SvgCircleChevronUp = ({
    <g clipPath="url(#circle-chevron-up_svg__a)">
     <path
      d="M5.333 9.333 8 6.667l2.666 2.666m4-1.333A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

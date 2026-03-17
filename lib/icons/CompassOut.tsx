@@ -18,7 +18,7 @@ const SvgCompassOut = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <g
     clipPath="url(#compass-out_svg__a)"
-    stroke="#fff"
+    stroke="inherit"
     strokeWidth={1.333}
     strokeLinecap="round"
     strokeLinejoin="round"

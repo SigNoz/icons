@@ -18,7 +18,7 @@ const SvgMoveHorizontal = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M12 5.333 14.666 8m0 0L12 10.667M14.666 8H1.333M4 5.333 1.333 8m0 0L4 10.667"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

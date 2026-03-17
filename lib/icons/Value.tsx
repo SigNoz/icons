@@ -18,7 +18,7 @@ const SvgValue = ({
   <svg width={14} height={14} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M5.25 1.75H2.917A1.167 1.167 0 0 0 1.75 2.917V5.25m3.5-3.5h5.833a1.167 1.167 0 0 1 1.167 1.167V5.25m-7 7h5.833a1.167 1.167 0 0 0 1.167-1.167V5.25m-7 7H2.917a1.167 1.167 0 0 1-1.167-1.167V5.25"
-    stroke="#fff"
+    stroke="inherit"
     strokeWidth={1.167}
     strokeLinecap="round"
     strokeLinejoin="round"

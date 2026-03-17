@@ -18,7 +18,7 @@ const SvgFileUp = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M9.334 1.333V4a1.333 1.333 0 0 0 1.333 1.333h2.667M8 8v4m0-4 2 2M8 8l-2 2m4-8.667H4a1.333 1.333 0 0 0-1.333 1.334v10.666A1.333 1.333 0 0 0 4 14.667h8a1.333 1.333 0 0 0 1.334-1.334V4.667L10 1.333Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"
