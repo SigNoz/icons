@@ -19,14 +19,14 @@ const SvgDisc21 = ({
    <g clipPath="url(#disc-2-1_svg__a)">
     <path
      d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334Z"
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
     />
     <path
      d="M8 10.667a2.667 2.667 0 1 0 0-5.334 2.667 2.667 0 0 0 0 5.334ZM8 8h.007"
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
@@ -40,13 +40,13 @@ const SvgDisc21 = ({
      width={5.333}
      height={3.333}
      rx={0.667}
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={2.667}
      mask="url(#disc-2-1_svg__b)"
     />
     <path
      d="M11 9.333v.922c0 .463.24.893.634 1.135l3.7 2.277"
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={1.333}
      strokeLinecap="round"
     />

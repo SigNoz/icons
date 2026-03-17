@@ -19,7 +19,7 @@ const SvgSend = ({
    <g clipPath="url(#send_svg__a)">
     <path
      d="M14.666 1.333 10 14.667l-2.667-6m7.333-7.334L1.333 6l6 2.667m7.333-7.334L7.333 8.667"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

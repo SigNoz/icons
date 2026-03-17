@@ -19,7 +19,7 @@ const SvgDisc3 = ({
    <g clipPath="url(#disc-3_svg__a)">
     <path
      d="M4 8c0-1.133.466-2.133 1.2-2.8M12 8c0 1.133-.467 2.133-1.2 2.8M14.666 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0ZM9.333 8a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

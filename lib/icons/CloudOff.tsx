@@ -19,7 +19,7 @@ const SvgCloudOff = ({
    <g clipPath="url(#cloud-off_svg__a)">
     <path
      d="m1.333 1.333 13.333 13.334M3.854 3.855A4.667 4.667 0 0 0 6 12.667h5.666c.296 0 .59-.043.872-.129M14.354 11a3.001 3.001 0 0 0-2.688-4.333h-1.193A4.672 4.672 0 0 0 6.666 3.38"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

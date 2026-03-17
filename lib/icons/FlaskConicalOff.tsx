@@ -19,7 +19,7 @@ const SvgFlaskConicalOff = ({
    <g clipPath="url(#flask-conical-off_svg__a)">
     <path
      d="M6.666 6.667 3.146 13.7a.667.667 0 0 0 .6.967h8.507a.666.666 0 0 0 .6-.967l-.848-1.695M6.666 1.333v1.562m2.667-1.562v4.229M5.666 1.333h4.667m-5.667 9.334h6M1.333 1.333l13.333 13.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

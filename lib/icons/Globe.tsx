@@ -19,7 +19,7 @@ const SvgGlobe = ({
    <g clipPath="url(#globe_svg__a)">
     <path
      d="M14.666 8A6.667 6.667 0 0 1 8 14.667M14.666 8A6.667 6.667 0 0 0 8 1.333M14.666 8H1.333M8 14.667A6.667 6.667 0 0 1 1.333 8M8 14.667A9.666 9.666 0 0 1 8 1.333m0 13.334A9.666 9.666 0 0 0 8 1.333M1.333 8A6.667 6.667 0 0 1 8 1.333"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

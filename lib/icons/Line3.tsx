@@ -16,7 +16,7 @@ const SvgLine3 = ({
 }: IconProps): React.ReactElement => {
  const element = (
   <svg width={4} height={2} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-   <path stroke="#C0C1C3" strokeWidth={1.33} strokeLinecap="round" d="M.665.665h2.67" />
+   <path stroke="inherit" strokeWidth={1.33} strokeLinecap="round" d="M.665.665h2.67" />
   </svg>
  );
  const hasViewBox = element.props.viewBox != null;

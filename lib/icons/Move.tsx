@@ -19,7 +19,7 @@ const SvgMove = ({
    <g clipPath="url(#move_svg__a)">
     <path
      d="m3.333 6-2 2m0 0 2 2m-2-2h13.333M6 3.333l2-2m0 0 2 2m-2-2v13.334m2-2-2 2m0 0-2-2M12.666 6l2 2m0 0-2 2"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

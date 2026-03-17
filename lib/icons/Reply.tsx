@@ -18,7 +18,7 @@ const SvgReply = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M6 11.333 2.667 8m0 0L6 4.667M2.667 8h8a2.667 2.667 0 0 1 2.667 2.667V12"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

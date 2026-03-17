@@ -19,7 +19,7 @@ const SvgTablets = ({
    <g clipPath="url(#tablets_svg__a)">
     <path
      d="M14.666 11.333a3.333 3.333 0 1 1-6.666 0m6.666 0a3.333 3.333 0 1 0-6.666 0m6.666 0H8M2.306 7.027l4.72-4.72M8 4.667a3.333 3.333 0 1 1-6.667 0 3.333 3.333 0 0 1 6.667 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

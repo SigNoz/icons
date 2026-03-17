@@ -19,7 +19,7 @@ const SvgCalendarOff = ({
    <g clipPath="url(#calendar-off_svg__a)">
     <path
      d="M2.8 2.8A1.333 1.333 0 0 0 2 4v9.333a1.333 1.333 0 0 0 1.333 1.334h9.333a1.333 1.333 0 0 0 1.214-.787m.12-3.547V4a1.333 1.333 0 0 0-1.334-1.333H6.333m4.333-1.334V4M2 6.667h4.666m7.334 0h-3.667m-9-5.334 13.333 13.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

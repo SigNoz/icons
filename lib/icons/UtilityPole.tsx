@@ -19,7 +19,7 @@ const SvgUtilityPole = ({
    <g clipPath="url(#utility-pole_svg__a)">
     <path
      d="M8 1.333v13.334M1.333 3.333h13.333M2 2v1.333M4.666 2v1.333M11.333 2v1.333M14 2v1.333m-1.334 0L8 8 3.333 3.333"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

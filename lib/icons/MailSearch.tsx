@@ -18,7 +18,7 @@ const SvgMailSearch = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M14.666 8.333V4a1.333 1.333 0 0 0-1.333-1.333H2.666A1.333 1.333 0 0 0 1.333 4v8c0 .733.6 1.333 1.333 1.333h5m7-8.666-5.98 3.8a1.293 1.293 0 0 1-1.373 0l-5.98-3.8M12 14a2 2 0 0 0 2-2m-2 2a2 2 0 0 1-2-2m2 2a2 2 0 0 0 2-2m-2 2a2 2 0 0 1-2-2m4 0a2 2 0 0 0-2-2m2 2a2 2 0 0 0-2-2m0 0a2 2 0 0 0-2 2m2-2a2 2 0 0 0-2 2m4.666 2.667-1-1"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

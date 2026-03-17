@@ -19,7 +19,7 @@ const SvgMousePointerBan = ({
    <g clipPath="url(#mouse-pointer-ban_svg__a)">
     <path
      d="m7.866 7.867 5.6 5.6M1.333 1.333 4 8.667l1.333-3.334L8.666 4 1.333 1.333Zm13.333 9.334a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

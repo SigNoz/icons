@@ -19,7 +19,7 @@ const SvgUnfoldVertical = ({
    <g clipPath="url(#unfold-vertical_svg__a)">
     <path
      d="M8 14.667v-4m0 4 2-2m-2 2-2-2m2-7.334v-4m0 0 2 2m-2-2-2 2M2.666 8H1.333m5.333 0H5.333m5.333 0H9.333m5.333 0h-1.333"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

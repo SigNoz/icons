@@ -18,7 +18,7 @@ const SvgTreePine = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M8 14.667v-2m3.333-3.334 2 2.2a.667.667 0 0 1-.467 1.134H3.133a.668.668 0 0 1-.467-1.134l2-2.2h-.2A.667.667 0 0 1 4 8.2L6 6h-.134a.667.667 0 0 1-.533-1.133L8 2l2.666 2.867A.666.666 0 0 1 10.133 6H10l2 2.2a.667.667 0 0 1-.467 1.133h-.2Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

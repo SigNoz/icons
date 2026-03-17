@@ -19,7 +19,7 @@ const SvgCirclePercent = ({
    <g clipPath="url(#circle-percent_svg__a)">
     <path
      d="m10 6-4 4m0-4h.006M10 10h.006m4.66-2A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

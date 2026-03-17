@@ -19,7 +19,7 @@ const SvgMessageSquareOff = ({
    <g clipPath="url(#message-square-off_svg__a)">
     <path
      d="M14 10V3.333A1.333 1.333 0 0 0 12.666 2H6m-4.667-.667 13.333 13.334M2.4 2.4c-.267.2-.4.533-.4.933V14l2.666-2.667h6.667"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

@@ -19,7 +19,7 @@ const SvgMonitorOff = ({
    <g clipPath="url(#monitor-off_svg__a)">
     <path
      d="M11.333 11.333H2.666A1.333 1.333 0 0 1 1.333 10V3.333C1.333 2.333 2 2 2 2m12.666 8V3.333A1.333 1.333 0 0 0 13.333 2H6m-.667 12h5.333M8 11.333V14M1.333 1.333l13.333 13.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

@@ -19,7 +19,7 @@ const SvgWaypoints = ({
    <g clipPath="url(#waypoints_svg__a)">
     <path
      d="M6.8 4.2 4.2 6.8M4.666 8a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0Zm0 0h6.667m0 0a1.667 1.667 0 1 0 3.333 0 1.667 1.667 0 0 0-3.333 0ZM9.2 11.8l2.6-2.6M9.666 3a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0Zm0 10a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

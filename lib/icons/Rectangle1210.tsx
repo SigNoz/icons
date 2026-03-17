@@ -22,7 +22,7 @@ const SvgRectangle1210 = ({
     width={8}
     height={6.667}
     rx={1.333}
-    stroke="#fff"
+    stroke="inherit"
     strokeWidth={1.333}
    />
   </svg>

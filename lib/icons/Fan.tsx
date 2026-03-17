@@ -19,7 +19,7 @@ const SvgFan = ({
    <g clipPath="url(#fan_svg__a)">
     <path
      d="M8 8v.007m-.782 2.912a4.055 4.055 0 0 1-5.745-4.668l3.608.967A4.055 4.055 0 0 1 9.75 1.473L8.782 5.08a4.055 4.055 0 0 1 5.746 4.668l-3.608-.967a4.055 4.055 0 0 1-4.668 5.745l.966-3.608Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

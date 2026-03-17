@@ -19,7 +19,7 @@ const SvgUmbrellaOff = ({
    <g clipPath="url(#umbrella-off_svg__a)">
     <path
      d="M8 1.333V2m2.333 12A1.233 1.233 0 0 1 8 13.333V8H1.333c.172-1.7.99-3.27 2.285-4.383M11.666 8h3a6.666 6.666 0 0 0-8.664-5.697m-4.669-.97 13.333 13.334"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

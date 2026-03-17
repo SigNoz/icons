@@ -19,7 +19,7 @@ const SvgSignpostBig = ({
    <g clipPath="url(#signpost-big_svg__a)">
     <path
      d="M6.666 6h-4L1.333 4.667l1.333-1.334h4m2.667 0h4l1.333 1.334L13.333 6h-4m-2.667 8.667v-12a1.333 1.333 0 0 1 2.667 0v12m-4 0h5.333"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

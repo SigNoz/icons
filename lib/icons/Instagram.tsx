@@ -19,7 +19,7 @@ const SvgInstagram = ({
    <g clipPath="url(#instagram_svg__a)">
     <path
      d="M11.666 4.333h.007m-7.007-3h6.667a3.333 3.333 0 0 1 3.333 3.334v6.666a3.333 3.333 0 0 1-3.333 3.334H4.666a3.333 3.333 0 0 1-3.333-3.334V4.667a3.333 3.333 0 0 1 3.333-3.334Zm6 6.247a2.667 2.667 0 1 1-5.275.782 2.667 2.667 0 0 1 5.275-.782Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

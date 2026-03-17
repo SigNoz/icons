@@ -19,7 +19,7 @@ const SvgPill = ({
    <g clipPath="url(#pill_svg__a)">
     <path
      d="m5.666 5.667 4.667 4.666M7 13.667 13.666 7a3.298 3.298 0 0 0 .024-4.69A3.3 3.3 0 0 0 9 2.333L2.333 9A3.3 3.3 0 1 0 7 13.667Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

@@ -17,15 +17,23 @@ const SvgR2D2 = ({
  const element = (
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <g clipPath="url(#r2-d2_svg__a)">
-    <rect x={4} y={6.667} width={8} height={6.667} rx={1.333} stroke="#fff" strokeWidth={1.333} />
+    <rect
+     x={4}
+     y={6.667}
+     width={8}
+     height={6.667}
+     rx={1.333}
+     stroke="inherit"
+     strokeWidth={1.333}
+    />
     <path
      d="M4 5.333a4 4 0 0 1 8 0v1.129a.205.205 0 0 1-.205.205h-7.59A.205.205 0 0 1 4 6.462V5.333Z"
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={1.333}
     />
     <path
      d="M6.667 4.667v2M8 11.333v2M2 8.667v6M14 8.667v6M7 8.667h2M1 14.667h2M13 14.667h2"
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={1.333}
      strokeLinecap="round"
     />

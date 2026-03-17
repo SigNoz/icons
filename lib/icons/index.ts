@@ -1094,7 +1094,6 @@ export { default as PilcrowRight } from './PilcrowRight.js';
 export { default as Pill } from './Pill.js';
 export { default as PillBottle } from './PillBottle.js';
 export { default as Pin } from './Pin.js';
-export { default as Pin1 } from './Pin1.js';
 export { default as PinOff } from './PinOff.js';
 export { default as PipelineDraft } from './PipelineDraft.js';
 export { default as PipelineFailed } from './PipelineFailed.js';

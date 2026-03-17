@@ -19,7 +19,7 @@ const SvgFactory = ({
    <g clipPath="url(#factory_svg__a)">
     <path
      d="M11.333 12H12m-4 0h.666m-4 0h.667m-4 1.333a1.333 1.333 0 0 0 1.333 1.334h10.667a1.333 1.333 0 0 0 1.333-1.334v-8L10 8.667V5.333L5.333 8.667v-6A1.333 1.333 0 0 0 4 1.333H2.666a1.333 1.333 0 0 0-1.333 1.334v10.666Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

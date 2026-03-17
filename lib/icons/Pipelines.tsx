@@ -22,7 +22,7 @@ const SvgPipelines = ({
     width={10.667}
     height={2.667}
     rx={0.067}
-    stroke="#fff"
+    stroke="inherit"
     strokeWidth={1.333}
    />
    <rect
@@ -31,12 +31,12 @@ const SvgPipelines = ({
     width={10.667}
     height={2.667}
     rx={0.067}
-    stroke="#fff"
+    stroke="inherit"
     strokeWidth={1.333}
    />
    <path
     d="M4 5.667v4.666M10 6v4.667M10.667 2.667V5M10.667 11.333v2.334M12 5.667v4.666"
-    stroke="#fff"
+    stroke="inherit"
     strokeWidth={1.333}
    />
   </svg>

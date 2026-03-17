@@ -19,14 +19,14 @@ const SvgHome = ({
    <g clipPath="url(#home_svg__a)">
     <path
      d="m2 6 6-4.667L14 6M2 6l.666 7.333A1.333 1.333 0 0 0 4 14.666h8a1.333 1.333 0 0 0 1.333-1.333L14 6M2 6l-.934.667M14 6l.933.667"
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
     />
     <path
      d="M8 10a1.333 1.333 0 1 0 0-2.667A1.333 1.333 0 0 0 8 10Z"
-     stroke="#fff"
+     stroke="inherit"
      strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"

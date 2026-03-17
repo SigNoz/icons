@@ -19,7 +19,7 @@ const SvgDiamondPercent = ({
    <g clipPath="url(#diamond-percent_svg__a)">
     <path
      d="M6.134 6.133h.006m3.527.2L6.334 9.667m3.466.2h.007m-8.007-3a1.607 1.607 0 0 0 0 2.273l5.06 5.06a1.605 1.605 0 0 0 2.274 0l5.06-5.06a1.606 1.606 0 0 0 0-2.273l-5.06-5.06a1.607 1.607 0 0 0-2.274 0L1.8 6.867Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

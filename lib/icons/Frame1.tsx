@@ -18,7 +18,7 @@ const SvgFrame1 = ({
   <svg width={5} height={7} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M.7 6.3V3.5M4.2 6.3V3.5M.7.7h.007M4.2.7h.007"
-    stroke="#FFD778"
+    stroke="inherit"
     strokeWidth={1.333}
     strokeLinecap="round"
     strokeLinejoin="round"

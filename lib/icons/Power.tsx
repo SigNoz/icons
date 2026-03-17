@@ -18,7 +18,7 @@ const SvgPower = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M8 1.333V8m4.267-3.6a6 6 0 1 1-8.513.027"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

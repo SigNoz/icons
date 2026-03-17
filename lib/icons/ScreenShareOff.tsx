@@ -18,7 +18,7 @@ const SvgScreenShareOff = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M8.666 2h-6a1.333 1.333 0 0 0-1.333 1.333V10a1.333 1.333 0 0 0 1.333 1.333h10.667A1.333 1.333 0 0 0 14.666 10V8m-9.333 6h5.333M8 11.333V14m6.666-12-3.333 3.333m0-3.333 3.333 3.333"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

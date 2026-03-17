@@ -19,7 +19,7 @@ const SvgBean = ({
    <g clipPath="url(#bean_svg__a)">
     <path
      d="M3.56 7.08a2.667 2.667 0 1 0 3.52-3.52m-.304.839C6.636 4.985 6.426 5.573 6 6c-.427.427-1.014.636-1.602.777a4 4 0 0 0 .935 7.89 9.333 9.333 0 0 0 9.333-9.334 4 4 0 0 0-7.89-.934Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

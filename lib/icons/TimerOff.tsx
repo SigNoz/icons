@@ -19,7 +19,7 @@ const SvgTimerOff = ({
    <g clipPath="url(#timer-off_svg__a)">
     <path
      d="M6.666 1.333h2.667m-6.267 6a5.333 5.333 0 0 0 1.134 5.8 5.334 5.334 0 0 0 5.8 1.134M4.933 4.933A5.333 5.333 0 0 1 11.8 5.6a5.333 5.333 0 0 1 .6 6.8M1.333 1.333l13.333 13.334M8 8V6.667"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

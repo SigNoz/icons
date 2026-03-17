@@ -19,7 +19,7 @@ const SvgSmilePlus = ({
    <g clipPath="url(#smile-plus_svg__a)">
     <path
      d="M14.666 7.333V8a6.667 6.667 0 1 1-6-6.667m-3.333 8s1 1.334 2.667 1.334c1.666 0 2.666-1.334 2.666-1.334M6 6h.006M10 6h.006m.66-2.667h4m-2-2v4"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

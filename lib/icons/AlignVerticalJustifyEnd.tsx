@@ -19,7 +19,7 @@ const SvgAlignVerticalJustifyEnd = ({
    <g clipPath="url(#align-vertical-justify-end_svg__a)">
     <path
      d="M1.333 14.667h13.333M4.666 8h6.667c.736 0 1.333.597 1.333 1.333v1.334c0 .736-.597 1.333-1.333 1.333H4.666a1.333 1.333 0 0 1-1.333-1.333V9.333C3.333 8.597 3.93 8 4.666 8ZM6 1.333h4c.736 0 1.333.597 1.333 1.334V4c0 .736-.597 1.333-1.333 1.333H6A1.333 1.333 0 0 1 4.666 4V2.667c0-.737.597-1.334 1.334-1.334Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

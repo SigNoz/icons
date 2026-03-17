@@ -18,7 +18,7 @@ const SvgArrowDownToLine = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M8 11.333V2m0 9.333-4-4m4 4 4-4M12.666 14H3.333"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

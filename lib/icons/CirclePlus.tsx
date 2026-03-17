@@ -19,7 +19,7 @@ const SvgCirclePlus = ({
    <g clipPath="url(#circle-plus_svg__a)">
     <path
      d="M5.333 8h5.333M8 5.333v5.334M14.666 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

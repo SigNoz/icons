@@ -19,7 +19,7 @@ const SvgUmbrella = ({
    <g clipPath="url(#umbrella_svg__a)">
     <path
      d="M8 8v5.333a1.333 1.333 0 1 0 2.666 0M8 1.333V2m6.666 6A6.706 6.706 0 0 0 1.333 8h13.333Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

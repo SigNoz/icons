@@ -18,7 +18,7 @@ const SvgMenu = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M2.667 8h10.667M2.667 4h10.667M2.667 12h10.667"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

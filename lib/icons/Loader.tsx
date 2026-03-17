@@ -19,7 +19,7 @@ const SvgLoader = ({
    <g clipPath="url(#loader_svg__a)">
     <path
      d="M8 1.333V4m2.8 1.2 1.933-1.933M12 8h2.666M10.8 10.8l1.933 1.933M8 12v2.667m-4.734-1.934L5.2 10.8M1.333 8H4m-.734-4.733L5.2 5.2"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

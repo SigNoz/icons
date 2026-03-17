@@ -19,7 +19,7 @@ const SvgCopyright = ({
    <g clipPath="url(#copyright_svg__a)">
     <path
      d="M9.886 9.887a2.666 2.666 0 1 1 0-3.774M14.666 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

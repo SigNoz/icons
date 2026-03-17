@@ -18,7 +18,7 @@ const SvgHeading5 = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M2.667 8H8m-5.333 4V4M8 12V4m6 2.667h-2.666v2h.866c1 0 1.8.733 1.8 1.666 0 .934-.8 1.667-1.8 1.667-.333 0-.6-.067-.866-.2"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

@@ -18,7 +18,7 @@ const SvgThermometer = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M9.333 2.667v7.026a2.667 2.667 0 1 1-2.667 0V2.667a1.333 1.333 0 0 1 2.667 0Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

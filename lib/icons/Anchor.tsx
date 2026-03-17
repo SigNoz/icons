@@ -19,7 +19,7 @@ const SvgAnchor = ({
    <g clipPath="url(#anchor_svg__a)">
     <path
      d="M8 14.667V5.333m0 9.334A6.667 6.667 0 0 1 1.333 8h2M8 14.667A6.667 6.667 0 0 0 14.666 8h-2M8 5.333a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

@@ -19,7 +19,7 @@ const SvgShirt = ({
    <g clipPath="url(#shirt_svg__a)">
     <path
      d="m13.586 2.307-2.92-.974a2.666 2.666 0 1 1-5.333 0l-2.92.974a1.333 1.333 0 0 0-.893 1.486l.386 2.314a.667.667 0 0 0 .66.56H4v6.666c0 .734.6 1.334 1.333 1.334h5.333A1.333 1.333 0 0 0 12 13.333V6.667h1.434a.667.667 0 0 0 .66-.56l.386-2.314a1.333 1.333 0 0 0-.893-1.486Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

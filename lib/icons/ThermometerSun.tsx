@@ -19,7 +19,7 @@ const SvgThermometerSun = ({
    <g clipPath="url(#thermometer-sun_svg__a)">
     <path
      d="M8 6a2.667 2.667 0 0 0-1.334 5M8 2v1.333m-3.6 8.934-.934.933m-.8-4.533H1.333m2.893-3.774-.94-.94m10.047-1.286v7.026a2.667 2.667 0 1 1-2.667 0V2.667a1.333 1.333 0 0 1 2.667 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

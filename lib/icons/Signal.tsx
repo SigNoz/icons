@@ -18,7 +18,7 @@ const SvgSignal = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M1.333 13.333h.007m3.326 0v-2.666M8 13.333V8m3.333 5.333v-8m3.333-2.666v10.666"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

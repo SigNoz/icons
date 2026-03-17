@@ -19,7 +19,7 @@ const SvgCircleGauge = ({
    <g clipPath="url(#circle-gauge_svg__a)">
     <path
      d="M10.4 1.8a6.667 6.667 0 1 0 3.8 3.8M8.934 7.067l3.733-3.734M9.334 8a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

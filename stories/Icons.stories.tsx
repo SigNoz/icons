@@ -236,7 +236,7 @@ export const Gallery: Story = {
  },
  render: function IconsGallery() {
   const [search, setSearch] = useState('');
-  const [sizePreset, setSizePreset] = useState<GallerySizePreset>('lg');
+  const [sizePreset, setSizePreset] = useState<GallerySizePreset>('5xl');
   const [customPxInput, setCustomPxInput] = useState('24');
   const [searchFocused, setSearchFocused] = useState(false);
   const [theme, setTheme] = useState<Theme>('light');

@@ -18,7 +18,7 @@ const SvgBookUser = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M10 8.667a2 2 0 0 0-2-2m0 0a2 2 0 0 0-2 2m2-2A1.333 1.333 0 1 0 8 4a1.333 1.333 0 0 0 0 2.667ZM2.667 13V3a1.667 1.667 0 0 1 1.667-1.667h8.333a.667.667 0 0 1 .667.667v12a.667.667 0 0 1-.667.667H4.334A1.667 1.667 0 0 1 2.667 13Zm0 0a1.667 1.667 0 0 1 1.667-1.667h9"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

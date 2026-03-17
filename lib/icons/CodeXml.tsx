@@ -18,7 +18,7 @@ const SvgCodeXml = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M12 10.667 14.666 8 12 5.333m-8 0L1.333 8 4 10.667m5.666-8L6.333 13.333"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

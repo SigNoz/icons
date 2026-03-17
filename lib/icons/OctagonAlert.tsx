@@ -19,7 +19,7 @@ const SvgOctagonAlert = ({
    <g clipPath="url(#octagon-alert_svg__a)">
     <path
      d="M8 10.667h.006M8 5.333V8m2.208-6.667c.353 0 .692.14.942.391l3.126 3.125c.25.25.39.59.39.943v4.416c0 .354-.14.693-.39.943l-3.126 3.125c-.25.25-.589.39-.942.39H5.792c-.354 0-.693-.14-.943-.39l-3.125-3.125c-.25-.25-.39-.59-.391-.943V5.792c0-.354.14-.693.39-.943L4.85 1.724c.25-.25.59-.39.943-.39h4.416Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

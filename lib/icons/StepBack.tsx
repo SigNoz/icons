@@ -18,7 +18,7 @@ const SvgStepBack = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M12 13.333V2.667M9.334 13.333 2.667 8l6.667-5.333v10.666Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

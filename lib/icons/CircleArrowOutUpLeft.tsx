@@ -19,7 +19,7 @@ const SvgCircleArrowOutUpLeft = ({
    <g clipPath="url(#circle-arrow-out-up-left_svg__a)">
     <path
      d="M1.333 5.333v-4m0 0h4m-4 0L8 8m0-6.667A6.667 6.667 0 1 1 1.333 8"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

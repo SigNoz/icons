@@ -23,7 +23,7 @@ const SvgRectangle1209 = ({
     width={6}
     height={3.75}
     rx={0.667}
-    stroke="#fff"
+    stroke="inherit"
     strokeWidth={2.667}
     mask="url(#rectangle-1209_svg__a)"
    />

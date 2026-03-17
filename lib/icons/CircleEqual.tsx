@@ -19,7 +19,7 @@ const SvgCircleEqual = ({
    <g clipPath="url(#circle-equal_svg__a)">
     <path
      d="M4.666 6.667h6.667M4.666 9.333h6.667M14.666 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

@@ -19,7 +19,7 @@ const SvgCrop = ({
    <g clipPath="url(#crop_svg__a)">
     <path
      d="M4 1.333v9.334A1.333 1.333 0 0 0 5.333 12h9.333M12 14.667V5.333A1.333 1.333 0 0 0 10.666 4H1.333"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

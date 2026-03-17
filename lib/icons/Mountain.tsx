@@ -18,7 +18,7 @@ const SvgMountain = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M5.333 2 8 7.333 11.333 4l3.333 10H1.333l4-12Z"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

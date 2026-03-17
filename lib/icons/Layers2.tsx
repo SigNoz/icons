@@ -19,7 +19,7 @@ const SvgLayers2 = ({
    <g clipPath="url(#layers-2_svg__a)">
     <path
      d="m10.68 8 3.654 2.087a.666.666 0 0 1 0 1.16l-5.667 3.246a1.333 1.333 0 0 1-1.333 0l-5.667-3.246a.667.667 0 0 1 0-1.16L5.32 8m3.347 1.16a1.333 1.333 0 0 1-1.333 0L1.667 5.913a.667.667 0 0 1 0-1.16l5.667-3.246a1.333 1.333 0 0 1 1.333 0l5.667 3.246a.666.666 0 0 1 0 1.16L8.667 9.16Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

@@ -19,7 +19,7 @@ const SvgCircleDollarSign = ({
    <g clipPath="url(#circle-dollar-sign_svg__a)">
     <path
      d="M10.666 5.333h-4a1.333 1.333 0 0 0 0 2.667h2.667a1.333 1.333 0 1 1 0 2.667h-4M8 12V4m6.666 4A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

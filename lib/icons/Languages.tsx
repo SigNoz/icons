@@ -19,7 +19,7 @@ const SvgLanguages = ({
    <g clipPath="url(#languages_svg__a)">
     <path
      d="m3.333 5.333 4 4m-4.667 0 4-4 1.334-2m-6.667 0h8m-4.667-2h.667m9.333 13.334L11.333 8 8 14.667M9.333 12h4"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

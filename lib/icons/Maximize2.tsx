@@ -18,7 +18,7 @@ const SvgMaximize2 = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="M10 2h4m0 0v4m0-4L9.333 6.667M6 14H2m0 0v-4m0 4 4.667-4.667"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

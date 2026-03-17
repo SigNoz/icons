@@ -18,7 +18,7 @@ const SvgArrowDownLeft = ({
   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
    <path
     d="m11.334 4.667-6.667 6.666m0 0h6.667m-6.667 0V4.667"
-    stroke="#2A2E37"
+    stroke="inherit"
     strokeWidth={1.33}
     strokeLinecap="round"
     strokeLinejoin="round"

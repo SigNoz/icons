@@ -19,7 +19,7 @@ const SvgActivity = ({
    <g clipPath="url(#activity_svg__a)">
     <path
      d="M14.666 8h-1.653a1.333 1.333 0 0 0-1.287.973l-1.566 5.574a.167.167 0 0 1-.26.086.167.167 0 0 1-.06-.086L6.16 1.453a.167.167 0 0 0-.32 0L4.273 7.027A1.333 1.333 0 0 1 2.993 8h-1.66"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"

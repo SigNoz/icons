@@ -19,7 +19,7 @@ const SvgOrbit = ({
    <g clipPath="url(#orbit_svg__a)">
     <path
      d="M6.934 14.6A6.666 6.666 0 0 0 13.56 4.323M9 1.4A6.667 6.667 0 0 0 2.44 11.677M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4-4.667a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0Zm-9.333 9.334a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z"
-     stroke="#2A2E37"
+     stroke="inherit"
      strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
