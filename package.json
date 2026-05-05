@@ -1694,6 +1694,16 @@
     "require": "./dist/lib/icons/Binary.cjs"
    }
   },
+  "./Binoculars": {
+   "import": {
+    "types": "./dist/types/esm/icons/Binoculars.d.ts",
+    "import": "./dist/lib/icons/Binoculars.js"
+   },
+   "require": {
+    "types": "./dist/types/cjs/icons/Binoculars.d.cts",
+    "require": "./dist/lib/icons/Binoculars.cjs"
+   }
+  },
   "./Biohazard": {
    "import": {
     "types": "./dist/types/esm/icons/Biohazard.d.ts",
@@ -2432,6 +2442,16 @@
    "require": {
     "types": "./dist/types/cjs/icons/Calendar.d.cts",
     "require": "./dist/lib/icons/Calendar.cjs"
+   }
+  },
+  "./Calendar1": {
+   "import": {
+    "types": "./dist/types/esm/icons/Calendar1.d.ts",
+    "import": "./dist/lib/icons/Calendar1.js"
+   },
+   "require": {
+    "types": "./dist/types/cjs/icons/Calendar1.d.cts",
+    "require": "./dist/lib/icons/Calendar1.cjs"
    }
   },
   "./CalendarArrowDown": {
@@ -4752,6 +4772,16 @@
    "require": {
     "types": "./dist/types/cjs/icons/DatabaseZap.d.cts",
     "require": "./dist/lib/icons/DatabaseZap.cjs"
+   }
+  },
+  "./DecimalsArrowRight": {
+   "import": {
+    "types": "./dist/types/esm/icons/DecimalsArrowRight.d.ts",
+    "import": "./dist/lib/icons/DecimalsArrowRight.js"
+   },
+   "require": {
+    "types": "./dist/types/cjs/icons/DecimalsArrowRight.d.cts",
+    "require": "./dist/lib/icons/DecimalsArrowRight.cjs"
    }
   },
   "./Delete": {

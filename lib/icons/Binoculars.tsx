@@ -7,7 +7,7 @@ export interface IconProps extends React.SVGProps<SVGSVGElement> {
  strokeWidth?: number;
  className?: string;
 }
-const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
+const SvgBinoculars = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
    <svg
@@ -21,7 +21,7 @@ const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
     strokeLinejoin="round"
     {...props}
    >
-    <path d="m19 5 3-3M2 22l3-3M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4ZM7.5 13.5 10 11M10.5 16.5 13 14M12 6l6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z" />
+    <path d="M10 10h4M19 7V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3M20 21a2 2 0 0 0 2-2v-3.851c0-1.39-2-2.962-2-4.829V8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zM22 16H2M4 21a2 2 0 0 1-2-2v-3.851c0-1.39 2-2.962 2-4.829V8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v11a2 2 0 0 1-2 2zM9 7V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3" />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;
@@ -65,5 +65,5 @@ const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
   return cloneElement(element, elementProps);
  },
 );
-SvgUnplug.displayName = 'SvgUnplug';
-export default SvgUnplug;
+SvgBinoculars.displayName = 'SvgBinoculars';
+export default SvgBinoculars;

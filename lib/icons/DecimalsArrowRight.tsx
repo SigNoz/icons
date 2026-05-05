@@ -7,7 +7,7 @@ export interface IconProps extends React.SVGProps<SVGSVGElement> {
  strokeWidth?: number;
  className?: string;
 }
-const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
+const SvgDecimalsArrowRight = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
    <svg
@@ -21,7 +21,9 @@ const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
     strokeLinejoin="round"
     {...props}
    >
-    <path d="m19 5 3-3M2 22l3-3M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4ZM7.5 13.5 10 11M10.5 16.5 13 14M12 6l6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z" />
+    <path d="M10 18h10M17 21l3-3-3-3M3 11h.01" />
+    <rect x={15} y={3} width={5} height={8} rx={2.5} />
+    <rect x={6} y={3} width={5} height={8} rx={2.5} />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;
@@ -65,5 +67,5 @@ const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
   return cloneElement(element, elementProps);
  },
 );
-SvgUnplug.displayName = 'SvgUnplug';
-export default SvgUnplug;
+SvgDecimalsArrowRight.displayName = 'SvgDecimalsArrowRight';
+export default SvgDecimalsArrowRight;

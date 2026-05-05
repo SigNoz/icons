@@ -7,7 +7,7 @@ export interface IconProps extends React.SVGProps<SVGSVGElement> {
  strokeWidth?: number;
  className?: string;
 }
-const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
+const SvgCalendar1 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
    <svg
@@ -21,7 +21,8 @@ const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
     strokeLinejoin="round"
     {...props}
    >
-    <path d="m19 5 3-3M2 22l3-3M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4ZM7.5 13.5 10 11M10.5 16.5 13 14M12 6l6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z" />
+    <path d="M11 14h1v4M16 2v4M3 10h18M8 2v4" />
+    <rect x={3} y={4} width={18} height={18} rx={2} />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;
@@ -65,5 +66,5 @@ const SvgUnplug = forwardRef<SVGSVGElement, IconProps>(
   return cloneElement(element, elementProps);
  },
 );
-SvgUnplug.displayName = 'SvgUnplug';
-export default SvgUnplug;
+SvgCalendar1.displayName = 'SvgCalendar1';
+export default SvgCalendar1;
