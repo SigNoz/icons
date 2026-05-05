@@ -28,11 +28,21 @@ export const ForwardRef: Story = {
   const handleRead = useCallback(() => {
    if (!ref.current) return;
    const { width, height, x, y } = ref.current.getBoundingClientRect();
-   setInfo(`width: ${width.toFixed(1)}px · height: ${height.toFixed(1)}px · x: ${x.toFixed(1)} · y: ${y.toFixed(1)}`);
+   setInfo(
+    `width: ${width.toFixed(1)}px · height: ${height.toFixed(1)}px · x: ${x.toFixed(1)} · y: ${y.toFixed(1)}`,
+   );
   }, []);
 
   return (
-   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 24, fontFamily: 'system-ui, sans-serif' }}>
+   <div
+    style={{
+     display: 'flex',
+     flexDirection: 'column',
+     alignItems: 'center',
+     gap: 24,
+     fontFamily: 'system-ui, sans-serif',
+    }}
+   >
     <ZoomIn ref={ref} size="5xl" color="#3b82f6" />
     <button
      type="button"
@@ -50,7 +60,15 @@ export const ForwardRef: Story = {
      Read bounding rect via ref
     </button>
     {info && (
-     <code style={{ fontSize: 13, background: '#f1f5f9', padding: '6px 12px', borderRadius: 6, color: '#334155' }}>
+     <code
+      style={{
+       fontSize: 13,
+       background: '#f1f5f9',
+       padding: '6px 12px',
+       borderRadius: 6,
+       color: '#334155',
+      }}
+     >
       {info}
      </code>
     )}
@@ -89,7 +107,15 @@ export const CustomClassAndOnClick: Story = {
        filter: drop-shadow(0 0 6px #f59e0b88);
      }
     `}</style>
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 32, fontFamily: 'system-ui, sans-serif' }}>
+    <div
+     style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: 32,
+      fontFamily: 'system-ui, sans-serif',
+     }}
+    >
      <div style={{ display: 'flex', gap: 32, alignItems: 'center' }}>
       <Bell
        className="icon-hoverable"
@@ -120,8 +146,10 @@ export const CustomClassAndOnClick: Story = {
       )}
      </div>
      <p style={{ fontSize: 12, color: '#94a3b8', margin: 0, textAlign: 'center', maxWidth: 320 }}>
-      <code style={{ background: '#f1f5f9', padding: '2px 5px', borderRadius: 4 }}>className</code> adds CSS classes ·{' '}
-      <code style={{ background: '#f1f5f9', padding: '2px 5px', borderRadius: 4 }}>onClick</code> works like any SVG element
+      <code style={{ background: '#f1f5f9', padding: '2px 5px', borderRadius: 4 }}>className</code>{' '}
+      adds CSS classes ·{' '}
+      <code style={{ background: '#f1f5f9', padding: '2px 5px', borderRadius: 4 }}>onClick</code>{' '}
+      works like any SVG element
      </p>
     </div>
    </>
