@@ -16433,7 +16433,7 @@
   "postbuild": "publint",
   "precheck": "pnpm run lint",
   "build": "vite build",
-  "svgr": "rimraf lib/icons/*.tsx && svgr --typescript --replace-attr-values '#1D1D1D=currentColor' --template ./svgr-template.cjs --index-template ./index-template.cjs -d lib/icons -- assets",
+  "svgr": "rimraf lib/icons/*.tsx && svgr --no-prettier --typescript --replace-attr-values '#1D1D1D=currentColor' --template ./svgr-template.cjs --index-template ./index-template.cjs -d lib/icons -- assets",
   "postsvgr": "pnpm run lint:fix",
   "lint": "biome check .",
   "lint:fix": "biome check --write .",
