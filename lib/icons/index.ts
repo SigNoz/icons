@@ -1339,7 +1339,7 @@ export { default as SolidContrast } from './SolidContrast.js';
 export { default as SolidCookie } from './SolidCookie.js';
 export { default as SolidFlame } from './SolidFlame.js';
 export { default as SolidGhost } from './SolidGhost.js';
-export { default as SolidGoogleSquare } from './SolidGoogleSquare.js';
+export { default as SolidGoogle } from './SolidGoogle.js';
 export { default as SolidInfoCircle } from './SolidInfoCircle.js';
 export { default as SolidPauseCircle } from './SolidPauseCircle.js';
 export { default as SolidPauseOctagon } from './SolidPauseOctagon.js';

@@ -7,18 +7,18 @@ export interface IconProps extends React.SVGProps<SVGSVGElement> {
  strokeWidth?: number;
  className?: string;
 }
-const SvgSolidGoogleSquare = forwardRef<SVGSVGElement, IconProps>(
+const SvgSolidGoogle = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
    <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
     height={24}
-    viewBox="0 0 1024 1024"
+    viewBox="0 0 512 512"
     fill="currentColor"
     {...props}
    >
-    <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32M679 697.6C638.4 735 583 757 516.9 757c-95.7 0-178.5-54.9-218.8-134.9A245 245 0 0 1 272 512c0-39.6 9.5-77 26.1-110.1 40.3-80.1 123.1-135 218.8-135 66 0 121.4 24.3 163.9 63.8L610.6 401c-25.4-24.3-57.7-36.6-93.6-36.6-63.8 0-117.8 43.1-137.1 101-4.9 14.7-7.7 30.4-7.7 46.6s2.8 31.9 7.7 46.6c19.3 57.9 73.3 101 137 101 33 0 61-8.7 82.9-23.4 26-17.4 43.2-43.3 48.9-74H516.9v-94.8h230.7c2.9 16.1 4.4 32.8 4.4 50.1 0 74.7-26.7 137.4-73 180.1" />
+    <path d="M500 261.8C500 403.3 403.1 504 260 504 122.8 504 12 393.2 12 256S122.8 8 260 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C270.5 52.6 106.3 116.6 106.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H260v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;
@@ -62,5 +62,5 @@ const SvgSolidGoogleSquare = forwardRef<SVGSVGElement, IconProps>(
   return cloneElement(element, elementProps);
  },
 );
-SvgSolidGoogleSquare.displayName = 'SvgSolidGoogleSquare';
-export default SvgSolidGoogleSquare;
+SvgSolidGoogle.displayName = 'SvgSolidGoogle';
+export default SvgSolidGoogle;

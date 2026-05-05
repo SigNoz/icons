@@ -13424,14 +13424,14 @@
     "require": "./dist/lib/icons/SolidGhost.cjs"
    }
   },
-  "./SolidGoogleSquare": {
+  "./SolidGoogle": {
    "import": {
-    "types": "./dist/types/esm/icons/SolidGoogleSquare.d.ts",
-    "import": "./dist/lib/icons/SolidGoogleSquare.js"
+    "types": "./dist/types/esm/icons/SolidGoogle.d.ts",
+    "import": "./dist/lib/icons/SolidGoogle.js"
    },
    "require": {
-    "types": "./dist/types/cjs/icons/SolidGoogleSquare.d.cts",
-    "require": "./dist/lib/icons/SolidGoogleSquare.cjs"
+    "types": "./dist/types/cjs/icons/SolidGoogle.d.cts",
+    "require": "./dist/lib/icons/SolidGoogle.cjs"
    }
   },
   "./SolidInfoCircle": {
