@@ -1,7 +1,7 @@
 module.exports = function template(variables, { tpl }) {
  return tpl`
     import type React from 'react';
-    import { cloneElement } from 'react';
+    import { cloneElement, forwardRef } from 'react';
     import type { IconSize } from '../icon-config.js';
     import { ICON_SIZE_MAP, STROKE_WIDTH_MAP } from '../icon-config.js';
 
@@ -11,13 +11,13 @@ module.exports = function template(variables, { tpl }) {
       className?: string;
     }
 
-    const ${variables.componentName} = ({
+    const ${variables.componentName} = forwardRef<SVGSVGElement, IconProps>(({
       color = 'currentColor',
       size,
       strokeWidth,
       className,
       ...props
-    }: IconProps): React.ReactElement => {
+    }, ref) => {
       const element = ${variables.jsx};
       const hasViewBox = element.props.viewBox != null;
       const isCustomIcon = element.props['data-custom-icon'] === 'true';
@@ -43,6 +43,7 @@ module.exports = function template(variables, { tpl }) {
 
       const elementProps = {
         ...props,
+        ref,
         className: className ? \`signoz-icon \${className}\` : 'signoz-icon',
         ...(!isCustomIcon && { stroke: color, strokeWidth: resolvedStrokeWidth }),
         ...(!isCustomIcon && !hasViewBox && { viewBox: viewBoxWhenMissing }),
@@ -52,7 +53,7 @@ module.exports = function template(variables, { tpl }) {
       };
 
       return cloneElement(element, elementProps);
-    };
+    });
 
     ${variables.componentName}.displayName = '${variables.componentName}';
 
