@@ -42,10 +42,10 @@ jobs:
 
       - name: build
         if: ${{ steps.release.outputs.release_created }}
-        run: pnpm run build --filter=docs^...
+        run: pnpm run build
 
       - name: publish
         if: ${{ steps.release.outputs.release_created }}
-        run: pnpm -r publish --no-git-checks --filter=docs^...
+        run: pnpm -r publish --no-git-checks
         env:
           NPM_CONFIG_PROVENANCE: true
