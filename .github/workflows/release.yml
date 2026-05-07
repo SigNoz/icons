@@ -28,6 +28,8 @@ jobs:
       - name: setup-pnpm
         uses: pnpm/action-setup@v4
         if: ${{ steps.release.outputs.release_created }}
+        with:
+          version: 10
 
       - name: setup-node
         if: ${{ steps.release.outputs.release_created }}
