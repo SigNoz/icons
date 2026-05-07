@@ -1,13 +1,20 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-npx --no -- commitlint --edit $1
+pnpm commitlint --edit "$1"
 
 branch="$(git rev-parse --abbrev-ref HEAD)"
 
-color_red="$(tput setaf 1)"
-bold="$(tput bold)"
-reset="$(tput sgr0)"
+color_red=""
+bold=""
+reset=""
+
+# In CI / non-interactive shells `$TERM` may be unset and `tput` will fail.
+if [ -t 1 ] && [ -n "${TERM:-}" ] && command -v tput >/dev/null 2>&1; then
+  color_red="$(tput setaf 1)"
+  bold="$(tput bold)"
+  reset="$(tput sgr0)"
+fi
 
 if [ "$branch" = "main" ]; then
   echo "${color_red}${bold}You can't commit directly to the main branch${reset}"
