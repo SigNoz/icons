@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      id-token: write
     uses: signoz/primus.workflows/.github/workflows/js-release.yaml@js-release
     secrets: inherit
     with:
