@@ -5,12 +5,17 @@ on:
     branches:
       - "main"
 
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
+
 jobs:
   release:
     permissions:
       contents: write
-      pull-requests: write
       id-token: write
+      pull-requests: write
     uses: signoz/primus.workflows/.github/workflows/js-release.yaml@js-release
     secrets: inherit
     with:
