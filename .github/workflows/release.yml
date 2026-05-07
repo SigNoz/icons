@@ -1,4 +1,4 @@
-name: Release
+name: release
 
 on:
   push:
@@ -18,33 +18,33 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: checkout
         uses: actions/checkout@v6
 
-      - name: Release Please
+      - name: release-please
         uses: googleapis/release-please-action@v4
         id: release
 
-      - name: Setup pnpm
+      - name: setup-pnpm
         uses: pnpm/action-setup@v4
         if: ${{ steps.release.outputs.release_created }}
 
-      - name: Setup Node.js 24.x
+      - name: setup-node
         if: ${{ steps.release.outputs.release_created }}
         uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: "pnpm"
 
-      - name: Install Dependencies
+      - name: install
         if: ${{ steps.release.outputs.release_created }}
         run: pnpm install
 
-      - name: Build
+      - name: build
         if: ${{ steps.release.outputs.release_created }}
         run: pnpm run build --filter=docs^...
 
-      - name: Publish to npm
+      - name: publish
         if: ${{ steps.release.outputs.release_created }}
         run: pnpm -r publish --no-git-checks --filter=docs^...
         env:
