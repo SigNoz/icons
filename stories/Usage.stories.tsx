@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Bell, Settings, Star, Trash2, type IconType, ZoomIn } from '../lib/icons';
+import { Bell, type IconType, Info, Settings, Star, Trash2, ZoomIn } from '../lib/icons';
 
 const meta: Meta = {
  title: 'Icons / Usage',
@@ -96,6 +96,7 @@ You can override the label with your own \`aria-label\`, or opt out entirely wit
   const defaultRef = useRef<SVGSVGElement>(null);
   const overrideRef = useRef<SVGSVGElement>(null);
   const decorativeRef = useRef<SVGSVGElement>(null);
+  const focusableRef = useRef<SVGSVGElement>(null);
   const [snapshots, setSnapshots] = useState<Record<string, string>>({});
 
   useEffect(() => {
@@ -105,6 +106,7 @@ You can override the label with your own \`aria-label\`, or opt out entirely wit
         `role="${el.getAttribute('role') ?? '—'}"`,
         `aria-label="${el.getAttribute('aria-label') ?? '—'}"`,
         `aria-hidden="${el.getAttribute('aria-hidden') ?? '—'}"`,
+        `tabindex="${el.getAttribute('tabindex') ?? '—'}"`,
         `focusable="${el.getAttribute('focusable') ?? '—'}"`,
         `class="${el.getAttribute('class') ?? '—'}"`,
        ].join('\n')
@@ -113,6 +115,7 @@ You can override the label with your own \`aria-label\`, or opt out entirely wit
     default: read(defaultRef.current),
     override: read(overrideRef.current),
     decorative: read(decorativeRef.current),
+    focusable: read(focusableRef.current),
    });
   }, []);
 
@@ -202,8 +205,8 @@ You can override the label with your own \`aria-label\`, or opt out entirely wit
      <div>
       <p style={headline}>3. Decorative — opt out with aria-hidden</p>
       <p style={{ fontSize: 13, color: '#64748b', margin: '4px 0 0' }}>
-       When the icon sits next to a text label, hide it from assistive tech so the label
-       isn&apos;t announced twice.
+       When the icon sits next to a text label, hide it from assistive tech so the label isn&apos;t
+       announced twice.
       </p>
      </div>
      <pre style={codeBlock}>{`<button>
@@ -234,11 +237,89 @@ You can override the label with your own \`aria-label\`, or opt out entirely wit
      <pre style={attrBlock}>{snapshots.decorative || '(reading...)'}</pre>
     </div>
 
+    <div style={card}>
+     <div>
+      <p style={headline}>4. Focusable — info icon with tooltip on focus</p>
+      <p style={{ fontSize: 13, color: '#64748b', margin: '4px 0 0' }}>
+       The default <code>focusable=&quot;false&quot;</code> stops keyboards from landing on the
+       SVG. Pass <code>focusable=&quot;true&quot;</code> + <code>tabIndex={0}</code> when you{' '}
+       <em>do</em> want the icon reachable — e.g. a help icon whose tooltip should reveal on
+       focus, not just on hover.
+      </p>
+     </div>
+     <pre style={codeBlock}>{`<label>
+  Password
+  <Info
+    tabIndex={0}
+    focusable="true"
+    aria-describedby="pw-hint"
+  />
+  <span id="pw-hint" role="tooltip">
+    Min 12 chars, mixed case, one symbol
+  </span>
+</label>`}</pre>
+     <div style={sectionLabel}>Renders (Tab into the field, then Tab again to the icon)</div>
+     <style>{`
+      .signoz-icon-tooltip-host { position: relative; display: inline-flex; align-items: center; gap: 6px; }
+      .signoz-icon-tooltip-host .signoz-icon-tooltip-target:focus,
+      .signoz-icon-tooltip-host .signoz-icon-tooltip-target:hover {
+        outline: 2px solid #6366f1; outline-offset: 2px; border-radius: 50%;
+      }
+      .signoz-icon-tooltip {
+        position: absolute; left: 100%; top: 50%; transform: translate(8px, -50%);
+        white-space: nowrap; background: #0f172a; color: #e2e8f0; font-size: 12px;
+        padding: 6px 10px; border-radius: 6px; opacity: 0; pointer-events: none;
+        transition: opacity 0.15s;
+      }
+      .signoz-icon-tooltip-host .signoz-icon-tooltip-target:focus + .signoz-icon-tooltip,
+      .signoz-icon-tooltip-host .signoz-icon-tooltip-target:hover + .signoz-icon-tooltip {
+        opacity: 1;
+      }
+     `}</style>
+     <label
+      style={{
+       display: 'inline-flex',
+       alignItems: 'center',
+       gap: 8,
+       fontSize: 13,
+       color: '#0f172a',
+      }}
+     >
+      Password
+      <input
+       type="password"
+       defaultValue="hunter2"
+       style={{
+        padding: '6px 10px',
+        border: '1px solid #cbd5e1',
+        borderRadius: 6,
+        fontSize: 13,
+       }}
+      />
+      <span className="signoz-icon-tooltip-host">
+       <Info
+        ref={focusableRef}
+        size="lg"
+        color="#6366f1"
+        tabIndex={0}
+        focusable="true"
+        aria-describedby="pw-hint"
+        className="signoz-icon-tooltip-target"
+       />
+       <span id="pw-hint" role="tooltip" className="signoz-icon-tooltip">
+        Min 12 chars, mixed case, one symbol
+       </span>
+      </span>
+     </label>
+     <div style={sectionLabel}>DOM attributes</div>
+     <pre style={attrBlock}>{snapshots.focusable || '(reading...)'}</pre>
+    </div>
+
     <p style={{ fontSize: 12, color: '#64748b', margin: 0 }}>
      <strong>Rule of thumb:</strong> if the icon sits next to a text label, pass{' '}
      <code style={{ background: '#f1f5f9', padding: '1px 5px', borderRadius: 4 }}>aria-hidden</code>{' '}
-     so the screen reader doesn&apos;t announce it twice. If the icon is the entire control (icon-only
-     button), let the default label stand or pass a more descriptive{' '}
+     so the screen reader doesn&apos;t announce it twice. If the icon is the entire control
+     (icon-only button), let the default label stand or pass a more descriptive{' '}
      <code style={{ background: '#f1f5f9', padding: '1px 5px', borderRadius: 4 }}>aria-label</code>.
     </p>
    </div>

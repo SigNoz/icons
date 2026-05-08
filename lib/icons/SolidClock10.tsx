@@ -44,19 +44,19 @@ const SvgSolidClock10 = forwardRef<SVGSVGElement, IconProps>(
   const h = element.props.height != null ? Number(element.props.height) : 24;
   const viewBoxWhenMissing = `0 0 ${w} ${h}`;
   const isHidden = props['aria-hidden'] === true || props['aria-hidden'] === 'true';
-  const a11yProps = isHidden
+  const a11yDefaults = isHidden
    ? {
       focusable: 'false',
      }
    : {
-      role: props.role ?? 'img',
-      'aria-label': props['aria-label'] ?? ICON_NAME,
+      role: 'img',
+      'aria-label': ICON_NAME,
       focusable: 'false',
      };
   const baseClassName = `signoz-icon signoz-icon-${ICON_NAME}`;
   const elementProps = {
+   ...a11yDefaults,
    ...props,
-   ...a11yProps,
    ref,
    className: className ? `${baseClassName} ${className}` : baseClassName,
    ...(!isCustomIcon && {
