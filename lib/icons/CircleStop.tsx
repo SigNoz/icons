@@ -1,12 +1,8 @@
-import type React from 'react';
 import { cloneElement, forwardRef } from 'react';
-import type { IconSize } from '../icon-config.js';
+import type { IconProps } from '../icon-config.js';
 import { ICON_SIZE_MAP, STROKE_WIDTH_MAP } from '../icon-config.js';
-export interface IconProps extends React.SVGProps<SVGSVGElement> {
- size?: IconSize | number;
- strokeWidth?: number;
- className?: string;
-}
+export type { IconProps };
+const ICON_NAME = 'circle-stop';
 const SvgCircleStop = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
@@ -44,10 +40,22 @@ const SvgCircleStop = forwardRef<SVGSVGElement, IconProps>(
   const w = element.props.width != null ? Number(element.props.width) : 24;
   const h = element.props.height != null ? Number(element.props.height) : 24;
   const viewBoxWhenMissing = `0 0 ${w} ${h}`;
+  const isHidden = props['aria-hidden'] === true || props['aria-hidden'] === 'true';
+  const a11yProps = isHidden
+   ? {
+      focusable: 'false',
+     }
+   : {
+      role: props.role ?? 'img',
+      'aria-label': props['aria-label'] ?? ICON_NAME,
+      focusable: 'false',
+     };
+  const baseClassName = `signoz-icon signoz-icon-${ICON_NAME}`;
   const elementProps = {
    ...props,
+   ...a11yProps,
    ref,
-   className: className ? `signoz-icon ${className}` : 'signoz-icon',
+   className: className ? `${baseClassName} ${className}` : baseClassName,
    ...(!isCustomIcon && {
     stroke: color,
     strokeWidth: resolvedStrokeWidth,

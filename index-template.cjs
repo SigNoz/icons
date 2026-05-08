@@ -54,7 +54,7 @@ function indexTemplate(fileEntries) {
   return `export { default as ${exportName} } from './${basename}.js'`;
  });
 
- return `export type { IconSize, IconStrokeWidth } from '../icon-config.js';\n${exportLines.join('\n')}`;
+ return `export type { IconSize, IconStrokeWidth, IconProps, IconType } from '../icon-config.js';\n${exportLines.join('\n')}`;
 }
 
 module.exports = indexTemplate;
