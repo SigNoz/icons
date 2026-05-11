@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.4.2](https://github.com/SigNoz/icons/compare/v0.4.1...v0.4.2) (2026-05-11)
+
+
+### Features
+
+* add default aria labes and icon export type in @signozhq/icons ([2938481](https://github.com/SigNoz/icons/commit/2938481b9577104a5cf10ddda3c3f7b26d9bccca))
+* add default props and export type ([7025c71](https://github.com/SigNoz/icons/commit/7025c715a9e7eec57e2d8b3d94882afd8071a538))
+* more changes ([4a5b94c](https://github.com/SigNoz/icons/commit/4a5b94cdaec33de68a9d007e4fe07301641c4939))
+* update stories ([db7532b](https://github.com/SigNoz/icons/commit/db7532b2c1f8b8308241340c64edbbf43c303323))
+
+
+### Miscellaneous Chores
+
+* pnpm version for release workflow ([f088ee8](https://github.com/SigNoz/icons/commit/f088ee8e1c011b02c107166558070bac70ac744a))
+* pnpm version for release workflow ([0923a28](https://github.com/SigNoz/icons/commit/0923a28737a39bbbb4cc1301624383404686c27c))
+* pnpm version for release workflow ([c859d94](https://github.com/SigNoz/icons/commit/c859d9474d1cebfa968bb99c0bbd4b14bb71834e))
+
 ## [0.4.1](https://github.com/SigNoz/icons/compare/v0.4.0...v0.4.1) (2026-05-07)
 
 
