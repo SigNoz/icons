@@ -1,4 +1,4 @@
-export type { IconSize, IconStrokeWidth } from '../icon-config.js';
+export type { IconProps, IconSize, IconStrokeWidth, IconType } from '../icon-config.js';
 export { default as AArrowDown } from './AArrowDown.js';
 export { default as AArrowUp } from './AArrowUp.js';
 export { default as Accessibility } from './Accessibility.js';

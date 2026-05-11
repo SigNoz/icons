@@ -1,15 +1,19 @@
 module.exports = function template(variables, { tpl }) {
+ const baseName = String(variables.componentName).replace(/^Svg/, '');
+ const defaultAriaLabel = baseName
+  .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+  .replace(/([A-Z]+)([A-Z][a-z])/g, '$1-$2')
+  .replace(/([A-Za-z])(\d)/g, '$1-$2')
+  .toLowerCase();
+
  return tpl`
-    import type React from 'react';
     import { cloneElement, forwardRef } from 'react';
-    import type { IconSize } from '../icon-config.js';
+    import type { IconProps } from '../icon-config.js';
     import { ICON_SIZE_MAP, STROKE_WIDTH_MAP } from '../icon-config.js';
 
-    export interface IconProps extends React.SVGProps<SVGSVGElement> {
-      size?: IconSize | number;
-      strokeWidth?: number;
-      className?: string;
-    }
+    export type { IconProps };
+
+    const ICON_NAME = '${defaultAriaLabel}';
 
     const ${variables.componentName} = forwardRef<SVGSVGElement, IconProps>(({
       color = 'currentColor',
@@ -41,10 +45,17 @@ module.exports = function template(variables, { tpl }) {
       const h = element.props.height != null ? Number(element.props.height) : 24;
       const viewBoxWhenMissing = \`0 0 \${w} \${h}\`;
 
+      const isHidden = props['aria-hidden'] === true || props['aria-hidden'] === 'true';
+      const a11yDefaults = isHidden
+        ? { focusable: 'false' }
+        : { role: 'img', 'aria-label': ICON_NAME, focusable: 'false' };
+
+      const baseClassName = \`signoz-icon signoz-icon-\${ICON_NAME}\`;
       const elementProps = {
+        ...a11yDefaults,
         ...props,
         ref,
-        className: className ? \`signoz-icon \${className}\` : 'signoz-icon',
+        className: className ? \`\${baseClassName} \${className}\` : baseClassName,
         ...(!isCustomIcon && { stroke: color, strokeWidth: resolvedStrokeWidth }),
         ...(!isCustomIcon && !hasViewBox && { viewBox: viewBoxWhenMissing }),
         ...(isCustomIcon && { style: { color, ...props.style }, viewBox: viewBoxWhenMissing }),

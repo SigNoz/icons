@@ -1,3 +1,5 @@
+import type React from 'react';
+
 export type IconSize = '5xl' | '4xl' | '3xl' | '2xl' | 'xl' | 'lg' | 'md' | 'sm' | 'xs';
 
 export const ICON_SIZE_MAP: Record<IconSize, number> = {
@@ -25,3 +27,13 @@ export const STROKE_WIDTH_MAP: Record<IconSize, number> = {
 };
 
 export type IconStrokeWidth = (typeof STROKE_WIDTH_MAP)[IconSize];
+
+export interface IconProps extends React.SVGProps<SVGSVGElement> {
+ size?: IconSize | number;
+ strokeWidth?: number;
+ className?: string;
+}
+
+export type IconType = React.ForwardRefExoticComponent<
+ IconProps & React.RefAttributes<SVGSVGElement>
+>;
