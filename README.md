@@ -21,22 +21,19 @@
    - Use lowercase, hyphenated names (e.g. `arrow-right.svg`, `user-profile.svg`).
    - Avoid spaces and special characters so component names stay valid (e.g. `arrow-right.svg` → `ArrowRight`).
 
-3. **Optional: Export from Figma**  
-   To pull icons from the design file into the repo, use the script in `scripts/` (see [scripts/README.md](scripts/README.md)). It writes to `assets2/`; copy or move the SVGs you want into `assets/` before running the build.
-
-4. **Generate the React component and build:**
+3. **Generate the React component and build:**
    ```bash
    pnpm run svgr   # converts assets/*.svg → lib/icons/*.tsx and updates lib/index.ts
    pnpm run build  # lint + type-check + rollup → dist/
    ```
 
-5. **Verify in Storybook** — the icon appears in the gallery automatically:
+4. **Verify in Storybook** — the icon appears in the gallery automatically:
    ```bash
    pnpm run storybook
    ```
    Open **Icons → Gallery**, search for your icon name, resize, and copy the usage snippet.
 
-6. **Commit and open a PR** — `release-please` handles versioning and the changelog automatically. No manual README edits are needed when adding icons.
+5. **Commit and open a PR** — `release-please` handles versioning and the changelog automatically. No manual README edits are needed when adding icons.
 
 ---
 
