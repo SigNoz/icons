@@ -12,9 +12,9 @@
 
 ---
 
-## Adding SVGs
+## Adding a New Icon
 
-1. **Place SVG files in the `assets/` folder** (repo root).  
+1. **Place the SVG file in the `assets/` folder** (repo root).  
    Only files in `assets/` are turned into React components; other folders (e.g. `assets2/`) are not used by the build.
 
 2. **Naming**
@@ -24,7 +24,19 @@
 3. **Optional: Export from Figma**  
    To pull icons from the design file into the repo, use the script in `scripts/` (see [scripts/README.md](scripts/README.md)). It writes to `assets2/`; copy or move the SVGs you want into `assets/` before running the build.
 
-4. **After adding or removing SVGs**, run the build (or Storybook) so `src/` and the barrel export are regenerated. Deleting an SVG and re-running will remove its component from the package.
+4. **Generate the React component and build:**
+   ```bash
+   pnpm run svgr   # converts assets/*.svg → lib/icons/*.tsx and updates lib/index.ts
+   pnpm run build  # lint + type-check + rollup → dist/
+   ```
+
+5. **Verify in Storybook** — the icon appears in the gallery automatically:
+   ```bash
+   pnpm run storybook
+   ```
+   Open **Icons → Gallery**, search for your icon name, resize, and copy the usage snippet.
+
+6. **Commit and open a PR** — `release-please` handles versioning and the changelog automatically. No manual README edits are needed when adding icons.
 
 ---
 

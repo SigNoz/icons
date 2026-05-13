@@ -241,10 +241,10 @@ You can override the label with your own \`aria-label\`, or opt out entirely wit
      <div>
       <p style={headline}>4. Focusable — info icon with tooltip on focus</p>
       <p style={{ fontSize: 13, color: '#64748b', margin: '4px 0 0' }}>
-       The default <code>focusable=&quot;false&quot;</code> stops keyboards from landing on the
-       SVG. Pass <code>focusable=&quot;true&quot;</code> + <code>tabIndex={0}</code> when you{' '}
-       <em>do</em> want the icon reachable — e.g. a help icon whose tooltip should reveal on
-       focus, not just on hover.
+       The default <code>focusable=&quot;false&quot;</code> stops keyboards from landing on the SVG.
+       Pass <code>focusable=&quot;true&quot;</code> + <code>tabIndex={0}</code> when you <em>do</em>{' '}
+       want the icon reachable — e.g. a help icon whose tooltip should reveal on focus, not just on
+       hover.
       </p>
      </div>
      <pre style={codeBlock}>{`<label>
