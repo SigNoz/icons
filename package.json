@@ -3064,6 +3064,16 @@
     "require": "./dist/lib/icons/ChartSpline.cjs"
    }
   },
+  "./ChatMaze": {
+   "import": {
+    "types": "./dist/types/esm/icons/ChatMaze.d.ts",
+    "import": "./dist/lib/icons/ChatMaze.js"
+   },
+   "require": {
+    "types": "./dist/types/cjs/icons/ChatMaze.d.cts",
+    "require": "./dist/lib/icons/ChatMaze.cjs"
+   }
+  },
   "./Check": {
    "import": {
     "types": "./dist/types/esm/icons/Check.d.ts",

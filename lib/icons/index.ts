@@ -303,6 +303,7 @@ export { default as ChartNoAxesGantt } from './ChartNoAxesGantt.js';
 export { default as ChartPie } from './ChartPie.js';
 export { default as ChartScatter } from './ChartScatter.js';
 export { default as ChartSpline } from './ChartSpline.js';
+export { default as ChatMaze } from './ChatMaze.js';
 export { default as Check } from './Check.js';
 export { default as CheckCheck } from './CheckCheck.js';
 export { default as ChefHat } from './ChefHat.js';
