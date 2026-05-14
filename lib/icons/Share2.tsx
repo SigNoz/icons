@@ -1,7 +1,9 @@
 import { cloneElement, forwardRef } from 'react';
 import type { IconProps } from '../icon-config.js';
 import { ICON_SIZE_MAP, STROKE_WIDTH_MAP } from '../icon-config.js';
+
 export type { IconProps };
+
 const ICON_NAME = 'share-2';
 const SvgShare2 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
