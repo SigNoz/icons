@@ -8,13 +8,13 @@ const ICON_NAME = 'message-square-dot';
 const SvgMessageSquareDot = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M7.8 2H3.333A1.333 1.333 0 0 0 2 3.333V14l2.667-2.667h8A1.333 1.333 0 0 0 14 10V8.2M14 4a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M7.8 2H3.333A1.333 1.333 0 0 0 2 3.333V14l2.667-2.667h8A1.333 1.333 0 0 0 14 10V8.2M14 4a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
     />
    </svg>
   );

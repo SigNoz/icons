@@ -8,13 +8,13 @@ const ICON_NAME = 'rewind';
 const SvgRewind = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M7.333 12.667 1.333 8l6-4.667v9.334ZM14.666 12.667 8.666 8l6-4.667v9.334Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M7.333 12.667 1.333 8l6-4.667zM14.666 12.667 8.666 8l6-4.667z"
     />
    </svg>
   );

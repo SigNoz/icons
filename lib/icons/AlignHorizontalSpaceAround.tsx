@@ -8,13 +8,13 @@ const ICON_NAME = 'align-horizontal-space-around';
 const SvgAlignHorizontalSpaceAround = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.667 14.667V1.333m10.667 13.334V1.333m-6 3.334h1.333C9.403 4.667 10 5.264 10 6v4c0 .736-.597 1.333-1.333 1.333H7.334A1.333 1.333 0 0 1 6 10V6c0-.736.597-1.333 1.334-1.333Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.667 14.667V1.333m10.667 13.334V1.333m-6 3.334h1.333C9.403 4.667 10 5.264 10 6v4c0 .736-.597 1.333-1.333 1.333H7.334A1.333 1.333 0 0 1 6 10V6c0-.736.597-1.333 1.334-1.333"
     />
    </svg>
   );

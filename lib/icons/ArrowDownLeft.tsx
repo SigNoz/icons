@@ -8,13 +8,13 @@ const ICON_NAME = 'arrow-down-left';
 const SvgArrowDownLeft = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m11.334 4.667-6.667 6.666m0 0h6.667m-6.667 0V4.667"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m11.334 4.667-6.667 6.666m0 0h6.667m-6.667 0V4.667"
     />
    </svg>
   );

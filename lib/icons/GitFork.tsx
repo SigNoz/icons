@@ -8,13 +8,13 @@ const ICON_NAME = 'git-fork';
 const SvgGitFork = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0V8M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0v1.333c0 .4.267.667.667.667h6.666c.4 0 .667-.267.667-.667V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V8M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0v1.333c0 .4.267.667.667.667h6.666c.4 0 .667-.267.667-.667V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
     />
    </svg>
   );

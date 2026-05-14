@@ -8,13 +8,13 @@ const ICON_NAME = 'arrow-left-from-line';
 const SvgArrowLeftFromLine = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M6 4 2 8m0 0 4 4M2 8h9.333M14 12.667V3.333"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M6 4 2 8m0 0 4 4M2 8h9.333M14 12.667V3.333"
     />
    </svg>
   );

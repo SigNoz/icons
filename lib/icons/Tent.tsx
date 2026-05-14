@@ -8,13 +8,13 @@ const ICON_NAME = 'tent';
 const SvgTent = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m2.333 14 7-12m4.333 12-7-12m3.667 12L8 10l-2.334 4m-4.333 0h13.333"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m2.333 14 7-12m4.333 12-7-12m3.667 12L8 10l-2.334 4m-4.333 0h13.333"
     />
    </svg>
   );

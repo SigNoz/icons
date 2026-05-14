@@ -8,14 +8,14 @@ const ICON_NAME = 'signpost-big';
 const SvgSignpostBig = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#signpost-big_svg__a)">
      <path
-      d="M6.666 6h-4L1.333 4.667l1.333-1.334h4m2.667 0h4l1.333 1.334L13.333 6h-4m-2.667 8.667v-12a1.333 1.333 0 0 1 2.667 0v12m-4 0h5.333"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M6.666 6h-4L1.333 4.667l1.333-1.334h4m2.667 0h4l1.333 1.334L13.333 6h-4m-2.667 8.667v-12a1.333 1.333 0 0 1 2.667 0v12m-4 0h5.333"
      />
     </g>
     <defs>

@@ -8,14 +8,14 @@ const ICON_NAME = 'traffic-cone';
 const SvgTrafficCone = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#traffic-cone_svg__a)">
      <path
-      d="M6.2 4.133a3.033 3.033 0 0 0 3.6 0m-4.534 3C5.866 7.667 6.866 8 8 8c1.133 0 2.133-.333 2.733-.867M5 8.133l-3.134 1.8c-.333.2-.533.467-.533.734 0 .266.2.533.533.733l5.067 3c.6.333 1.4.333 2 0l5.067-3c.466-.2.666-.467.666-.733 0-.267-.2-.534-.533-.734L11 8.067M9.266 2.333a1.287 1.287 0 0 0-2.533-.066l-2 6.666c-.067.134-.067.267-.067.4 0 1.134 1.467 2 3.334 2 1.866 0 3.333-.866 3.333-2 0-.133 0-.266-.067-.333l-2-6.667Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M6.2 4.133a3.03 3.03 0 0 0 3.6 0m-4.534 3C5.866 7.667 6.866 8 8 8s2.133-.333 2.733-.867M5 8.133l-3.134 1.8c-.333.2-.533.467-.533.734s.2.533.533.733l5.067 3c.6.333 1.4.333 2 0l5.067-3c.466-.2.666-.467.666-.733 0-.267-.2-.534-.533-.734L11 8.067M9.266 2.333a1.287 1.287 0 0 0-2.533-.066l-2 6.666c-.067.134-.067.267-.067.4 0 1.134 1.467 2 3.334 2s3.333-.866 3.333-2c0-.133 0-.266-.067-.333z"
      />
     </g>
     <defs>

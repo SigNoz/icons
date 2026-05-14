@@ -8,14 +8,14 @@ const ICON_NAME = 'thumbs-up';
 const SvgThumbsUp = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#thumbs-up_svg__a)">
      <path
-      d="M4.666 6.667v8M10 3.92l-.667 2.747h3.887a1.334 1.334 0 0 1 1.28 1.706l-1.554 5.334a1.333 1.333 0 0 1-1.28.96h-9a1.333 1.333 0 0 1-1.333-1.334V8a1.333 1.333 0 0 1 1.333-1.333h1.84a1.333 1.333 0 0 0 1.194-.74L8 1.333a2.087 2.087 0 0 1 2 2.587Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M4.666 6.667v8M10 3.92l-.667 2.747h3.887a1.334 1.334 0 0 1 1.28 1.706l-1.554 5.334a1.33 1.33 0 0 1-1.28.96h-9a1.333 1.333 0 0 1-1.333-1.334V8a1.333 1.333 0 0 1 1.333-1.333h1.84a1.33 1.33 0 0 0 1.194-.74L8 1.333a2.087 2.087 0 0 1 2 2.587"
      />
     </g>
     <defs>

@@ -8,14 +8,14 @@ const ICON_NAME = 'eclipse';
 const SvgEclipse = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#eclipse_svg__a)">
      <path
-      d="M14.666 8A6.667 6.667 0 1 1 8 1.333M14.666 8A6.667 6.667 0 0 0 8 1.333M14.666 8A4.714 4.714 0 1 1 8 1.333"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M14.666 8A6.667 6.667 0 1 1 8 1.333M14.666 8A6.667 6.667 0 0 0 8 1.333M14.666 8A4.714 4.714 0 1 1 8 1.333"
      />
     </g>
     <defs>

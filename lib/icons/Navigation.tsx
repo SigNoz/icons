@@ -8,13 +8,13 @@ const ICON_NAME = 'navigation';
 const SvgNavigation = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m2 7.333 12.667-6-6 12.667-1.334-5.333L2 7.333Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m2 7.333 12.667-6-6 12.667-1.334-5.333z"
     />
    </svg>
   );

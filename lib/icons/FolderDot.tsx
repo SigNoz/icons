@@ -8,20 +8,20 @@ const ICON_NAME = 'folder-dot';
 const SvgFolderDot = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.666 13.333h10.667A1.333 1.333 0 0 0 14.666 12V5.333A1.333 1.333 0 0 0 13.333 4H8.046a1.333 1.333 0 0 1-1.106-.6l-.547-.8A1.333 1.333 0 0 0 5.286 2h-2.62a1.333 1.333 0 0 0-1.333 1.333V12c0 .733.6 1.333 1.333 1.333Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.666 13.333h10.667A1.333 1.333 0 0 0 14.666 12V5.333A1.333 1.333 0 0 0 13.333 4H8.046a1.33 1.33 0 0 1-1.106-.6l-.547-.8A1.33 1.33 0 0 0 5.286 2h-2.62a1.333 1.333 0 0 0-1.333 1.333V12c0 .733.6 1.333 1.333 1.333"
     />
     <path
-     d="M8 9.333A.667.667 0 1 0 8 8a.667.667 0 0 0 0 1.333Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 9.333A.667.667 0 1 0 8 8a.667.667 0 0 0 0 1.333"
     />
    </svg>
   );

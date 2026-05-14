@@ -8,40 +8,40 @@ const ICON_NAME = 'disc-21';
 const SvgDisc21 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#disc-2-1_svg__a)">
      <path
-      d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334Z"
       stroke="inherit"
-      strokeWidth={1.333}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.333}
+      d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334"
      />
      <path
-      d="M8 10.667a2.667 2.667 0 1 0 0-5.334 2.667 2.667 0 0 0 0 5.334ZM8 8h.007"
       stroke="inherit"
-      strokeWidth={1.333}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.333}
+      d="M8 10.667a2.667 2.667 0 1 0 0-5.334 2.667 2.667 0 0 0 0 5.334M8 8h.007"
      />
      <mask id="disc-2-1_svg__b" fill="#fff">
-      <rect x={8} y={6.333} width={5.333} height={3.333} rx={0.667} />
+      <rect width={5.333} height={3.333} x={8} y={6.333} rx={0.667} />
      </mask>
      <rect
-      x={8}
-      y={6.333}
       width={5.333}
       height={3.333}
-      rx={0.667}
+      x={8}
+      y={6.333}
       stroke="inherit"
       strokeWidth={2.667}
       mask="url(#disc-2-1_svg__b)"
+      rx={0.667}
      />
      <path
-      d="M11 9.333v.922c0 .463.24.893.634 1.135l3.7 2.277"
       stroke="inherit"
-      strokeWidth={1.333}
       strokeLinecap="round"
+      strokeWidth={1.333}
+      d="M11 9.333v.922c0 .463.24.893.634 1.135l3.7 2.277"
      />
     </g>
     <defs>

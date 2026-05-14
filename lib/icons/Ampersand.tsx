@@ -8,13 +8,13 @@ const ICON_NAME = 'ampersand';
 const SvgAmpersand = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M11.666 8c0 2.933-2.4 5.333-5.333 5.333a3 3 0 0 1-3-3c0-4 5.333-2.666 5.333-5.666a2 2 0 1 0-4 0c0 2 1.667 5.666 8 8.666m-2-5.333h2"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M11.666 8c0 2.933-2.4 5.333-5.333 5.333a3 3 0 0 1-3-3c0-4 5.333-2.666 5.333-5.666a2 2 0 1 0-4 0c0 2 1.667 5.666 8 8.666m-2-5.333h2"
     />
    </svg>
   );

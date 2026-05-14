@@ -8,14 +8,14 @@ const ICON_NAME = 'solid-shield';
 const SvgSolidShield = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 14.667S13.334 12 13.334 8V3.333L8 1.333l-5.333 2V8C2.667 12 8 14.667 8 14.667Z"
      fill="#fff"
      stroke="#fff"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M8 14.667S13.334 12 13.334 8V3.333L8 1.333l-5.333 2V8C2.667 12 8 14.667 8 14.667"
     />
    </svg>
   );

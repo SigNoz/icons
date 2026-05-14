@@ -8,14 +8,14 @@ const ICON_NAME = 'circle-dot-dashed';
 const SvgCircleDotDashed = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#circle-dot-dashed_svg__a)">
      <path
-      d="M6.733 1.453a6.62 6.62 0 0 1 2.534 0m2.466 1.02a6.634 6.634 0 0 1 1.794 1.8m1.02 2.46a6.62 6.62 0 0 1 0 2.534m-1.02 2.466a6.632 6.632 0 0 1-1.8 1.794m-2.46 1.02a6.623 6.623 0 0 1-2.534 0m-2.466-1.02a6.632 6.632 0 0 1-1.794-1.8m-1.02-2.46a6.62 6.62 0 0 1 0-2.534m1.02-2.466a6.633 6.633 0 0 1 1.8-1.794M8.667 8a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M6.733 1.453a6.6 6.6 0 0 1 2.534 0m2.466 1.02a6.6 6.6 0 0 1 1.794 1.8m1.02 2.46a6.6 6.6 0 0 1 0 2.534m-1.02 2.466a6.6 6.6 0 0 1-1.8 1.794m-2.46 1.02a6.6 6.6 0 0 1-2.534 0m-2.466-1.02a6.6 6.6 0 0 1-1.794-1.8m-1.02-2.46a6.6 6.6 0 0 1 0-2.534m1.02-2.466a6.6 6.6 0 0 1 1.8-1.794M8.667 8a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0"
      />
     </g>
     <defs>

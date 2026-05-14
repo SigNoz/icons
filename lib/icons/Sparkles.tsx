@@ -8,14 +8,14 @@ const ICON_NAME = 'sparkles';
 const SvgSparkles = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#sparkles_svg__a)">
      <path
-      d="M13.333 2v2.667m1.333-1.334H12m-9.334 8v1.334M3.333 12H2m4.624-1.667a1.333 1.333 0 0 0-.958-.958l-4.09-1.054a.333.333 0 0 1 0-.642l4.09-1.055a1.333 1.333 0 0 0 .958-.957l1.055-4.09a.333.333 0 0 1 .642 0l1.054 4.09a1.333 1.333 0 0 0 .958.958l4.09 1.054a.333.333 0 0 1 0 .642l-4.09 1.054a1.334 1.334 0 0 0-.958.958l-1.055 4.09a.333.333 0 0 1-.642 0l-1.054-4.09Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M13.333 2v2.667m1.333-1.334H12m-9.334 8v1.334M3.333 12H2m4.624-1.667a1.33 1.33 0 0 0-.958-.958l-4.09-1.054a.333.333 0 0 1 0-.642l4.09-1.055a1.33 1.33 0 0 0 .958-.957l1.055-4.09a.333.333 0 0 1 .642 0l1.054 4.09a1.33 1.33 0 0 0 .958.958l4.09 1.054a.333.333 0 0 1 0 .642l-4.09 1.054a1.33 1.33 0 0 0-.958.958l-1.055 4.09a.333.333 0 0 1-.642 0z"
      />
     </g>
     <defs>

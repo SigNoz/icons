@@ -8,13 +8,13 @@ const ICON_NAME = 'banknote';
 const SvgBanknote = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M4 8h.006M12 8h.006m-9.34-4h10.667c.736 0 1.333.597 1.333 1.333v5.334c0 .736-.597 1.333-1.333 1.333H2.666a1.333 1.333 0 0 1-1.333-1.333V5.333C1.333 4.597 1.93 4 2.666 4Zm6.667 4a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M4 8h.006M12 8h.006m-9.34-4h10.667c.736 0 1.333.597 1.333 1.333v5.334c0 .736-.597 1.333-1.333 1.333H2.666a1.333 1.333 0 0 1-1.333-1.333V5.333C1.333 4.597 1.93 4 2.666 4m6.667 4a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0"
     />
    </svg>
   );

@@ -8,13 +8,13 @@ const ICON_NAME = 'divide';
 const SvgDivide = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M3.333 8h9.333m-4-4a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0Zm0 8a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M3.333 8h9.333m-4-4a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0m0 8a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0"
     />
    </svg>
   );

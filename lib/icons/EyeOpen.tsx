@@ -8,20 +8,20 @@ const ICON_NAME = 'eye-open';
 const SvgEyeOpen = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M1.333 9.333s2-4.666 6.667-4.666c4.666 0 6.666 4.666 6.666 4.666"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M1.333 9.333s2-4.666 6.667-4.666 6.666 4.666 6.666 4.666"
     />
     <path
-     d="M8 11.333a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M8 11.333a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
     />
    </svg>
   );

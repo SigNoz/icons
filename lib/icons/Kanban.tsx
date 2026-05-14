@@ -8,13 +8,13 @@ const ICON_NAME = 'kanban';
 const SvgKanban = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M4 3.333v7.334m4-7.334v4m4-4v9.334"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M4 3.333v7.334m4-7.334v4m4-4v9.334"
     />
    </svg>
   );

@@ -8,14 +8,14 @@ const ICON_NAME = 'beer-off';
 const SvgBeerOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#beer-off_svg__a)">
      <path
-      d="M8.666 8.667V12m2.667-4.353V5.333m0 2H12a2 2 0 0 1 1.83 2.808M1.333 1.333l13.333 13.334M3.333 5.333v8a1.333 1.333 0 0 0 1.333 1.334H10a1.334 1.334 0 0 0 1.333-1.334v-2m-6.31-6.31c-.513.076-.92.31-1.357.31a1.667 1.667 0 0 1-1.178-2.845m3.33-.352c.386-.291.772-.803 1.515-.803 1.04 0 1.333 1 2 1S10.48 2 11 2a1.667 1.667 0 0 1 0 3.333c-.52 0-1-.333-1.667-.333a2.1 2.1 0 0 0-.561.08M6 9.733V12"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8.666 8.667V12m2.667-4.353V5.333m0 2H12a2 2 0 0 1 1.83 2.808M1.333 1.333l13.333 13.334M3.333 5.333v8a1.333 1.333 0 0 0 1.333 1.334H10a1.334 1.334 0 0 0 1.333-1.334v-2m-6.31-6.31c-.513.076-.92.31-1.357.31a1.667 1.667 0 0 1-1.178-2.845m3.33-.352c.386-.291.772-.803 1.515-.803 1.04 0 1.333 1 2 1S10.48 2 11 2a1.667 1.667 0 0 1 0 3.333c-.52 0-1-.333-1.667-.333a2 2 0 0 0-.561.08M6 9.733V12"
      />
     </g>
     <defs>

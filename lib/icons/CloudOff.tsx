@@ -8,14 +8,14 @@ const ICON_NAME = 'cloud-off';
 const SvgCloudOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#cloud-off_svg__a)">
      <path
-      d="m1.333 1.333 13.333 13.334M3.854 3.855A4.667 4.667 0 0 0 6 12.667h5.666c.296 0 .59-.043.872-.129M14.354 11a3.001 3.001 0 0 0-2.688-4.333h-1.193A4.672 4.672 0 0 0 6.666 3.38"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m1.333 1.333 13.333 13.334M3.854 3.855A4.667 4.667 0 0 0 6 12.667h5.666c.296 0 .59-.043.872-.129M14.354 11a3 3 0 0 0-2.688-4.333h-1.193A4.67 4.67 0 0 0 6.666 3.38"
      />
     </g>
     <defs>

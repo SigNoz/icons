@@ -8,14 +8,14 @@ const ICON_NAME = 'pointer-off';
 const SvgPointerOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#pointer-off_svg__a)">
      <path
-      d="M6.667 3v-.333A1.333 1.333 0 0 0 5.06 1.362M9.267 5.6a1.334 1.334 0 0 0-.84-.863m6.04 6.063c.134-.477.202-.97.2-1.467v-2a1.334 1.334 0 0 0-2.667 0v-.666a1.333 1.333 0 0 0-2.42-.772M4.667 10l-1.2-1.2a1.333 1.333 0 0 0-1.86 1.907L4 13.133a5.159 5.159 0 0 0 4 1.534h1.334a5.334 5.334 0 0 0 3.77-1.562M4 4v5.333m-2.666-8 13.333 13.334"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M6.667 3v-.333A1.333 1.333 0 0 0 5.06 1.362M9.267 5.6a1.33 1.33 0 0 0-.84-.863m6.04 6.063c.134-.477.202-.97.2-1.467v-2a1.334 1.334 0 0 0-2.667 0v-.666a1.333 1.333 0 0 0-2.42-.772M4.667 10l-1.2-1.2a1.333 1.333 0 0 0-1.86 1.907L4 13.133a5.16 5.16 0 0 0 4 1.534h1.334a5.33 5.33 0 0 0 3.77-1.562M4 4v5.333m-2.666-8 13.333 13.334"
      />
     </g>
     <defs>

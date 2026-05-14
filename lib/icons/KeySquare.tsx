@@ -8,14 +8,14 @@ const ICON_NAME = 'key-square';
 const SvgKeySquare = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#key-square_svg__a)">
      <path
-      d="m9.333 4.667 2 2m-5.067.4-4.542 4.542c-.25.25-.39.59-.391.943V14a.667.667 0 0 0 .667.667h2A.667.667 0 0 0 4.666 14v-.667a.667.667 0 0 1 .667-.666H6A.667.667 0 0 0 6.666 12v-.667a.667.667 0 0 1 .667-.666h.115c.353 0 .692-.14.942-.391l.543-.543M8.266 1.8a1.667 1.667 0 0 1 2.267 0L14.2 5.467a1.667 1.667 0 0 1 0 2.266L11.733 10.2a1.667 1.667 0 0 1-2.267 0L5.8 6.533a1.667 1.667 0 0 1 0-2.266L8.266 1.8Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m9.333 4.667 2 2m-5.067.4-4.542 4.542c-.25.25-.39.59-.391.943V14a.667.667 0 0 0 .667.667h2A.667.667 0 0 0 4.666 14v-.667a.667.667 0 0 1 .667-.666H6A.667.667 0 0 0 6.666 12v-.667a.667.667 0 0 1 .667-.666h.115c.353 0 .692-.14.942-.391l.543-.543M8.266 1.8a1.667 1.667 0 0 1 2.267 0L14.2 5.467a1.667 1.667 0 0 1 0 2.266L11.733 10.2a1.667 1.667 0 0 1-2.267 0L5.8 6.533a1.667 1.667 0 0 1 0-2.266z"
      />
     </g>
     <defs>

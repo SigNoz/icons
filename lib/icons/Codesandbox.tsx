@@ -8,13 +8,13 @@ const ICON_NAME = 'codesandbox';
 const SvgCodesandbox = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M5 2.807 8 4.54l3-1.733M5 13.193v-3.46L2 8m12 0-3 1.733v3.46M2.18 4.64 8 8.007l5.82-3.367M8 14.72V8m6 2.667V5.333a1.333 1.333 0 0 0-.667-1.153L8.667 1.513a1.333 1.333 0 0 0-1.334 0L2.667 4.18A1.333 1.333 0 0 0 2 5.333v5.334a1.334 1.334 0 0 0 .667 1.153l4.666 2.667a1.334 1.334 0 0 0 1.334 0l4.666-2.667A1.333 1.333 0 0 0 14 10.667Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M5 2.807 8 4.54l3-1.733M5 13.193v-3.46L2 8m12 0-3 1.733v3.46M2.18 4.64 8 8.007l5.82-3.367M8 14.72V8m6 2.667V5.333a1.33 1.33 0 0 0-.667-1.153L8.667 1.513a1.33 1.33 0 0 0-1.334 0L2.667 4.18A1.33 1.33 0 0 0 2 5.333v5.334a1.33 1.33 0 0 0 .667 1.153l4.666 2.667a1.33 1.33 0 0 0 1.334 0l4.666-2.667A1.33 1.33 0 0 0 14 10.667"
     />
    </svg>
   );

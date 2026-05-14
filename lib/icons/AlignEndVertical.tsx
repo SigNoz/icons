@@ -8,14 +8,14 @@ const ICON_NAME = 'align-end-vertical';
 const SvgAlignEndVertical = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#align-end-vertical_svg__a)">
      <path
-      d="M14.666 14.667V1.333m-12 1.334h8C11.403 2.667 12 3.264 12 4v1.333c0 .737-.597 1.334-1.334 1.334h-8a1.333 1.333 0 0 1-1.333-1.334V4c0-.736.597-1.333 1.333-1.333Zm4.667 6.666h3.333c.737 0 1.334.597 1.334 1.334V12c0 .736-.597 1.333-1.334 1.333H7.333A1.333 1.333 0 0 1 6 12v-1.333c0-.737.597-1.334 1.333-1.334Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M14.666 14.667V1.333m-12 1.334h8C11.403 2.667 12 3.264 12 4v1.333c0 .737-.597 1.334-1.334 1.334h-8a1.333 1.333 0 0 1-1.333-1.334V4c0-.736.597-1.333 1.333-1.333m4.667 6.666h3.333c.737 0 1.334.597 1.334 1.334V12c0 .736-.597 1.333-1.334 1.333H7.333A1.333 1.333 0 0 1 6 12v-1.333c0-.737.597-1.334 1.333-1.334"
      />
     </g>
     <defs>

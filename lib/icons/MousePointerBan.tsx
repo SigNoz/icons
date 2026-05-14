@@ -8,14 +8,14 @@ const ICON_NAME = 'mouse-pointer-ban';
 const SvgMousePointerBan = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#mouse-pointer-ban_svg__a)">
      <path
-      d="m7.866 7.867 5.6 5.6M1.333 1.333 4 8.667l1.333-3.334L8.666 4 1.333 1.333Zm13.333 9.334a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m7.866 7.867 5.6 5.6M1.333 1.333 4 8.667l1.333-3.334L8.666 4zm13.333 9.334a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
      />
     </g>
     <defs>

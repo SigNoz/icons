@@ -8,20 +8,20 @@ const ICON_NAME = 'lock-1';
 const SvgLock1 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 11.333A.667.667 0 1 0 8 10a.667.667 0 0 0 0 1.333Z"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M8 11.333A.667.667 0 1 0 8 10a.667.667 0 0 0 0 1.333"
     />
     <path
-     d="M11.63 6.667H4.37c-.573 0-1.037.597-1.037 1.333v5.333c0 .737.464 1.334 1.037 1.334h7.26c.572 0 1.036-.597 1.036-1.334V8c0-.736-.464-1.333-1.037-1.333ZM4.667 6.667v-2a3.333 3.333 0 0 1 6.667 0v2"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M11.63 6.667H4.37c-.573 0-1.037.597-1.037 1.333v5.333c0 .737.464 1.334 1.037 1.334h7.26c.572 0 1.036-.597 1.036-1.334V8c0-.736-.464-1.333-1.037-1.333M4.667 6.667v-2a3.333 3.333 0 0 1 6.667 0v2"
     />
    </svg>
   );

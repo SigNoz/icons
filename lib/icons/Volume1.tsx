@@ -8,13 +8,13 @@ const ICON_NAME = 'volume-1';
 const SvgVolume1 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M10.36 5.64a3.333 3.333 0 0 1 0 4.713m-3.027-7.02L4 6H1.333v4H4l3.333 2.667V3.333Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M10.36 5.64a3.333 3.333 0 0 1 0 4.713m-3.027-7.02L4 6H1.333v4H4l3.333 2.667z"
     />
    </svg>
   );

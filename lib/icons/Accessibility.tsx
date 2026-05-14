@@ -8,13 +8,13 @@ const ICON_NAME = 'accessibility';
 const SvgAccessibility = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M12 12.667 12.666 8l-4 .667M3.333 5.333l2-2 3.667 2-1.574 2.334m-4.6 2a3.333 3.333 0 0 0 4.587 4m1.76-2a3.333 3.333 0 0 0-4.587-4m6.747-5a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M12 12.667 12.666 8l-4 .667M3.333 5.333l2-2 3.667 2-1.574 2.334m-4.6 2a3.333 3.333 0 0 0 4.587 4m1.76-2a3.333 3.333 0 0 0-4.587-4m6.747-5a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0"
     />
    </svg>
   );

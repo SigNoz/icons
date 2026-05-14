@@ -8,14 +8,14 @@ const ICON_NAME = 'badge-minus';
 const SvgBadgeMinus = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#badge-minus_svg__a)">
      <path
-      d="M5.333 8h5.334m-8.1-2.253a2.667 2.667 0 0 1 3.186-3.18 2.667 2.667 0 0 1 4.494 0 2.666 2.666 0 0 1 3.187 3.186 2.666 2.666 0 0 1 0 4.494 2.667 2.667 0 0 1-3.18 3.186 2.668 2.668 0 0 1-4.5 0 2.667 2.667 0 0 1-3.187-3.18 2.667 2.667 0 0 1 0-4.506Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M5.333 8h5.334m-8.1-2.253a2.667 2.667 0 0 1 3.186-3.18 2.667 2.667 0 0 1 4.494 0 2.666 2.666 0 0 1 3.187 3.186 2.666 2.666 0 0 1 0 4.494 2.667 2.667 0 0 1-3.18 3.186 2.668 2.668 0 0 1-4.5 0 2.667 2.667 0 0 1-3.187-3.18 2.667 2.667 0 0 1 0-4.506"
      />
     </g>
     <defs>

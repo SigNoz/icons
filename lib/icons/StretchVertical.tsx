@@ -8,13 +8,13 @@ const ICON_NAME = 'stretch-vertical';
 const SvgStretchVertical = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M5.334 1.333H4c-.736 0-1.333.597-1.333 1.334v10.666c0 .737.597 1.334 1.333 1.334h1.334c.736 0 1.333-.597 1.333-1.334V2.667c0-.737-.597-1.334-1.333-1.334ZM12 1.333h-1.333c-.736 0-1.333.597-1.333 1.334v10.666c0 .737.597 1.334 1.333 1.334H12c.737 0 1.334-.597 1.334-1.334V2.667c0-.737-.597-1.334-1.334-1.334Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M5.334 1.333H4c-.736 0-1.333.597-1.333 1.334v10.666c0 .737.597 1.334 1.333 1.334h1.334c.736 0 1.333-.597 1.333-1.334V2.667c0-.737-.597-1.334-1.333-1.334M12 1.333h-1.333c-.736 0-1.333.597-1.333 1.334v10.666c0 .737.597 1.334 1.333 1.334H12c.737 0 1.334-.597 1.334-1.334V2.667c0-.737-.597-1.334-1.334-1.334"
     />
    </svg>
   );

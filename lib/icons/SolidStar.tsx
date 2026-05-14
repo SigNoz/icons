@@ -8,14 +8,14 @@ const ICON_NAME = 'solid-star';
 const SvgSolidStar = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m8 1.333 2.06 4.174 4.606.673-3.333 3.247.787 4.586L8 11.847l-4.12 2.166.786-4.586L1.333 6.18l4.607-.673L8 1.333Z"
      fill="#fff"
      stroke="#fff"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="m8 1.333 2.06 4.174 4.606.673-3.333 3.247.787 4.586L8 11.847l-4.12 2.166.786-4.586L1.333 6.18l4.607-.673z"
     />
    </svg>
   );

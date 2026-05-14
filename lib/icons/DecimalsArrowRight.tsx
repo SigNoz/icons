@@ -14,14 +14,14 @@ const SvgDecimalsArrowRight = forwardRef<SVGSVGElement, IconProps>(
     height={24}
     fill="none"
     stroke="currentColor"
-    strokeWidth={2}
     strokeLinecap="round"
     strokeLinejoin="round"
+    strokeWidth={2}
     {...props}
    >
     <path d="M10 18h10M17 21l3-3-3-3M3 11h.01" />
-    <rect x={15} y={3} width={5} height={8} rx={2.5} />
-    <rect x={6} y={3} width={5} height={8} rx={2.5} />
+    <rect width={5} height={8} x={15} y={3} rx={2.5} />
+    <rect width={5} height={8} x={6} y={3} rx={2.5} />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;

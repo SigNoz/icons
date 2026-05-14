@@ -8,13 +8,13 @@ const ICON_NAME = 'git-pull-request-draft';
 const SvgGitPullRequestDraft = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0v8m8-10v-.667m0 4v-.666M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0v8m8-10v-.667m0 4v-.666M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
     />
    </svg>
   );

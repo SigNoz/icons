@@ -8,13 +8,13 @@ const ICON_NAME = 'heading-5';
 const SvgHeading5 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.667 8H8m-5.333 4V4M8 12V4m6 2.667h-2.666v2h.866c1 0 1.8.733 1.8 1.666 0 .934-.8 1.667-1.8 1.667-.333 0-.6-.067-.866-.2"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.667 8H8m-5.333 4V4M8 12V4m6 2.667h-2.666v2h.866c1 0 1.8.733 1.8 1.666 0 .934-.8 1.667-1.8 1.667-.333 0-.6-.067-.866-.2"
     />
    </svg>
   );

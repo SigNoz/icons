@@ -8,11 +8,11 @@ const ICON_NAME = 'ellipse-193';
 const SvgEllipse193 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={10} height={3} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={10} height={3} fill="none" {...props}>
     <path
-     d="M9.285.086C9.285.875 7.367 1.514 5 1.514S.715.874.715.086"
      stroke="inherit"
      strokeWidth={1.333}
+     d="M9.285.086C9.285.875 7.367 1.514 5 1.514S.715.874.715.086"
     />
    </svg>
   );

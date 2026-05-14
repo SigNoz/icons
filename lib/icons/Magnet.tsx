@@ -8,14 +8,14 @@ const ICON_NAME = 'magnet';
 const SvgMagnet = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#magnet_svg__a)">
      <path
-      d="M3.333 5.333 6 8m2 2 2.666 2.667M4 10 1.333 7.333l4.5-4.513a5.193 5.193 0 0 1 7.333 7.333l-4.5 4.514L6 12l4.26-4.24a1.427 1.427 0 0 0-2-2L4 10Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M3.333 5.333 6 8m2 2 2.666 2.667M4 10 1.333 7.333l4.5-4.513a5.193 5.193 0 0 1 7.333 7.333l-4.5 4.514L6 12l4.26-4.24a1.427 1.427 0 0 0-2-2z"
      />
     </g>
     <defs>

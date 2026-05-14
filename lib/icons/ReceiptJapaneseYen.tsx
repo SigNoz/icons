@@ -8,13 +8,13 @@ const ICON_NAME = 'receipt-japanese-yen';
 const SvgReceiptJapaneseYen = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m8 6.667 2-2m-2 2-2-2m2 2v5M6 7.333h4M6 10h4M2.667 1.333v13.334L4 14l1.334.667L6.667 14 8 14.667 9.334 14l1.333.667L12 14l1.334.667V1.333L12 2l-1.333-.667L9.334 2 8 1.333 6.667 2l-1.333-.667L4 2l-1.333-.667Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m8 6.667 2-2m-2 2-2-2m2 2v5M6 7.333h4M6 10h4M2.667 1.333v13.334L4 14l1.334.667L6.667 14 8 14.667 9.334 14l1.333.667L12 14l1.334.667V1.333L12 2l-1.333-.667L9.334 2 8 1.333 6.667 2l-1.333-.667L4 2z"
     />
    </svg>
   );

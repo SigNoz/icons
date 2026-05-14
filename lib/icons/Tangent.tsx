@@ -8,14 +8,14 @@ const ICON_NAME = 'tangent';
 const SvgTangent = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#tangent_svg__a)">
      <path
-      d="m10.393 3.607-6.787 6.786M8 14.667S5.333 8.667 7 7c1.666-1.667 7.666 1 7.666 1m-2-5.333a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0ZM4 11.333a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m10.393 3.607-6.787 6.786M8 14.667S5.333 8.667 7 7s7.666 1 7.666 1m-2-5.333a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0M4 11.333a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0"
      />
     </g>
     <defs>

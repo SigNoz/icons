@@ -8,13 +8,13 @@ const ICON_NAME = 'list-video';
 const SvgListVideo = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 8H2m8.667-4H2m6 8H2m8.667-4L14 10l-3.333 2V8Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 8H2m8.667-4H2m6 8H2m8.667-4L14 10l-3.333 2z"
     />
    </svg>
   );

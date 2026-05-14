@@ -8,19 +8,19 @@ const ICON_NAME = 'eye-closed';
 const SvgEyeClosed = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.452 5.333s1.714 4 5.714 4 5.715-4 5.715-4"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M2.452 5.333s1.714 4 5.714 4 5.715-4 5.715-4"
     />
     <path
-     d="M2.5 6.667.833 8M13.5 6.667 15.167 8M6.167 9.333l-.667 2M10.833 9.333l.667 2"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
+     strokeWidth={1.333}
+     d="M2.5 6.667.833 8M13.5 6.667 15.167 8M6.167 9.333l-.667 2M10.833 9.333l.667 2"
     />
    </svg>
   );

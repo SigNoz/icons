@@ -8,15 +8,15 @@ const ICON_NAME = 'paw-print';
 const SvgPawPrint = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#paw-print_svg__a)"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     clipPath="url(#paw-print_svg__a)"
     >
-     <path d="M7.334 4a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667ZM12 6.667A1.333 1.333 0 1 0 12 4a1.333 1.333 0 0 0 0 2.667ZM13.334 12a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667ZM6 6.667A3.333 3.333 0 0 1 9.334 10v2.333a2.333 2.333 0 0 1-4.56.697c-.285-.918-.885-1.519-1.8-1.803a2.333 2.333 0 0 1 .693-4.56H6Z" />
+     <path d="M7.334 4a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667M12 6.667A1.333 1.333 0 1 0 12 4a1.333 1.333 0 0 0 0 2.667M13.334 12a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667M6 6.667A3.333 3.333 0 0 1 9.334 10v2.333a2.333 2.333 0 0 1-4.56.697q-.428-1.377-1.8-1.803a2.333 2.333 0 0 1 .693-4.56z" />
     </g>
     <defs>
      <clipPath id="paw-print_svg__a">

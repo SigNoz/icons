@@ -8,17 +8,17 @@ const ICON_NAME = 'target';
 const SvgTarget = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#target_svg__a)"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     clipPath="url(#target_svg__a)"
     >
-     <path d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334Z" />
-     <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
-     <path d="M8 9.333a1.333 1.333 0 1 0 0-2.666 1.333 1.333 0 0 0 0 2.666Z" />
+     <path d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334" />
+     <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8" />
+     <path d="M8 9.333a1.333 1.333 0 1 0 0-2.666 1.333 1.333 0 0 0 0 2.666" />
     </g>
     <defs>
      <clipPath id="target_svg__a">

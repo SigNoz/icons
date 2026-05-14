@@ -8,13 +8,13 @@ const ICON_NAME = 'drafting-compass';
 const SvgDraftingCompass = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m8.66 4.493 1.287 2.294M12.757 8a6.666 6.666 0 0 1-9.514 0M14 14l-1.44-2.56M2 14l5.347-9.507m1.986-1.16a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m8.66 4.493 1.287 2.294M12.757 8a6.666 6.666 0 0 1-9.514 0M14 14l-1.44-2.56M2 14l5.347-9.507m1.986-1.16a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0"
     />
    </svg>
   );

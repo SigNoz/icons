@@ -8,8 +8,8 @@ const ICON_NAME = 'line-6';
 const SvgLine6 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={2} height={5} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path d="M.715 0v5" stroke="inherit" strokeWidth={1.333} />
+   <svg xmlns="http://www.w3.org/2000/svg" width={2} height={5} fill="none" {...props}>
+    <path stroke="inherit" strokeWidth={1.333} d="M.715 0v5" />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;

@@ -8,14 +8,14 @@ const ICON_NAME = 'align-vertical-justify-center';
 const SvgAlignVerticalJustifyCenter = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#align-vertical-justify-center_svg__a)">
      <path
-      d="M1.333 8h13.333m-10 2.667h6.667c.736 0 1.333.597 1.333 1.333v1.333c0 .737-.597 1.334-1.333 1.334H4.666a1.333 1.333 0 0 1-1.333-1.334V12c0-.736.597-1.333 1.333-1.333ZM6 1.333h4c.736 0 1.333.597 1.333 1.334V4c0 .736-.597 1.333-1.333 1.333H6A1.333 1.333 0 0 1 4.666 4V2.667c0-.737.597-1.334 1.334-1.334Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M1.333 8h13.333m-10 2.667h6.667c.736 0 1.333.597 1.333 1.333v1.333c0 .737-.597 1.334-1.333 1.334H4.666a1.333 1.333 0 0 1-1.333-1.334V12c0-.736.597-1.333 1.333-1.333M6 1.333h4c.736 0 1.333.597 1.333 1.334V4c0 .736-.597 1.333-1.333 1.333H6A1.333 1.333 0 0 1 4.666 4V2.667c0-.737.597-1.334 1.334-1.334"
      />
     </g>
     <defs>

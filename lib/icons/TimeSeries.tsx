@@ -8,19 +8,19 @@ const ICON_NAME = 'time-series';
 const SvgTimeSeries = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#time-series_svg__a)"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#time-series_svg__a)"
     >
-     <path d="M4.666 8a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0ZM4.2 9.2l2.6 2.6M9.666 13a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0ZM8 11.333V4.667M9.666 3a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0ZM11.8 6.8 9.2 4.2M14.666 8a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0Z" />
+     <path d="M4.666 8a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0M4.2 9.2l2.6 2.6M9.666 13a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0M8 11.333V4.667M9.666 3a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0M11.8 6.8 9.2 4.2M14.666 8a1.667 1.667 0 1 0-3.333 0 1.667 1.667 0 0 0 3.333 0" />
     </g>
     <defs>
      <clipPath id="time-series_svg__a">
-      <path fill="#fff" transform="rotate(-90 8 8)" d="M0 0h16v16H0z" />
+      <path fill="#fff" d="M0 16V0h16v16z" />
      </clipPath>
     </defs>
    </svg>

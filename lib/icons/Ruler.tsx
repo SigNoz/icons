@@ -8,14 +8,14 @@ const ICON_NAME = 'ruler';
 const SvgRuler = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#ruler_svg__a)">
      <path
-      d="M9.667 8.333 11 7m-3.333-.667L9 5m-3.333-.667L7 3m4.666 7.333L13 9m1.2 1.2a1.6 1.6 0 0 1 0 2.267L12.467 14.2a1.6 1.6 0 0 1-2.267 0L1.8 5.8a1.607 1.607 0 0 1 0-2.267L3.533 1.8a1.607 1.607 0 0 1 2.267 0l8.4 8.4Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M9.667 8.333 11 7m-3.333-.667L9 5m-3.333-.667L7 3m4.666 7.333L13 9m1.2 1.2a1.6 1.6 0 0 1 0 2.267L12.467 14.2a1.6 1.6 0 0 1-2.267 0L1.8 5.8a1.607 1.607 0 0 1 0-2.267L3.533 1.8a1.607 1.607 0 0 1 2.267 0z"
      />
     </g>
     <defs>

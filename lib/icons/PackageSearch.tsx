@@ -8,13 +8,13 @@ const ICON_NAME = 'package-search';
 const SvgPackageSearch = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M14 6.667V5.333a1.333 1.333 0 0 0-.667-1.153L8.667 1.513a1.333 1.333 0 0 0-1.334 0L2.667 4.18A1.333 1.333 0 0 0 2 5.333v5.334a1.334 1.334 0 0 0 .667 1.153l4.666 2.667a1.334 1.334 0 0 0 1.334 0l1.333-.76M5 2.847l6 3.433M2.193 4.667 8 8m0 0 5.807-3.333M8 8v6.667m5.513-3.154 1.154 1.154M14 10.333a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M14 6.667V5.333a1.33 1.33 0 0 0-.667-1.153L8.667 1.513a1.33 1.33 0 0 0-1.334 0L2.667 4.18A1.33 1.33 0 0 0 2 5.333v5.334a1.33 1.33 0 0 0 .667 1.153l4.666 2.667a1.33 1.33 0 0 0 1.334 0l1.333-.76M5 2.847l6 3.433M2.193 4.667 8 8m0 0 5.807-3.333M8 8v6.667m5.513-3.154 1.154 1.154M14 10.333a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0"
     />
    </svg>
   );

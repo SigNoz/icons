@@ -8,13 +8,13 @@ const ICON_NAME = 'map-pin-minus';
 const SvgMapPinMinus = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M12.652 9.333c.415-.866.682-1.771.682-2.666a5.333 5.333 0 1 0-10.667 0c0 3.328 3.693 6.795 4.933 7.866a.667.667 0 0 0 .801 0c.186-.161.37-.325.55-.492M10.666 12h4M10 6.667a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M12.652 9.333c.415-.866.682-1.771.682-2.666a5.333 5.333 0 1 0-10.667 0c0 3.328 3.693 6.795 4.933 7.866a.67.67 0 0 0 .801 0q.28-.242.55-.492M10.666 12h4M10 6.667a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
     />
    </svg>
   );

@@ -8,13 +8,13 @@ const ICON_NAME = 'shrub';
 const SvgShrub = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 14.667V10L6.667 8.667m2.666.666L8 10.667m3.333-5.334v.534A4 4 0 0 1 9.2 13.333H6.667a4.333 4.333 0 0 1-2-8 3.333 3.333 0 0 1 6.666 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 14.667V10L6.667 8.667m2.666.666L8 10.667m3.333-5.334v.534A4 4 0 0 1 9.2 13.333H6.667a4.333 4.333 0 0 1-2-8 3.333 3.333 0 0 1 6.666 0"
     />
    </svg>
   );

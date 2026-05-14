@@ -8,13 +8,13 @@ const ICON_NAME = 'eraser';
 const SvgEraser = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8.666 14 14.2 8.467c.667-.6.667-1.6 0-2.267l-3.733-3.733c-.6-.667-1.6-.667-2.267 0l-6.4 6.4c-.667.6-.667 1.6 0 2.266L4.666 14h10M3.333 7.333l6 6"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8.666 14 14.2 8.467c.667-.6.667-1.6 0-2.267l-3.733-3.733c-.6-.667-1.6-.667-2.267 0l-6.4 6.4c-.667.6-.667 1.6 0 2.266L4.666 14h10M3.333 7.333l6 6"
     />
    </svg>
   );

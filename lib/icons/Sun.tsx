@@ -8,14 +8,14 @@ const ICON_NAME = 'sun';
 const SvgSun = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#sun_svg__a)">
      <path
-      d="M8 1.333v1.334m0 10.666v1.334M3.286 3.287l.94.94m7.547 7.546.94.94M1.333 8h1.333m10.667 0h1.333m-10.44 3.773-.94.94m9.427-9.426-.94.94M10.666 8a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8 1.333v1.334m0 10.666v1.334M3.286 3.287l.94.94m7.547 7.546.94.94M1.333 8h1.333m10.667 0h1.333m-10.44 3.773-.94.94m9.427-9.426-.94.94M10.666 8a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0"
      />
     </g>
     <defs>

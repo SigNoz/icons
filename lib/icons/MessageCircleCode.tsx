@@ -8,13 +8,13 @@ const ICON_NAME = 'message-circle-code';
 const SvgMessageCircleCode = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M6.666 6.333 5.333 8l1.333 1.667m2.667-3.334L10.666 8 9.333 9.667m-4.067 3.666a6 6 0 1 0-2.6-2.6l-1.333 3.934 3.933-1.334Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M6.666 6.333 5.333 8l1.333 1.667m2.667-3.334L10.666 8 9.333 9.667m-4.067 3.666a6 6 0 1 0-2.6-2.6l-1.333 3.934z"
     />
    </svg>
   );

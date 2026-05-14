@@ -8,8 +8,8 @@ const ICON_NAME = 'rectangle-1212';
 const SvgRectangle1212 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={2} height={2} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <rect width={2} height={2} rx={0.667} fill="#fff" />
+   <svg xmlns="http://www.w3.org/2000/svg" width={2} height={2} fill="none" {...props}>
+    <rect width={2} height={2} fill="#fff" rx={0.667} />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;

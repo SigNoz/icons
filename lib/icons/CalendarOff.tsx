@@ -8,14 +8,14 @@ const ICON_NAME = 'calendar-off';
 const SvgCalendarOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#calendar-off_svg__a)">
      <path
-      d="M2.8 2.8A1.333 1.333 0 0 0 2 4v9.333a1.333 1.333 0 0 0 1.333 1.334h9.333a1.333 1.333 0 0 0 1.214-.787m.12-3.547V4a1.333 1.333 0 0 0-1.334-1.333H6.333m4.333-1.334V4M2 6.667h4.666m7.334 0h-3.667m-9-5.334 13.333 13.334"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M2.8 2.8A1.33 1.33 0 0 0 2 4v9.333a1.333 1.333 0 0 0 1.333 1.334h9.333a1.33 1.33 0 0 0 1.214-.787m.12-3.547V4a1.333 1.333 0 0 0-1.334-1.333H6.333m4.333-1.334V4M2 6.667h4.666m7.334 0h-3.667m-9-5.334 13.333 13.334"
      />
     </g>
     <defs>

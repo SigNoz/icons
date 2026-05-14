@@ -8,14 +8,14 @@ const ICON_NAME = 'layers-2';
 const SvgLayers2 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#layers-2_svg__a)">
      <path
-      d="m10.68 8 3.654 2.087a.666.666 0 0 1 0 1.16l-5.667 3.246a1.333 1.333 0 0 1-1.333 0l-5.667-3.246a.667.667 0 0 1 0-1.16L5.32 8m3.347 1.16a1.333 1.333 0 0 1-1.333 0L1.667 5.913a.667.667 0 0 1 0-1.16l5.667-3.246a1.333 1.333 0 0 1 1.333 0l5.667 3.246a.666.666 0 0 1 0 1.16L8.667 9.16Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m10.68 8 3.654 2.087a.666.666 0 0 1 0 1.16l-5.667 3.246a1.33 1.33 0 0 1-1.333 0l-5.667-3.246a.667.667 0 0 1 0-1.16L5.32 8m3.347 1.16a1.33 1.33 0 0 1-1.333 0L1.667 5.913a.667.667 0 0 1 0-1.16l5.667-3.246a1.33 1.33 0 0 1 1.333 0l5.667 3.246a.666.666 0 0 1 0 1.16z"
      />
     </g>
     <defs>

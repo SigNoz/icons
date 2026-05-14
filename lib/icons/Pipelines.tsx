@@ -8,29 +8,29 @@ const ICON_NAME = 'pipelines';
 const SvgPipelines = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <rect
+     width={10.667}
+     height={2.667}
      x={2.667}
      y={2.667}
-     width={10.667}
-     height={2.667}
-     rx={0.067}
      stroke="inherit"
      strokeWidth={1.333}
+     rx={0.067}
     />
     <rect
-     x={2.667}
-     y={10.667}
      width={10.667}
      height={2.667}
-     rx={0.067}
+     x={2.667}
+     y={10.667}
      stroke="inherit"
      strokeWidth={1.333}
+     rx={0.067}
     />
     <path
-     d="M4 5.667v4.666M10 6v4.667M10.667 2.667V5M10.667 11.333v2.334M12 5.667v4.666"
      stroke="inherit"
      strokeWidth={1.333}
+     d="M4 5.667v4.666M10 6v4.667M10.667 2.667V5M10.667 11.333v2.334M12 5.667v4.666"
     />
    </svg>
   );

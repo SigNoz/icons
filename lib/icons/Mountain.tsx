@@ -8,13 +8,13 @@ const ICON_NAME = 'mountain';
 const SvgMountain = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M5.333 2 8 7.333 11.333 4l3.333 10H1.333l4-12Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M5.333 2 8 7.333 11.333 4l3.333 10H1.333z"
     />
    </svg>
   );

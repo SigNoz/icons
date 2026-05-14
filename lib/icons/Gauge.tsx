@@ -8,13 +8,13 @@ const ICON_NAME = 'gauge';
 const SvgGauge = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m8 9.333 2.666-2.666m-8.44 6a6.667 6.667 0 1 1 11.547 0"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m8 9.333 2.666-2.666m-8.44 6a6.667 6.667 0 1 1 11.547 0"
     />
    </svg>
   );

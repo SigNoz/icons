@@ -8,16 +8,16 @@ const ICON_NAME = 'donut';
 const SvgDonut = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#donut_svg__a)"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     clipPath="url(#donut_svg__a)"
     >
-     <path d="M13.666 6.667a1.666 1.666 0 0 1-1.6-2H12a1.967 1.967 0 0 1-1.734-2.934 6.667 6.667 0 1 0 4.2 4.734c-.2.133-.533.2-.8.2Z" />
-     <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+     <path d="M13.666 6.667a1.666 1.666 0 0 1-1.6-2H12a1.967 1.967 0 0 1-1.734-2.934 6.667 6.667 0 1 0 4.2 4.734c-.2.133-.533.2-.8.2" />
+     <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
     </g>
     <defs>
      <clipPath id="donut_svg__a">

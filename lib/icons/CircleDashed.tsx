@@ -8,14 +8,14 @@ const ICON_NAME = 'circle-dashed';
 const SvgCircleDashed = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#circle-dashed_svg__a)">
      <path
-      d="M6.733 1.455a6.667 6.667 0 0 1 2.533 0m0 13.09a6.667 6.667 0 0 1-2.533 0M11.74 2.481a6.665 6.665 0 0 1 1.793 1.8M1.454 9.267a6.667 6.667 0 0 1 0-2.534M13.52 11.74a6.668 6.668 0 0 1-1.8 1.794m2.826-6.8a6.667 6.667 0 0 1 0 2.534M2.48 4.26a6.667 6.667 0 0 1 1.8-1.794M4.26 13.52a6.667 6.667 0 0 1-1.793-1.8"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M6.733 1.455a6.7 6.7 0 0 1 2.533 0m0 13.09a6.7 6.7 0 0 1-2.533 0M11.74 2.481a6.7 6.7 0 0 1 1.793 1.8M1.454 9.267a6.7 6.7 0 0 1 0-2.534M13.52 11.74a6.7 6.7 0 0 1-1.8 1.794m2.826-6.8a6.7 6.7 0 0 1 0 2.534M2.48 4.26a6.7 6.7 0 0 1 1.8-1.794M4.26 13.52a6.7 6.7 0 0 1-1.793-1.8"
      />
     </g>
     <defs>

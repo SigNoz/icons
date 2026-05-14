@@ -8,14 +8,14 @@ const ICON_NAME = 'unlink';
 const SvgUnlink = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#unlink_svg__a)">
      <path
-      d="m12.56 8.167 1.146-1.14h-.013a3.336 3.336 0 0 0-.08-4.714 3.337 3.337 0 0 0-4.633 0l-1.147 1.14m-4.387 4.38-1.14 1.14a3.336 3.336 0 0 0 .08 4.714 3.338 3.338 0 0 0 4.634 0l1.14-1.14M5.333 1.333v2m-4 2h2m7.333 7.334v2m2-4h2"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m12.56 8.167 1.146-1.14h-.013a3.336 3.336 0 0 0-.08-4.714 3.337 3.337 0 0 0-4.633 0l-1.147 1.14m-4.387 4.38-1.14 1.14a3.336 3.336 0 0 0 .08 4.714 3.34 3.34 0 0 0 4.634 0l1.14-1.14M5.333 1.333v2m-4 2h2m7.333 7.334v2m2-4h2"
      />
     </g>
     <defs>

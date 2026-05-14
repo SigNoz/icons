@@ -8,13 +8,13 @@ const ICON_NAME = 'arrow-right-left';
 const SvgArrowRightLeft = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m10.667 2 2.667 2.667m0 0-2.667 2.666m2.667-2.666H2.667M5.334 14l-2.667-2.667m0 0 2.667-2.666m-2.667 2.666h10.667"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m10.667 2 2.667 2.667m0 0-2.667 2.666m2.667-2.666H2.667M5.334 14l-2.667-2.667m0 0 2.667-2.666m-2.667 2.666h10.667"
     />
    </svg>
   );

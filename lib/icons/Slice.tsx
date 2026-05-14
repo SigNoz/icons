@@ -8,13 +8,13 @@ const ICON_NAME = 'slice';
 const SvgSlice = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m5.333 9.333-4 4h6v-2m-2-2 6.913-6.913a1.414 1.414 0 0 1 2 2l-6.913 6.913m-2-2 2 2"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m5.333 9.333-4 4h6v-2m-2-2 6.913-6.913a1.414 1.414 0 0 1 2 2l-6.913 6.913m-2-2 2 2"
     />
    </svg>
   );

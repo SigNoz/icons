@@ -8,13 +8,13 @@ const ICON_NAME = 'letter-text';
 const SvgLetterText = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M10 8h4m-4-4h4M2 8.667l2.369-5.15a.333.333 0 0 1 .596 0l2.368 5.15M2 12h12M2.667 7.333h4"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M10 8h4m-4-4h4M2 8.667l2.369-5.15a.333.333 0 0 1 .596 0l2.368 5.15M2 12h12M2.667 7.333h4"
     />
    </svg>
   );

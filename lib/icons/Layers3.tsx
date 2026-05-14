@@ -8,14 +8,14 @@ const ICON_NAME = 'layers-3';
 const SvgLayers3 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#layers-3_svg__a)">
      <path
-      d="M4.054 6.333 1.72 7.4a.667.667 0 0 0 0 1.207l5.734 2.606a1.333 1.333 0 0 0 1.1 0l5.72-2.6a.667.667 0 0 0 0-1.22l-2.334-1.06M4.054 9.667 1.72 10.733a.667.667 0 0 0 0 1.207l5.734 2.607a1.334 1.334 0 0 0 1.1 0l5.72-2.6a.667.667 0 0 0 0-1.22l-2.334-1.06M8.554 1.453a1.333 1.333 0 0 0-1.107 0l-5.713 2.6a.667.667 0 0 0 0 1.22l5.72 2.607a1.333 1.333 0 0 0 1.106 0l5.72-2.6a.667.667 0 0 0 0-1.22L8.554 1.453Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M4.054 6.333 1.72 7.4a.667.667 0 0 0 0 1.207l5.734 2.606a1.33 1.33 0 0 0 1.1 0l5.72-2.6a.667.667 0 0 0 0-1.22l-2.334-1.06M4.054 9.667 1.72 10.733a.667.667 0 0 0 0 1.207l5.734 2.607a1.33 1.33 0 0 0 1.1 0l5.72-2.6a.667.667 0 0 0 0-1.22l-2.334-1.06M8.554 1.453a1.33 1.33 0 0 0-1.107 0l-5.713 2.6a.667.667 0 0 0 0 1.22l5.72 2.607a1.33 1.33 0 0 0 1.106 0l5.72-2.6a.667.667 0 0 0 0-1.22z"
      />
     </g>
     <defs>

@@ -8,20 +8,20 @@ const ICON_NAME = 'eye';
 const SvgEye = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M1.375 8.232a.667.667 0 0 1 0-.464 7.167 7.167 0 0 1 13.25 0 .666.666 0 0 1 0 .464 7.166 7.166 0 0 1-13.25 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M1.375 8.232a.67.67 0 0 1 0-.464 7.167 7.167 0 0 1 13.25 0 .67.67 0 0 1 0 .464 7.166 7.166 0 0 1-13.25 0"
     />
     <path
-     d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
     />
    </svg>
   );

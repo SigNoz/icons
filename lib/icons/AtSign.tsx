@@ -8,14 +8,14 @@ const ICON_NAME = 'at-sign';
 const SvgAtSign = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#at-sign_svg__a)">
      <path
-      d="M10.666 5.333v3.334a2 2 0 0 0 4 0V8A6.667 6.667 0 1 0 12 13.333M10.666 8a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M10.666 5.333v3.334a2 2 0 0 0 4 0V8A6.667 6.667 0 1 0 12 13.333M10.666 8a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0"
      />
     </g>
     <defs>

@@ -8,14 +8,14 @@ const ICON_NAME = 'unfold-horizontal';
 const SvgUnfoldHorizontal = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#unfold-horizontal_svg__a)">
      <path
-      d="M10.666 8h4m0 0-2 2m2-2-2-2M5.333 8h-4m0 0 2-2m-2 2 2 2M8 1.333v1.334m0 2.666v1.334m0 2.666v1.334m0 2.666v1.334"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M10.666 8h4m0 0-2 2m2-2-2-2M5.333 8h-4m0 0 2-2m-2 2 2 2M8 1.333v1.334m0 2.666v1.334m0 2.666v1.334m0 2.666v1.334"
      />
     </g>
     <defs>

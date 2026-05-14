@@ -8,14 +8,14 @@ const ICON_NAME = 'video-off';
 const SvgVideoOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#video-off_svg__a)">
      <path
-      d="M7.106 4h2.227a1.333 1.333 0 0 1 1.333 1.333V7l3.499-2.041a.333.333 0 0 1 .501.288v5.464m-4-.044A1.333 1.333 0 0 1 9.333 12H2.666a1.334 1.334 0 0 1-1.333-1.333V5.333A1.333 1.333 0 0 1 2.666 4H4M1.333 1.333l13.333 13.334"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M7.106 4h2.227a1.333 1.333 0 0 1 1.333 1.333V7l3.499-2.041a.333.333 0 0 1 .501.288v5.464m-4-.044A1.333 1.333 0 0 1 9.333 12H2.666a1.334 1.334 0 0 1-1.333-1.333V5.333A1.333 1.333 0 0 1 2.666 4H4M1.333 1.333l13.333 13.334"
      />
     </g>
     <defs>

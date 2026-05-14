@@ -8,14 +8,14 @@ const ICON_NAME = 'circle-check-big';
 const SvgCircleCheckBig = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#circle-check-big_svg__a)">
      <path
-      d="M14.666 7.387V8a6.666 6.666 0 1 1-3.953-6.093M6 7.333l2 2 6.666-6.666"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M14.666 7.387V8a6.666 6.666 0 1 1-3.953-6.093M6 7.333l2 2 6.666-6.666"
      />
     </g>
     <defs>

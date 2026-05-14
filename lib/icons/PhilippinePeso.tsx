@@ -8,13 +8,13 @@ const ICON_NAME = 'philippine-peso';
 const SvgPhilippinePeso = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M13.334 7.333H2.667m10.667-2.666H2.667m2 9.333V2.667A.667.667 0 0 1 5.334 2H8a4 4 0 0 1 0 8H4.667"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M13.334 7.333H2.667m10.667-2.666H2.667m2 9.333V2.667A.667.667 0 0 1 5.334 2H8a4 4 0 0 1 0 8H4.667"
     />
    </svg>
   );

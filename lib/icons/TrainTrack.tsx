@@ -8,14 +8,14 @@ const ICON_NAME = 'train-track';
 const SvgTrainTrack = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#train-track_svg__a)">
      <path
-      d="m1.333 11.333 10-10m-10 8 5.333 5.334M3.333 7.333l5.333 5.334M5.333 5.333l5.333 5.334M7.333 3.333l5.333 5.334M9.333 1.333l5.333 5.334m-10 8 10-10"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m1.333 11.333 10-10m-10 8 5.333 5.334M3.333 7.333l5.333 5.334M5.333 5.333l5.333 5.334M7.333 3.333l5.333 5.334M9.333 1.333l5.333 5.334m-10 8 10-10"
      />
     </g>
     <defs>

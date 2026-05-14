@@ -8,13 +8,13 @@ const ICON_NAME = 'image-up';
 const SvgImageUp = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M6.867 14H3.333A1.334 1.334 0 0 1 2 12.667V3.333A1.333 1.333 0 0 1 3.333 2h9.334A1.333 1.333 0 0 1 14 3.333V10l-2.067-2.067a1.333 1.333 0 0 0-1.876.01L4 14m5.333-1 2-2m0 0 2 2m-2-2v3.667M7.333 6a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M6.867 14H3.333A1.334 1.334 0 0 1 2 12.667V3.333A1.333 1.333 0 0 1 3.333 2h9.334A1.333 1.333 0 0 1 14 3.333V10l-2.067-2.067a1.333 1.333 0 0 0-1.876.01L4 14m5.333-1 2-2m0 0 2 2m-2-2v3.667M7.333 6a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0"
     />
    </svg>
   );

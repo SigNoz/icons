@@ -8,11 +8,11 @@ const ICON_NAME = 'solid-alert-circle';
 const SvgSolidAlertCircle = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#solid-alert-circle_svg__a)">
      <path
-      d="M8 .666a7.334 7.334 0 1 1-.002 14.668A7.334 7.334 0 0 1 8 .666ZM8 10a.667.667 0 0 0 0 1.334h.007a.667.667 0 0 0 0-1.334H8Zm0-5.334a.668.668 0 0 0-.667.667V8a.667.667 0 0 0 1.334 0V5.333A.668.668 0 0 0 8 4.666Z"
       fill="#fff"
+      d="M8 .666a7.334 7.334 0 1 1-.002 14.668A7.334 7.334 0 0 1 8 .666M8 10a.667.667 0 0 0 0 1.334h.007a.667.667 0 0 0 0-1.334zm0-5.334a.67.67 0 0 0-.667.667V8a.667.667 0 0 0 1.334 0V5.333A.67.67 0 0 0 8 4.666"
      />
     </g>
     <defs>
