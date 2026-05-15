@@ -8,13 +8,13 @@ const ICON_NAME = 'settings-2';
 const SvgSettings2 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M13.334 4.667h-6m2 6.666h-6m6 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0ZM6.667 4.667a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M13.334 4.667h-6m2 6.666h-6m6 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0M6.667 4.667a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
     />
    </svg>
   );

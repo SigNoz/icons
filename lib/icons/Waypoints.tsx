@@ -8,14 +8,14 @@ const ICON_NAME = 'waypoints';
 const SvgWaypoints = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#waypoints_svg__a)">
      <path
-      d="M6.8 4.2 4.2 6.8M4.666 8a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0Zm0 0h6.667m0 0a1.667 1.667 0 1 0 3.333 0 1.667 1.667 0 0 0-3.333 0ZM9.2 11.8l2.6-2.6M9.666 3a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0Zm0 10a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M6.8 4.2 4.2 6.8M4.666 8a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0m0 0h6.667m0 0a1.667 1.667 0 1 0 3.333 0 1.667 1.667 0 0 0-3.333 0M9.2 11.8l2.6-2.6M9.666 3a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0m0 10a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0"
      />
     </g>
     <defs>

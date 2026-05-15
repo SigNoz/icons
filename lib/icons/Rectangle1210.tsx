@@ -8,15 +8,15 @@ const ICON_NAME = 'rectangle-1210';
 const SvgRectangle1210 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={10} height={8} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={10} height={8} fill="none" {...props}>
     <rect
-     x={0.667}
-     y={0.667}
      width={8}
      height={6.667}
-     rx={1.333}
+     x={0.667}
+     y={0.667}
      stroke="inherit"
      strokeWidth={1.333}
+     rx={1.333}
     />
    </svg>
   );

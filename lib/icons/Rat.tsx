@@ -8,14 +8,14 @@ const ICON_NAME = 'rat';
 const SvgRat = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#rat_svg__a)">
      <path
-      d="M11.333 3.333c0-1.133-.867-2-2-2s-2 .867-2 2c0 .534.2 1 .533 1.334h-.533a4.638 4.638 0 0 0-4.667 4.666C2.666 10.8 3.866 12 5.333 12M11.2 2.6c.2-.2.4-.333.666-.467 1-.4 2.2.067 2.6 1.067.4 1-.066 2.2-1.066 2.6l1.066 1.867c.134.2.134.466.134.666-.134.534-.6.8-1.134.734 0 0-1.066-.2-1.8-.4h-.333c-1.133 0-2 .866-2 2M8.8 12a2 2 0 0 0-1.467-3.333m1.333 6h-6a1.333 1.333 0 0 1 0-2.667h8m0-6h.007"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M11.333 3.333c0-1.133-.867-2-2-2s-2 .867-2 2c0 .534.2 1 .533 1.334h-.533a4.64 4.64 0 0 0-4.667 4.666C2.666 10.8 3.866 12 5.333 12M11.2 2.6c.2-.2.4-.333.666-.467 1-.4 2.2.067 2.6 1.067S14.4 5.4 13.4 5.8l1.066 1.867c.134.2.134.466.134.666-.134.534-.6.8-1.134.734 0 0-1.066-.2-1.8-.4h-.333c-1.133 0-2 .866-2 2M8.8 12a2 2 0 0 0-1.467-3.333m1.333 6h-6a1.333 1.333 0 0 1 0-2.667h8m0-6h.007"
      />
     </g>
     <defs>

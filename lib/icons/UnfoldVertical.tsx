@@ -8,14 +8,14 @@ const ICON_NAME = 'unfold-vertical';
 const SvgUnfoldVertical = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#unfold-vertical_svg__a)">
      <path
-      d="M8 14.667v-4m0 4 2-2m-2 2-2-2m2-7.334v-4m0 0 2 2m-2-2-2 2M2.666 8H1.333m5.333 0H5.333m5.333 0H9.333m5.333 0h-1.333"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8 14.667v-4m0 4 2-2m-2 2-2-2m2-7.334v-4m0 0 2 2m-2-2-2 2M2.666 8H1.333m5.333 0H5.333m5.333 0H9.333m5.333 0h-1.333"
      />
     </g>
     <defs>

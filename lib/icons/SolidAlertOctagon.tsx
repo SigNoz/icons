@@ -8,19 +8,19 @@ const ICON_NAME = 'solid-alert-octagon';
 const SvgSolidAlertOctagon = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#solid-alert-octagon_svg__a)"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#solid-alert-octagon_svg__a)"
     >
      <path
-      d="M5.24 1.333h5.52l3.906 3.907v5.52l-3.906 3.907H5.24L1.333 10.76V5.24L5.24 1.333Z"
       fill="#fff"
       stroke="#fff"
+      d="M5.24 1.333h5.52l3.906 3.907v5.52l-3.906 3.907H5.24L1.333 10.76V5.24z"
      />
-     <path d="M8 5.333V8M8 10.667h.007" stroke="#121317" />
+     <path stroke="#121317" d="M8 5.333V8M8 10.667h.007" />
     </g>
     <defs>
      <clipPath id="solid-alert-octagon_svg__a">

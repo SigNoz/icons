@@ -8,13 +8,13 @@ const ICON_NAME = 'git-graph';
 const SvgGitGraph = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M3.333 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0v4m0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM8 2v12m4.666-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0a5.999 5.999 0 0 1-2 4.467"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M3.333 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0v4m0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4M8 2v12m4.666-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0a6 6 0 0 1-2 4.467"
     />
    </svg>
   );

@@ -8,13 +8,13 @@ const ICON_NAME = 'cloud';
 const SvgCloud = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M11.667 12.667H6a4.666 4.666 0 1 1 4.474-6h1.193a3 3 0 0 1 0 6Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M11.667 12.667H6a4.666 4.666 0 1 1 4.474-6h1.193a3 3 0 0 1 0 6"
     />
    </svg>
   );

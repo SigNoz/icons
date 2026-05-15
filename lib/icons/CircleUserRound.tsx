@@ -8,14 +8,14 @@ const ICON_NAME = 'circle-user-round';
 const SvgCircleUserRound = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#circle-user-round_svg__a)">
      <path
-      d="M12 13.333a4 4 0 0 0-4-4m0 0a4 4 0 0 0-4 4m4-4A2.667 2.667 0 1 0 8 4a2.667 2.667 0 0 0 0 5.333ZM14.666 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M12 13.333a4 4 0 0 0-4-4m0 0a4 4 0 0 0-4 4m4-4A2.667 2.667 0 1 0 8 4a2.667 2.667 0 0 0 0 5.333M14.666 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.333 0"
      />
     </g>
     <defs>

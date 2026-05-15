@@ -8,14 +8,14 @@ const ICON_NAME = 'test-tube-diagonal';
 const SvgTestTubeDiagonal = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#test-tube-diagonal_svg__a)">
      <path
-      d="M14 4.667 4.547 14.12a1.887 1.887 0 0 1-3.212-1.34c0-.5.198-.98.552-1.333L11.334 2m-.667-.667 4 4M8 10.667H2.667"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M14 4.667 4.547 14.12a1.887 1.887 0 0 1-3.212-1.34c0-.5.198-.98.552-1.333L11.334 2m-.667-.667 4 4M8 10.667H2.667"
      />
     </g>
     <defs>

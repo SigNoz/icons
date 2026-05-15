@@ -8,13 +8,13 @@ const ICON_NAME = 'remove-formatting';
 const SvgRemoveFormatting = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.667 4.667v-2h10.667v2m-10 8.666h4M8.667 2.667 5.334 13.333M10 10l3.334 3.333m0-3.333L10 13.333"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.667 4.667v-2h10.667v2m-10 8.666h4M8.667 2.667 5.334 13.333M10 10l3.334 3.333m0-3.333L10 13.333"
     />
    </svg>
   );

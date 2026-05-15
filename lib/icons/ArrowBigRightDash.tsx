@@ -8,13 +8,13 @@ const ICON_NAME = 'arrow-big-right-dash';
 const SvgArrowBigRightDash = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M3.333 6v4M6 6h2V3.333L12.666 8 8 12.667V10H6V6Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M3.333 6v4M6 6h2V3.333L12.666 8 8 12.667V10H6z"
     />
    </svg>
   );

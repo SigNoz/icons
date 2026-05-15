@@ -8,20 +8,20 @@ const ICON_NAME = 'map-pin';
 const SvgMapPin = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M13.334 6.667c0 3.328-3.693 6.795-4.933 7.866a.667.667 0 0 1-.801 0c-1.24-1.071-4.933-4.538-4.933-7.866a5.333 5.333 0 0 1 10.667 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M13.334 6.667c0 3.328-3.693 6.795-4.933 7.866a.67.67 0 0 1-.801 0c-1.24-1.071-4.933-4.538-4.933-7.866a5.333 5.333 0 0 1 10.667 0"
     />
     <path
-     d="M8 8.667a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 8.667a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
     />
    </svg>
   );

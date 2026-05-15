@@ -8,13 +8,13 @@ const ICON_NAME = 'chevrons-up';
 const SvgChevronsUp = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M11.334 7.333 8 4 4.667 7.333M11.334 12 8 8.667 4.667 12"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M11.334 7.333 8 4 4.667 7.333M11.334 12 8 8.667 4.667 12"
     />
    </svg>
   );

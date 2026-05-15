@@ -8,13 +8,13 @@ const ICON_NAME = 'git-pull-request-closed';
 const SvgGitPullRequestClosed = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0v8M14 2l-4 4m4 0-4-4m2 5.667V10m0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0v8M14 2l-4 4m4 0-4-4m2 5.667V10m0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4"
     />
    </svg>
   );

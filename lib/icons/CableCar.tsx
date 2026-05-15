@@ -8,14 +8,14 @@ const ICON_NAME = 'cable-car';
 const SvgCableCar = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#cable-car_svg__a)">
      <path
-      d="M6.666 2h.007m2.66-.667h.007M1.333 6l13.333-3.333M8 8V4.333M6 8v3.333M10 8v3.333m-7.334 0h10.667M4.666 8h6.667a2 2 0 0 1 2 2v2.667a2 2 0 0 1-2 2H4.666a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M6.666 2h.007m2.66-.667h.007M1.333 6l13.333-3.333M8 8V4.333M6 8v3.333M10 8v3.333m-7.334 0h10.667M4.666 8h6.667a2 2 0 0 1 2 2v2.667a2 2 0 0 1-2 2H4.666a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2"
      />
     </g>
     <defs>

@@ -8,14 +8,14 @@ const ICON_NAME = 'alarm-clock-off';
 const SvgAlarmClockOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#alarm-clock-off_svg__a)">
      <path
-      d="M4.58 4.58a5.333 5.333 0 1 0 7.506 7.507m1.18-2.587a5.332 5.332 0 0 0-6.1-6.1m7.5.6-2-2M4.173 12.447 2.666 14M1.333 1.333l13.333 13.334m-12-12L1.333 4"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M4.58 4.58a5.333 5.333 0 1 0 7.506 7.507m1.18-2.587a5.332 5.332 0 0 0-6.1-6.1m7.5.6-2-2M4.173 12.447 2.666 14M1.333 1.333l13.333 13.334m-12-12L1.333 4"
      />
     </g>
     <defs>

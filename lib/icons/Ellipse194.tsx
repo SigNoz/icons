@@ -8,8 +8,8 @@ const ICON_NAME = 'ellipse-194';
 const SvgEllipse194 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={2} height={1} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <ellipse cx={1} cy={0.417} rx={1} ry={0.417} fill="#fff" />
+   <svg xmlns="http://www.w3.org/2000/svg" width={2} height={1} fill="none" {...props}>
+    <ellipse cx={1} cy={0.417} fill="#fff" rx={1} ry={0.417} />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;

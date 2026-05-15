@@ -8,14 +8,14 @@ const ICON_NAME = 'printer-check';
 const SvgPrinterCheck = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#printer-check_svg__a)">
      <path
-      d="M9 14.667H4.666A.667.667 0 0 1 4 14v-4a.667.667 0 0 1 .666-.667h6.667A.667.667 0 0 1 12 10v.333m-1.334 2.334L12 14l2.666-2.667M4 12H2.666a1.334 1.334 0 0 1-1.333-1.333V7.333A1.333 1.333 0 0 1 2.666 6h10.667a1.333 1.333 0 0 1 1.333 1.333v1.334M4 6V2a.667.667 0 0 1 .666-.667h6.667A.667.667 0 0 1 12 2v4"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M9 14.667H4.666A.667.667 0 0 1 4 14v-4a.667.667 0 0 1 .666-.667h6.667A.667.667 0 0 1 12 10v.333m-1.334 2.334L12 14l2.666-2.667M4 12H2.666a1.334 1.334 0 0 1-1.333-1.333V7.333A1.333 1.333 0 0 1 2.666 6h10.667a1.333 1.333 0 0 1 1.333 1.333v1.334M4 6V2a.667.667 0 0 1 .666-.667h6.667A.667.667 0 0 1 12 2v4"
      />
     </g>
     <defs>

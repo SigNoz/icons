@@ -8,14 +8,14 @@ const ICON_NAME = 'umbrella';
 const SvgUmbrella = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#umbrella_svg__a)">
      <path
-      d="M8 8v5.333a1.333 1.333 0 1 0 2.666 0M8 1.333V2m6.666 6A6.706 6.706 0 0 0 1.333 8h13.333Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8 8v5.333a1.333 1.333 0 1 0 2.666 0M8 1.333V2m6.666 6A6.706 6.706 0 0 0 1.333 8z"
      />
     </g>
     <defs>

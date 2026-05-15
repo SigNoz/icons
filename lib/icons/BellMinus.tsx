@@ -8,13 +8,13 @@ const ICON_NAME = 'bell-minus';
 const SvgBellMinus = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M12.267 8C12.8 10.533 14 11.333 14 11.333H2s2-1.333 2-6c0-2.2 1.8-4 4-4 1.2 0 2.267.534 3 1.334M6.867 14a1.293 1.293 0 0 0 2.266 0M10 5.333h4"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M12.267 8C12.8 10.533 14 11.333 14 11.333H2s2-1.333 2-6c0-2.2 1.8-4 4-4 1.2 0 2.267.534 3 1.334M6.867 14a1.293 1.293 0 0 0 2.266 0M10 5.333h4"
     />
    </svg>
   );

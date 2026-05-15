@@ -8,25 +8,25 @@ const ICON_NAME = 'solid-cookie';
 const SvgSolidCookie = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#solid-cookie_svg__a)">
      <path
-      d="M8 1.333A6.667 6.667 0 1 0 14.666 8a2.666 2.666 0 0 1-3.333-3.333A2.667 2.667 0 0 1 8 1.333Z"
       fill="#fff"
-     />
-     <path
       d="M8 1.333A6.667 6.667 0 1 0 14.666 8a2.666 2.666 0 0 1-3.333-3.333A2.667 2.667 0 0 1 8 1.333"
-      stroke="#fff"
-      strokeWidth={1.333}
-      strokeLinecap="round"
-      strokeLinejoin="round"
      />
      <path
-      d="M5.667 5.667v.006M10.667 10.333v.007M8 8v.007M7.333 11.333v.007M4.667 9.333v.007"
-      stroke="#121317"
-      strokeWidth={1.333}
+      stroke="#fff"
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.333}
+      d="M8 1.333A6.667 6.667 0 1 0 14.666 8a2.666 2.666 0 0 1-3.333-3.333A2.667 2.667 0 0 1 8 1.333"
+     />
+     <path
+      stroke="#121317"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.333}
+      d="M5.667 5.667v.006M10.667 10.333v.007M8 8v.007M7.333 11.333v.007M4.667 9.333v.007"
      />
     </g>
     <defs>

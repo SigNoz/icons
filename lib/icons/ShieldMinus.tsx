@@ -8,13 +8,13 @@ const ICON_NAME = 'shield-minus';
 const SvgShieldMinus = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M6 8h4m3.334.667c0 3.333-2.334 5-5.107 5.966a.667.667 0 0 1-.447-.006C5 13.667 2.667 12 2.667 8.667V4a.667.667 0 0 1 .667-.667c1.333 0 3-.8 4.16-1.813a.78.78 0 0 1 1.013 0c1.167 1.02 2.827 1.813 4.16 1.813a.667.667 0 0 1 .667.667v4.667Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M6 8h4m3.334.667c0 3.333-2.334 5-5.107 5.966a.67.67 0 0 1-.447-.006C5 13.667 2.667 12 2.667 8.667V4a.667.667 0 0 1 .667-.667c1.333 0 3-.8 4.16-1.813a.78.78 0 0 1 1.013 0c1.167 1.02 2.827 1.813 4.16 1.813a.667.667 0 0 1 .667.667z"
     />
    </svg>
   );

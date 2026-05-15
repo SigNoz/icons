@@ -8,13 +8,13 @@ const ICON_NAME = 'git-branch';
 const SvgGitBranch = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M4 2v8m0 0a2 2 0 1 0 2 2m-2-2a2 2 0 0 1 2 2m6-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0a6 6 0 0 1-6 6"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M4 2v8m0 0a2 2 0 1 0 2 2m-2-2a2 2 0 0 1 2 2m6-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0a6 6 0 0 1-6 6"
     />
    </svg>
   );

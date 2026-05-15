@@ -8,14 +8,14 @@ const ICON_NAME = 'wifi-off';
 const SvgWifiOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#wifi-off_svg__a)">
      <path
-      d="M8 13.333h.006m-2.34-2.38a3.333 3.333 0 0 1 4.667 0m-7-2.38A6.667 6.667 0 0 1 6.78 6.779m5.886 1.794a6.664 6.664 0 0 0-1.338-1.016M1.333 5.88a10 10 0 0 1 2.785-1.762M14.666 5.88a10 10 0 0 0-7.525-2.51M1.333 1.334l13.333 13.334"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8 13.333h.006m-2.34-2.38a3.333 3.333 0 0 1 4.667 0m-7-2.38A6.67 6.67 0 0 1 6.78 6.779m5.886 1.794a6.7 6.7 0 0 0-1.338-1.016M1.333 5.88a10 10 0 0 1 2.785-1.762M14.666 5.88a10 10 0 0 0-7.525-2.51M1.333 1.334l13.333 13.334"
      />
     </g>
     <defs>

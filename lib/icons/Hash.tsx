@@ -8,13 +8,13 @@ const ICON_NAME = 'hash';
 const SvgHash = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.667 6h10.667M2.667 10h10.667M6.667 2 5.334 14m5.333-12L9.334 14"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.667 6h10.667M2.667 10h10.667M6.667 2 5.334 14m5.333-12L9.334 14"
     />
    </svg>
   );

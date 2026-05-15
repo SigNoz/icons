@@ -8,13 +8,13 @@ const ICON_NAME = 'baseline';
 const SvgBaseline = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.667 13.333h10.667M4 10.667l4-8 4 8M5.334 8h5.333"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.667 13.333h10.667M4 10.667l4-8 4 8M5.334 8h5.333"
     />
    </svg>
   );

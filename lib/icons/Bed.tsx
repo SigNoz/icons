@@ -8,13 +8,13 @@ const ICON_NAME = 'bed';
 const SvgBed = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M1.333 2.667v10.666m0-8h12a1.333 1.333 0 0 1 1.333 1.334v6.666m-13.333-2h13.333M4 5.333v6"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M1.333 2.667v10.666m0-8h12a1.333 1.333 0 0 1 1.333 1.334v6.666m-13.333-2h13.333M4 5.333v6"
     />
    </svg>
   );

@@ -8,13 +8,13 @@ const ICON_NAME = 'chart-network';
 const SvgChartNetwork = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m8.74 5.11 1.187 1.78M9.44 8.526l-2.216.95m6.108-6.808-4.04 1.01M2 2v10.667A1.333 1.333 0 0 0 3.333 14H14M9.333 4a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0ZM12 8a1.333 1.333 0 1 1-2.667 0A1.333 1.333 0 0 1 12 8Zm-4.667 2a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m8.74 5.11 1.187 1.78M9.44 8.526l-2.216.95m6.108-6.808-4.04 1.01M2 2v10.667A1.333 1.333 0 0 0 3.333 14H14M9.333 4a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0M12 8a1.333 1.333 0 1 1-2.667 0A1.333 1.333 0 0 1 12 8m-4.667 2a1.333 1.333 0 1 1-2.666 0 1.333 1.333 0 0 1 2.666 0"
     />
    </svg>
   );

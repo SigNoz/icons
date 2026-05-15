@@ -8,13 +8,13 @@ const ICON_NAME = 'music-3';
 const SvgMusic3 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M10.666 12a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0Zm0 0V1.333"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M10.666 12a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0m0 0V1.333"
     />
    </svg>
   );

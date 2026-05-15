@@ -8,13 +8,13 @@ const ICON_NAME = 'wrap-text';
 const SvgWrapText = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2 4h12M2 8h10a2 2 0 0 1 0 4H9.333m0 0 1.334-1.333M9.333 12l1.334 1.333M2 12h4.667"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2 4h12M2 8h10a2 2 0 0 1 0 4H9.333m0 0 1.334-1.333M9.333 12l1.334 1.333M2 12h4.667"
     />
    </svg>
   );

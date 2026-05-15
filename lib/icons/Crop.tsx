@@ -8,14 +8,14 @@ const ICON_NAME = 'crop';
 const SvgCrop = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#crop_svg__a)">
      <path
-      d="M4 1.333v9.334A1.333 1.333 0 0 0 5.333 12h9.333M12 14.667V5.333A1.333 1.333 0 0 0 10.666 4H1.333"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M4 1.333v9.334A1.333 1.333 0 0 0 5.333 12h9.333M12 14.667V5.333A1.333 1.333 0 0 0 10.666 4H1.333"
      />
     </g>
     <defs>

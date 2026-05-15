@@ -8,14 +8,14 @@ const ICON_NAME = 'solid-zap';
 const SvgSolidZap = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8.667 1.333 2 9.333h6l-.667 5.334 6.667-8H8l.667-5.334Z"
      fill="#fff"
      stroke="#fff"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M8.667 1.333 2 9.333h6l-.667 5.334 6.667-8H8z"
     />
    </svg>
   );

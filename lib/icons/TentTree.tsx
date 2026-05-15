@@ -8,14 +8,14 @@ const ICON_NAME = 'tent-tree';
 const SvgTentTree = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#tent-tree_svg__a)">
      <path
-      d="m9.333 3.333 2-2m0 0 2 2m-2-2v8m-2-2.666 2-2 2 2m-2 2.666H4.666l-3.333 5.334h13.333l-3.333-5.334Zm-6 0v5.334M6 9.333l3.333 5.334M4 2.667a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m9.333 3.333 2-2m0 0 2 2m-2-2v8m-2-2.666 2-2 2 2m-2 2.666H4.666l-3.333 5.334h13.333zm-6 0v5.334M6 9.333l3.333 5.334M4 2.667a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0"
      />
     </g>
     <defs>

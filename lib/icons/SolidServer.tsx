@@ -8,19 +8,19 @@ const ICON_NAME = 'solid-server';
 const SvgSolidServer = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#solid-server_svg__a)"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#solid-server_svg__a)"
     >
      <path
-      d="M13.333 1.333H2.666c-.736 0-1.333.597-1.333 1.334v2.666c0 .737.597 1.334 1.333 1.334h10.667c.736 0 1.333-.597 1.333-1.334V2.667c0-.737-.597-1.334-1.333-1.334ZM13.333 9.333H2.666c-.736 0-1.333.597-1.333 1.334v2.666c0 .737.597 1.334 1.333 1.334h10.667c.736 0 1.333-.597 1.333-1.334v-2.666c0-.737-.597-1.334-1.333-1.334Z"
       fill="#fff"
       stroke="#fff"
+      d="M13.333 1.333H2.666c-.736 0-1.333.597-1.333 1.334v2.666c0 .737.597 1.334 1.333 1.334h10.667c.736 0 1.333-.597 1.333-1.334V2.667c0-.737-.597-1.334-1.333-1.334M13.333 9.333H2.666c-.736 0-1.333.597-1.333 1.334v2.666c0 .737.597 1.334 1.333 1.334h10.667c.736 0 1.333-.597 1.333-1.334v-2.666c0-.737-.597-1.334-1.333-1.334"
      />
-     <path d="M4 4h.007M4 12h.007" stroke="#0B0C0E" />
+     <path stroke="#0B0C0E" d="M4 4h.007M4 12h.007" />
     </g>
     <defs>
      <clipPath id="solid-server_svg__a">

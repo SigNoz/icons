@@ -8,13 +8,13 @@ const ICON_NAME = 'monitor-stop';
 const SvgMonitorStop = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 11.333V14m-2.667 0h5.333m-8-12h10.667c.736 0 1.333.597 1.333 1.333V10c0 .736-.597 1.333-1.333 1.333H2.666A1.333 1.333 0 0 1 1.333 10V3.333C1.333 2.597 1.93 2 2.666 2Zm4 2.667h2.667c.368 0 .667.298.667.666V8a.667.667 0 0 1-.667.667H6.666A.667.667 0 0 1 6 8V5.333c0-.368.298-.666.666-.666Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 11.333V14m-2.667 0h5.333m-8-12h10.667c.736 0 1.333.597 1.333 1.333V10c0 .736-.597 1.333-1.333 1.333H2.666A1.333 1.333 0 0 1 1.333 10V3.333C1.333 2.597 1.93 2 2.666 2m4 2.667h2.667c.368 0 .667.298.667.666V8a.667.667 0 0 1-.667.667H6.666A.667.667 0 0 1 6 8V5.333c0-.368.298-.666.666-.666"
     />
    </svg>
   );

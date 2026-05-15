@@ -8,13 +8,13 @@ const ICON_NAME = 'cup-soda';
 const SvgCupSoda = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m4 5.333 1.166 8.187A1.334 1.334 0 0 0 6.5 14.667h3.026a1.333 1.333 0 0 0 1.334-1.147L12 5.333m-8.667 0h9.333m-8 4.667A4.313 4.313 0 0 1 8 10a4.313 4.313 0 0 0 3.333 0M8 5.333l.666-4H10"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m4 5.333 1.166 8.187A1.334 1.334 0 0 0 6.5 14.667h3.026a1.33 1.33 0 0 0 1.334-1.147L12 5.333m-8.667 0h9.333m-8 4.667A4.31 4.31 0 0 1 8 10a4.31 4.31 0 0 0 3.333 0M8 5.333l.666-4H10"
     />
    </svg>
   );

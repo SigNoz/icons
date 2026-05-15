@@ -8,14 +8,14 @@ const ICON_NAME = 'pyramid';
 const SvgPyramid = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#pyramid_svg__a)">
      <path
-      d="M8 1.333v13.334m-6.333-3.414a.665.665 0 0 1-.214-.953l6-8.68a.667.667 0 0 1 1.094 0l6 8.673a.666.666 0 0 1-.214.96l-5.673 3.24a1.333 1.333 0 0 1-1.32 0l-5.673-3.24Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8 1.333v13.334m-6.333-3.414a.665.665 0 0 1-.214-.953l6-8.68a.667.667 0 0 1 1.094 0l6 8.673a.666.666 0 0 1-.214.96l-5.673 3.24a1.33 1.33 0 0 1-1.32 0z"
      />
     </g>
     <defs>

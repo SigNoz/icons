@@ -8,14 +8,14 @@ const ICON_NAME = 'navigation-off';
 const SvgNavigationOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#navigation-off_svg__a)">
      <path
-      d="M5.62 5.62 2 7.333l5.333 1.334L8.666 14l1.714-3.62m1.213-2.56 3.073-6.487L8.18 4.407M1.333 1.333l13.333 13.334"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M5.62 5.62 2 7.333l5.333 1.334L8.666 14l1.714-3.62m1.213-2.56 3.073-6.487L8.18 4.407M1.333 1.333l13.333 13.334"
      />
     </g>
     <defs>

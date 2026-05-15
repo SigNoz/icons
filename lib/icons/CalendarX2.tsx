@@ -8,13 +8,13 @@ const ICON_NAME = 'calendar-x-2';
 const SvgCalendarX2 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M5.333 1.333V4m5.334-2.667V4M14 8.667V4a1.334 1.334 0 0 0-1.333-1.333H3.333A1.333 1.333 0 0 0 2 4v9.333a1.333 1.333 0 0 0 1.333 1.334h5.334M2 6.667h12m-2.667 8 3.334-3.334m-3.334 0 3.334 3.334"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M5.333 1.333V4m5.334-2.667V4M14 8.667V4a1.334 1.334 0 0 0-1.333-1.333H3.333A1.333 1.333 0 0 0 2 4v9.333a1.333 1.333 0 0 0 1.333 1.334h5.334M2 6.667h12m-2.667 8 3.334-3.334m-3.334 0 3.334 3.334"
     />
    </svg>
   );

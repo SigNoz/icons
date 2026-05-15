@@ -8,13 +8,13 @@ const ICON_NAME = 'ellipsis';
 const SvgEllipsis = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334ZM12.667 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334ZM3.334 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334M12.667 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334M3.334 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334"
     />
    </svg>
   );

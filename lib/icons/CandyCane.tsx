@@ -8,14 +8,14 @@ const ICON_NAME = 'candy-cane';
 const SvgCandyCane = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#candy-cane_svg__a)">
      <path
-      d="M11.834 4.667 10 1.4M7.267 3.2l1.4 2.8m-3.4.467L6.6 9.4m-3.333.4 1.4 2.8M3.8 14a1.345 1.345 0 0 1-2.333-1.333L7.2 3.333a4.002 4.002 0 1 1 6.934 4A1.334 1.334 0 1 1 11.824 6a1.333 1.333 0 1 0-2.309-1.333L3.8 14Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M11.834 4.667 10 1.4M7.267 3.2l1.4 2.8m-3.4.467L6.6 9.4m-3.333.4 1.4 2.8M3.8 14a1.345 1.345 0 0 1-2.333-1.333L7.2 3.333a4.002 4.002 0 1 1 6.934 4A1.334 1.334 0 1 1 11.824 6a1.333 1.333 0 1 0-2.309-1.333z"
      />
     </g>
     <defs>

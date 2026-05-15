@@ -8,13 +8,13 @@ const ICON_NAME = 'fast-forward';
 const SvgFastForward = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m8.666 12.667 6-4.667-6-4.667v9.334ZM1.333 12.667l6-4.667-6-4.667v9.334Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m8.666 12.667 6-4.667-6-4.667zM1.333 12.667l6-4.667-6-4.667z"
     />
    </svg>
   );

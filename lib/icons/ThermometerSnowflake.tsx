@@ -8,14 +8,14 @@ const ICON_NAME = 'thermometer-snowflake';
 const SvgThermometerSnowflake = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#thermometer-snowflake_svg__a)">
      <path
-      d="M1.333 8H8M6 2.667v10.666M2 6l2 2-2 2m6-6L6 6 4 4m0 8 2-2 1 1m6.333-8.333v7.026a2.667 2.667 0 1 1-2.667 0V2.667a1.333 1.333 0 0 1 2.667 0Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M1.333 8H8M6 2.667v10.666M2 6l2 2-2 2m6-6L6 6 4 4m0 8 2-2 1 1m6.333-8.333v7.026a2.667 2.667 0 1 1-2.667 0V2.667a1.333 1.333 0 0 1 2.667 0"
      />
     </g>
     <defs>

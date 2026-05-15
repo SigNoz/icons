@@ -8,10 +8,10 @@ const ICON_NAME = 'message-square-1';
 const SvgMessageSquare1 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M12.667 1.333a2.002 2.002 0 0 1 2 2V10a2.002 2.002 0 0 1-2 2H4.942l-2.47 2.472A.668.668 0 0 1 1.333 14V3.333a2 2 0 0 1 2-2h9.334ZM5.665 7.67a.665.665 0 0 0 0 1.33h2.67a.666.666 0 0 0 0-1.33h-2.67Zm0-3a.665.665 0 0 0 0 1.33h4.67a.666.666 0 0 0 0-1.33h-4.67Z"
      fill="#fff"
+     d="M12.667 1.333a2 2 0 0 1 2 2V10a2 2 0 0 1-2 2H4.942l-2.47 2.472A.668.668 0 0 1 1.333 14V3.333a2 2 0 0 1 2-2zM5.665 7.67a.665.665 0 0 0 0 1.33h2.67a.666.666 0 0 0 0-1.33zm0-3a.665.665 0 0 0 0 1.33h4.67a.666.666 0 0 0 0-1.33z"
     />
    </svg>
   );

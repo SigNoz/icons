@@ -8,13 +8,13 @@ const ICON_NAME = 'file-badge';
 const SvgFileBadge = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 14.667h4a1.333 1.333 0 0 0 1.333-1.334V4.667L10 1.333H4a1.333 1.333 0 0 0-1.334 1.334v2m6.667-3.334V4a1.333 1.333 0 0 0 1.333 1.333h2.667M4.666 11l.667 3.667-2-.667-2 .667L2 11m1.333.333a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 14.667h4a1.333 1.333 0 0 0 1.333-1.334V4.667L10 1.333H4a1.333 1.333 0 0 0-1.334 1.334v2m6.667-3.334V4a1.333 1.333 0 0 0 1.333 1.333h2.667M4.666 11l.667 3.667-2-.667-2 .667L2 11m1.333.333a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
     />
    </svg>
   );

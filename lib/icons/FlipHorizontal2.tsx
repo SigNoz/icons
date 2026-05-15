@@ -8,13 +8,13 @@ const ICON_NAME = 'flip-horizontal-2';
 const SvgFlipHorizontal2 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 13.333v1.334m0-5.334v1.334m0-5.334v1.334m0-5.334v1.334m-6 2L5.333 8 2 11.333V4.667Zm12 0L10.667 8 14 11.333V4.667Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 13.333v1.334m0-5.334v1.334m0-5.334v1.334m0-5.334v1.334m-6 2L5.333 8 2 11.333zm12 0L10.667 8 14 11.333z"
     />
    </svg>
   );

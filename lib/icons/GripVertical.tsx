@@ -8,13 +8,13 @@ const ICON_NAME = 'grip-vertical';
 const SvgGripVertical = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M6 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334ZM6 4a.667.667 0 1 0 0-1.333A.667.667 0 0 0 6 4ZM6 13.333A.667.667 0 1 0 6 12a.667.667 0 0 0 0 1.333ZM10 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334ZM10 4a.667.667 0 1 0 0-1.333A.667.667 0 0 0 10 4ZM10 13.333A.667.667 0 1 0 10 12a.667.667 0 0 0 0 1.333Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M6 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334M6 4a.667.667 0 1 0 0-1.333A.667.667 0 0 0 6 4M6 13.333A.667.667 0 1 0 6 12a.667.667 0 0 0 0 1.333M10 8.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334M10 4a.667.667 0 1 0 0-1.333A.667.667 0 0 0 10 4M10 13.333A.667.667 0 1 0 10 12a.667.667 0 0 0 0 1.333"
     />
    </svg>
   );

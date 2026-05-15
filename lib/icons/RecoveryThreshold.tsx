@@ -8,40 +8,40 @@ const ICON_NAME = 'recovery-threshold';
 const SvgRecoveryThreshold = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
+     stroke="inherit"
+     strokeLinecap="round"
+     strokeLinejoin="round"
+     strokeWidth={1.333}
      d="M2 2v10.667A1.333 1.333 0 0 0 3.333 14h2.334"
-     stroke="inherit"
-     strokeWidth={1.333}
-     strokeLinecap="round"
-     strokeLinejoin="round"
     />
     <path
-     d="m4.667 10.195 2.097-2.292a.333.333 0 0 1 .472 0l2.195 2.194a.332.332 0 0 0 .472 0l2.861-2.861"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
+     strokeWidth={1.333}
+     d="m4.667 10.195 2.097-2.292a.333.333 0 0 1 .472 0l2.195 2.194a.33.33 0 0 0 .472 0l2.861-2.861"
     />
     <path
-     d="M2.667 4.667h11.667"
      stroke="inherit"
-     strokeWidth={1.333}
-     strokeLinecap="round"
      strokeDasharray="2.67 2.67"
+     strokeLinecap="round"
+     strokeWidth={1.333}
+     d="M2.667 4.667h11.667"
     />
     <path
-     d="M8 14h5.469a1.221 1.221 0 0 0 1.037-.593 1.189 1.189 0 0 0 0-1.184l-.817-1.413"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M8 14h5.469a1.22 1.22 0 0 0 1.037-.593 1.19 1.19 0 0 0 0-1.184l-.817-1.413"
     />
     <path
+     stroke="inherit"
+     strokeLinecap="round"
+     strokeLinejoin="round"
+     strokeWidth={1.333}
      d="M9.333 12.667 8 14l1.333 1.333"
-     stroke="inherit"
-     strokeWidth={1.333}
-     strokeLinecap="round"
-     strokeLinejoin="round"
     />
    </svg>
   );

@@ -14,13 +14,13 @@ const SvgCalendar1 = forwardRef<SVGSVGElement, IconProps>(
     height={24}
     fill="none"
     stroke="currentColor"
-    strokeWidth={2}
     strokeLinecap="round"
     strokeLinejoin="round"
+    strokeWidth={2}
     {...props}
    >
     <path d="M11 14h1v4M16 2v4M3 10h18M8 2v4" />
-    <rect x={3} y={4} width={18} height={18} rx={2} />
+    <rect width={18} height={18} x={3} y={4} rx={2} />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;

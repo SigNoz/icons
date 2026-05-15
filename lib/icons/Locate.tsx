@@ -8,14 +8,14 @@ const ICON_NAME = 'locate';
 const SvgLocate = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#locate_svg__a)">
      <path
-      d="M1.333 8h2m0 0A4.667 4.667 0 0 0 8 12.667M3.333 8A4.667 4.667 0 0 1 8 3.333M12.666 8h2m-2 0A4.667 4.667 0 0 1 8 12.667M12.666 8A4.667 4.667 0 0 0 8 3.333m0-2v2m0 9.334v2"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M1.333 8h2m0 0A4.667 4.667 0 0 0 8 12.667M3.333 8A4.667 4.667 0 0 1 8 3.333M12.666 8h2m-2 0A4.667 4.667 0 0 1 8 12.667M12.666 8A4.667 4.667 0 0 0 8 3.333m0-2v2m0 9.334v2"
      />
     </g>
     <defs>

@@ -8,13 +8,13 @@ const ICON_NAME = 'cloud-lightning';
 const SvgCloudLightning = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M4 10.884a4.667 4.667 0 1 1 6.473-5.55h1.194A3 3 0 0 1 12 11.314M8.667 8l-2 3.333h2.666l-2 3.334"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M4 10.884a4.667 4.667 0 1 1 6.473-5.55h1.194A3 3 0 0 1 12 11.314M8.667 8l-2 3.333h2.666l-2 3.334"
     />
    </svg>
   );

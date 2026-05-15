@@ -8,16 +8,16 @@ const ICON_NAME = 'compass-in';
 const SvgCompassIn = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#compass-in_svg__a)"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#compass-in_svg__a)"
     >
      <path d="M14.666 8A6.667 6.667 0 1 0 8 14.667" />
-     <path d="m10.826 5.173-1.413 4.24-4.24 1.414 1.413-4.24 4.24-1.414ZM12 14l-2-2 2-2" />
+     <path d="m10.826 5.173-1.413 4.24-4.24 1.414 1.413-4.24zM12 14l-2-2 2-2" />
      <path d="M10 12h3.333a1.333 1.333 0 0 1 1.334 1.333V14.5" />
     </g>
     <defs>

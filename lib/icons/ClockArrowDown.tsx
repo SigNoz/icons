@@ -8,14 +8,14 @@ const ICON_NAME = 'clock-arrow-down';
 const SvgClockArrowDown = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#clock-arrow-down_svg__a)">
      <path
-      d="M8.226 14.663a6.666 6.666 0 1 1 6.39-5.845M8 4v4l1.334.667m0 3.333L12 14.667m0 0L14.667 12M12 14.667V9.333"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8.226 14.663a6.666 6.666 0 1 1 6.39-5.845M8 4v4l1.334.667m0 3.333L12 14.667m0 0L14.667 12M12 14.667V9.333"
      />
     </g>
     <defs>

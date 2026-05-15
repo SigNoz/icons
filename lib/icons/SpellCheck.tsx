@@ -8,13 +8,13 @@ const ICON_NAME = 'spell-check';
 const SvgSpellCheck = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m4 10.667 4-8 4 8M5.333 8h5.334m0 5.333L12 14.667 14.667 12"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m4 10.667 4-8 4 8M5.333 8h5.334m0 5.333L12 14.667 14.667 12"
     />
    </svg>
   );

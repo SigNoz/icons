@@ -8,19 +8,19 @@ const ICON_NAME = 'solid-plus-circle';
 const SvgSolidPlusCircle = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#solid-plus-circle_svg__a)"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#solid-plus-circle_svg__a)"
     >
      <path
-      d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334Z"
       fill="#fff"
       stroke="#fff"
+      d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334"
      />
-     <path d="M8 5.333v5.334M5.333 8h5.333" stroke="#121317" />
+     <path stroke="#121317" d="M8 5.333v5.334M5.333 8h5.333" />
     </g>
     <defs>
      <clipPath id="solid-plus-circle_svg__a">

@@ -8,13 +8,13 @@ const ICON_NAME = 'utensils';
 const SvgUtensils = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2 1.333V6c0 .733.6 1.333 1.333 1.333H6A1.333 1.333 0 0 0 7.333 6V1.333m-2.666 0v13.334M14 10V1.333a3.333 3.333 0 0 0-3.333 3.334v4c0 .733.6 1.333 1.333 1.333h2Zm0 0v4.667"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2 1.333V6c0 .733.6 1.333 1.333 1.333H6A1.333 1.333 0 0 0 7.333 6V1.333m-2.666 0v13.334M14 10V1.333a3.333 3.333 0 0 0-3.333 3.334v4c0 .733.6 1.333 1.333 1.333zm0 0v4.667"
     />
    </svg>
   );

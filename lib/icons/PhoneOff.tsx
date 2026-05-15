@@ -8,14 +8,14 @@ const ICON_NAME = 'phone-off';
 const SvgPhoneOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#phone-off_svg__a)">
      <path
-      d="M7.12 8.873c.676.678 1.44 1.26 2.273 1.734l.847-.847a1.333 1.333 0 0 1 1.406-.3 8.56 8.56 0 0 0 1.874.467 1.334 1.334 0 0 1 1.146 1.333v2a1.333 1.333 0 0 1-1.453 1.333 13.194 13.194 0 0 1-5.753-2.046 12.949 12.949 0 0 1-2.22-1.78M3.46 8.54a13.193 13.193 0 0 1-2.047-5.753A1.333 1.333 0 0 1 2.74 1.333h2A1.333 1.333 0 0 1 6.073 2.48a8.56 8.56 0 0 0 .467 1.873 1.333 1.333 0 0 1-.3 1.407l-.847.847m9.273-5.274L1.333 14.667"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M7.12 8.873c.676.678 1.44 1.26 2.273 1.734l.847-.847a1.33 1.33 0 0 1 1.406-.3 8.6 8.6 0 0 0 1.874.467 1.334 1.334 0 0 1 1.146 1.333v2a1.333 1.333 0 0 1-1.453 1.333 13.2 13.2 0 0 1-5.753-2.046 13 13 0 0 1-2.22-1.78M3.46 8.54a13.2 13.2 0 0 1-2.047-5.753A1.333 1.333 0 0 1 2.74 1.333h2A1.33 1.33 0 0 1 6.073 2.48a8.6 8.6 0 0 0 .467 1.873 1.33 1.33 0 0 1-.3 1.407l-.847.847m9.273-5.274L1.333 14.667"
      />
     </g>
     <defs>

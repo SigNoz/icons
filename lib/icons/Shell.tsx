@@ -8,13 +8,13 @@ const ICON_NAME = 'shell';
 const SvgShell = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M9.333 7.333a1.333 1.333 0 0 1-2.667 0 2.667 2.667 0 1 1 5.334 0 4 4 0 1 1-8 0 5.333 5.333 0 0 1 10.666 0 6.667 6.667 0 1 1-13.333 0A7.953 7.953 0 0 1 2.946 2.52a1.333 1.333 0 1 1 2.107 1.627"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M9.333 7.333a1.333 1.333 0 0 1-2.667 0 2.667 2.667 0 1 1 5.334 0 4 4 0 1 1-8 0 5.333 5.333 0 0 1 10.666 0 6.667 6.667 0 1 1-13.333 0A7.95 7.95 0 0 1 2.946 2.52a1.333 1.333 0 1 1 2.107 1.627"
     />
    </svg>
   );

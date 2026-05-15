@@ -8,13 +8,13 @@ const ICON_NAME = 'chart-column-decreasing';
 const SvgChartColumnDecreasing = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8.667 11.333V6M12 11.333v-2M2 2v10.667A1.333 1.333 0 0 0 3.333 14H14m-8.667-2.667v-8"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8.667 11.333V6M12 11.333v-2M2 2v10.667A1.333 1.333 0 0 0 3.333 14H14m-8.667-2.667v-8"
     />
    </svg>
   );

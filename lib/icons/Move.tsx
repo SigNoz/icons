@@ -8,14 +8,14 @@ const ICON_NAME = 'move';
 const SvgMove = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#move_svg__a)">
      <path
-      d="m3.333 6-2 2m0 0 2 2m-2-2h13.333M6 3.333l2-2m0 0 2 2m-2-2v13.334m2-2-2 2m0 0-2-2M12.666 6l2 2m0 0-2 2"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m3.333 6-2 2m0 0 2 2m-2-2h13.333M6 3.333l2-2m0 0 2 2m-2-2v13.334m2-2-2 2m0 0-2-2M12.666 6l2 2m0 0-2 2"
      />
     </g>
     <defs>

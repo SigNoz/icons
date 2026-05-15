@@ -8,13 +8,13 @@ const ICON_NAME = 'arrow-down-10';
 const SvgArrowDown10 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m2 10.667 2.667 2.666m0 0 2.666-2.666m-2.666 2.666V2.667m6.666 4v-4H10m0 4h2.667m-1.334 2.666c.737 0 1.334.597 1.334 1.334V12A1.333 1.333 0 0 1 10 12v-1.333c0-.737.597-1.334 1.333-1.334Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m2 10.667 2.667 2.666m0 0 2.666-2.666m-2.666 2.666V2.667m6.666 4v-4H10m0 4h2.667m-1.334 2.666c.737 0 1.334.597 1.334 1.334V12A1.333 1.333 0 0 1 10 12v-1.333c0-.737.597-1.334 1.333-1.334"
     />
    </svg>
   );

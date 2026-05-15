@@ -8,22 +8,22 @@ const ICON_NAME = 'tag';
 const SvgTag = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#tag_svg__a)">
-     <path d="M5 5.333a.333.333 0 1 0 0-.666.333.333 0 0 0 0 .666Z" fill="#2A2E37" />
+     <path fill="#2A2E37" d="M5 5.333a.333.333 0 1 0 0-.666.333.333 0 0 0 0 .666" />
      <path
-      d="M8.39 1.724c-.25-.25-.589-.39-.942-.39H2.666a1.333 1.333 0 0 0-1.333 1.333v4.781c0 .354.14.693.39.943l5.803 5.802a1.617 1.617 0 0 0 2.28 0l4.387-4.386a1.617 1.617 0 0 0 0-2.28L8.39 1.724Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8.39 1.724c-.25-.25-.589-.39-.942-.39H2.666a1.333 1.333 0 0 0-1.333 1.333v4.781c0 .354.14.693.39.943l5.803 5.802a1.617 1.617 0 0 0 2.28 0l4.387-4.386a1.617 1.617 0 0 0 0-2.28z"
      />
      <path
-      d="M5 5.333a.333.333 0 1 0 0-.666.333.333 0 0 0 0 .666Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M5 5.333a.333.333 0 1 0 0-.666.333.333 0 0 0 0 .666"
      />
     </g>
     <defs>

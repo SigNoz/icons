@@ -8,13 +8,13 @@ const ICON_NAME = 'lollipop';
 const SvgLollipop = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M12.667 7.333A5.333 5.333 0 1 1 2 7.333a5.333 5.333 0 0 1 10.667 0Zm0 0a4 4 0 0 1-8 0 2.667 2.667 0 1 1 5.333 0 1.333 1.333 0 0 1-2.667 0M14 14l-2.867-2.867"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M12.667 7.333A5.333 5.333 0 1 1 2 7.333a5.333 5.333 0 0 1 10.667 0m0 0a4 4 0 0 1-8 0 2.667 2.667 0 1 1 5.333 0 1.333 1.333 0 0 1-2.667 0M14 14l-2.867-2.867"
     />
    </svg>
   );

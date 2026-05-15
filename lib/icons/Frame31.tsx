@@ -8,13 +8,13 @@ const ICON_NAME = 'frame-31';
 const SvgFrame31 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={7} height={7} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={7} height={7} fill="none" {...props}>
     <path
-     d="M.7 6.294V3.497M3.497 6.294V3.497M6.294 6.294V3.497M.7.7h.007M3.497.7h.007M6.294.7h.007"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M.7 6.294V3.497M3.497 6.294V3.497M6.294 6.294V3.497M.7.7h.007M3.497.7h.007M6.294.7h.007"
     />
    </svg>
   );

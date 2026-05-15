@@ -8,16 +8,16 @@ const ICON_NAME = 'disc-32';
 const SvgDisc32 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#disc-3-2_svg__a)"
      stroke="inherit"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#disc-3-2_svg__a)"
     >
      <path d="M14.666 8A6.667 6.667 0 1 0 8 14.667" />
-     <path d="M4 8c0-1.133.467-2.133 1.2-2.8M8 9.333a1.333 1.333 0 1 0 0-2.666 1.333 1.333 0 0 0 0 2.666ZM12 14.667V9.333M10 11.333l2-2 2 2" />
+     <path d="M4 8c0-1.133.467-2.133 1.2-2.8M8 9.333a1.333 1.333 0 1 0 0-2.666 1.333 1.333 0 0 0 0 2.666M12 14.667V9.333M10 11.333l2-2 2 2" />
     </g>
     <defs>
      <clipPath id="disc-3-2_svg__a">

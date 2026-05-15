@@ -8,8 +8,8 @@ const ICON_NAME = 'flashlight';
 const SvgFlashlight = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path d="M8.667 8a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z" fill="#2A2E37" />
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
+    <path fill="#2A2E37" d="M8.667 8a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0" />
    </svg>
   );
   const hasViewBox = element.props.viewBox != null;

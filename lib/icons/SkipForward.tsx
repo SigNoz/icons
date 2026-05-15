@@ -8,13 +8,13 @@ const ICON_NAME = 'skip-forward';
 const SvgSkipForward = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M12.666 3.333v9.334m-9.333-10L10 8l-6.667 5.333V2.667Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M12.666 3.333v9.334m-9.333-10L10 8l-6.667 5.333z"
     />
    </svg>
   );

@@ -8,13 +8,13 @@ const ICON_NAME = 'house';
 const SvgHouse = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M10 14V8.667A.667.667 0 0 0 9.333 8H6.667A.667.667 0 0 0 6 8.667V14M2 6.667a1.333 1.333 0 0 1 .473-1.019l4.666-4a1.333 1.333 0 0 1 1.722 0l4.666 4A1.332 1.332 0 0 1 14 6.667v6A1.334 1.334 0 0 1 12.667 14H3.333A1.334 1.334 0 0 1 2 12.667v-6Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M10 14V8.667A.667.667 0 0 0 9.333 8H6.667A.667.667 0 0 0 6 8.667V14M2 6.667a1.33 1.33 0 0 1 .473-1.019l4.666-4a1.33 1.33 0 0 1 1.722 0l4.666 4A1.33 1.33 0 0 1 14 6.667v6A1.334 1.334 0 0 1 12.667 14H3.333A1.334 1.334 0 0 1 2 12.667z"
     />
    </svg>
   );

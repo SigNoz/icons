@@ -8,13 +8,13 @@ const ICON_NAME = 'arrow-up-narrow-wide';
 const SvgArrowUpNarrowWide = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m2 5.333 2.667-2.666m0 0 2.666 2.666M4.667 2.667v10.666M7.333 8H10m-2.667 2.667H12m-4.667 2.666H14"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m2 5.333 2.667-2.666m0 0 2.666 2.666M4.667 2.667v10.666M7.333 8H10m-2.667 2.667H12m-4.667 2.666H14"
     />
    </svg>
   );

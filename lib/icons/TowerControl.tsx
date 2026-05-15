@@ -8,13 +8,13 @@ const ICON_NAME = 'tower-control';
 const SvgTowerControl = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M5.334 8.667v6m5.333 0v-6M6 4l.667 4.667M10 4l-.666 4.667M8 4V1.333m.667 0H7.334m4.8 6.847 1.2-4.18H2.667l1.2 4.18a.667.667 0 0 0 .633.487h7a.667.667 0 0 0 .64-.487h-.006Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M5.334 8.667v6m5.333 0v-6M6 4l.667 4.667M10 4l-.666 4.667M8 4V1.333m.667 0H7.334m4.8 6.847 1.2-4.18H2.667l1.2 4.18a.67.67 0 0 0 .633.487h7a.67.67 0 0 0 .64-.487z"
     />
    </svg>
   );

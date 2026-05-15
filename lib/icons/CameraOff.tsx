@@ -8,14 +8,14 @@ const ICON_NAME = 'camera-off';
 const SvgCameraOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#camera-off_svg__a)">
      <path
-      d="m1.333 1.333 13.333 13.334m-10-10h-2A1.333 1.333 0 0 0 1.333 6v6a1.333 1.333 0 0 0 1.333 1.333h10.667m-7-10.666h3.333l1.667 2h2A1.333 1.333 0 0 1 14.666 6v5m-5.252-.92a2.001 2.001 0 1 1-2.828-2.827"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m1.333 1.333 13.333 13.334m-10-10h-2A1.333 1.333 0 0 0 1.333 6v6a1.333 1.333 0 0 0 1.333 1.333h10.667m-7-10.666h3.333l1.667 2h2A1.333 1.333 0 0 1 14.666 6v5m-5.252-.92a2.001 2.001 0 1 1-2.828-2.827"
      />
     </g>
     <defs>

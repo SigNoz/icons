@@ -8,13 +8,13 @@ const ICON_NAME = 'sliders-vertical';
 const SvgSlidersVertical = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.666 14V9.333m0-2.666V2M8 14V8m0-2.667V2m5.333 12v-3.333m0-2.667V2m-12 7.333H4m2.666-4h2.667M12 10.667h2.666"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.666 14V9.333m0-2.666V2M8 14V8m0-2.667V2m5.333 12v-3.333m0-2.667V2m-12 7.333H4m2.666-4h2.667M12 10.667h2.666"
     />
    </svg>
   );

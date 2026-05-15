@@ -8,14 +8,14 @@ const ICON_NAME = 'egg-off';
 const SvgEggOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#egg-off_svg__a)">
      <path
-      d="M4.266 4.266C3.574 5.438 3.1 6.793 3 8c-.247 2.953.846 6.633 5 6.667 2.17-.018 3.506-1.032 4.25-2.417m.771-3A9.38 9.38 0 0 0 13 8c-.24-2.893-2.634-6.64-5-6.667-.694.008-1.388.335-2.031.865m-4.636-.865 13.333 13.334"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M4.266 4.266C3.574 5.438 3.1 6.793 3 8c-.247 2.953.846 6.633 5 6.667 2.17-.018 3.506-1.032 4.25-2.417m.771-3A9 9 0 0 0 13 8c-.24-2.893-2.634-6.64-5-6.667-.694.008-1.388.335-2.031.865m-4.636-.865 13.333 13.334"
      />
     </g>
     <defs>

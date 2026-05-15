@@ -8,21 +8,21 @@ const ICON_NAME = 'solid-ghost';
 const SvgSolidGhost = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 1.333a5.333 5.333 0 0 0-5.333 5.334v8l2-2 1.667 1.666L8 12.667l1.667 1.666 1.667-1.666 2 2v-8A5.333 5.333 0 0 0 8 1.333Z"
      fill="#fff"
      stroke="#fff"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M8 1.333a5.333 5.333 0 0 0-5.333 5.334v8l2-2 1.667 1.666L8 12.667l1.667 1.666 1.667-1.666 2 2v-8A5.333 5.333 0 0 0 8 1.333"
     />
     <path
-     d="M6 6.667h.007M10 6.667h.007"
      stroke="#121317"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     d="M6 6.667h.007M10 6.667h.007"
     />
    </svg>
   );

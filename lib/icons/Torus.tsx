@@ -8,20 +8,20 @@ const ICON_NAME = 'torus';
 const SvgTorus = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 8.667c1.104 0 2-.597 2-1.334C10 6.597 9.104 6 8 6c-1.105 0-2 .597-2 1.333 0 .737.895 1.334 2 1.334Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 8.667c1.104 0 2-.597 2-1.334C10 6.597 9.104 6 8 6s-2 .597-2 1.333c0 .737.895 1.334 2 1.334"
     />
     <path
-     d="M8 14c3.682 0 6.666-2.537 6.666-5.667S11.682 2.667 8 2.667c-3.682 0-6.667 2.537-6.667 5.666C1.333 11.463 4.318 14 8 14Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 14c3.682 0 6.666-2.537 6.666-5.667S11.682 2.667 8 2.667 1.333 5.204 1.333 8.333 4.318 14 8 14"
     />
    </svg>
   );

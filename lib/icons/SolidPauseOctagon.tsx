@@ -8,19 +8,19 @@ const ICON_NAME = 'solid-pause-octagon';
 const SvgSolidPauseOctagon = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#solid-pause-octagon_svg__a)"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#solid-pause-octagon_svg__a)"
     >
      <path
-      d="M5.142 1.333h5.715l3.81 3.81v5.714l-3.81 3.81H5.142l-3.809-3.81V5.143l3.81-3.81Z"
       fill="#fff"
       stroke="#fff"
+      d="M5.142 1.333h5.715l3.81 3.81v5.714l-3.81 3.81H5.142l-3.809-3.81V5.143z"
      />
-     <path d="M6.667 10V6M9.333 10V6" stroke="#121317" />
+     <path stroke="#121317" d="M6.667 10V6M9.333 10V6" />
     </g>
     <defs>
      <clipPath id="solid-pause-octagon_svg__a">

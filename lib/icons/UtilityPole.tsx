@@ -8,14 +8,14 @@ const ICON_NAME = 'utility-pole';
 const SvgUtilityPole = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#utility-pole_svg__a)">
      <path
-      d="M8 1.333v13.334M1.333 3.333h13.333M2 2v1.333M4.666 2v1.333M11.333 2v1.333M14 2v1.333m-1.334 0L8 8 3.333 3.333"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M8 1.333v13.334M1.333 3.333h13.333M2 2v1.333M4.666 2v1.333M11.333 2v1.333M14 2v1.333m-1.334 0L8 8 3.333 3.333"
      />
     </g>
     <defs>

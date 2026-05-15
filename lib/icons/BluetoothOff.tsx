@@ -8,14 +8,14 @@ const ICON_NAME = 'bluetooth-off';
 const SvgBluetoothOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#bluetooth-off_svg__a)">
      <path
-      d="M11.333 11.333 8 14.667V8l-3.334 3.333m-3.333-10 13.333 13.334m-5-8.334 1.667-1.666L8 1.333v3"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M11.333 11.333 8 14.667V8l-3.334 3.333m-3.333-10 13.333 13.334m-5-8.334 1.667-1.666L8 1.333v3"
      />
     </g>
     <defs>

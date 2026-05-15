@@ -8,14 +8,14 @@ const ICON_NAME = 'chart-pie';
 const SvgChartPie = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#chart-pie_svg__a)">
      <path
-      d="M14.14 10.593a6.666 6.666 0 1 1-8.807-8.706M14 8c.368 0 .67-.3.633-.665a6.667 6.667 0 0 0-5.968-5.968c-.367-.036-.666.266-.666.634v5.333a.667.667 0 0 0 .667.667L14 8Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M14.14 10.593a6.666 6.666 0 1 1-8.807-8.706M14 8c.368 0 .67-.3.633-.665a6.67 6.67 0 0 0-5.968-5.968c-.367-.036-.666.266-.666.634v5.333a.667.667 0 0 0 .667.667z"
      />
     </g>
     <defs>

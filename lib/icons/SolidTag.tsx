@@ -8,19 +8,19 @@ const ICON_NAME = 'solid-tag';
 const SvgSolidTag = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g
-     clipPath="url(#solid-tag_svg__a)"
-     strokeWidth={1.333}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.333}
+     clipPath="url(#solid-tag_svg__a)"
     >
      <path
-      d="M1.333 8V1.333H8l6.293 6.294a1.333 1.333 0 0 1 0 1.88l-4.787 4.786a1.333 1.333 0 0 1-1.88 0L1.333 8Z"
       fill="#fff"
       stroke="#fff"
+      d="M1.333 8V1.333H8l6.293 6.294a1.333 1.333 0 0 1 0 1.88l-4.787 4.786a1.333 1.333 0 0 1-1.88 0z"
      />
-     <path d="M4.667 4.667h.007" stroke="#121317" />
+     <path stroke="#121317" d="M4.667 4.667h.007" />
     </g>
     <defs>
      <clipPath id="solid-tag_svg__a">

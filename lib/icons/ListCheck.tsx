@@ -8,13 +8,13 @@ const ICON_NAME = 'list-check';
 const SvgListCheck = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M7.333 12H2m8 0 1.333 1.333L14 10.667M10.667 8H2m8.667-4H2"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M7.333 12H2m8 0 1.333 1.333L14 10.667M10.667 8H2m8.667-4H2"
     />
    </svg>
   );

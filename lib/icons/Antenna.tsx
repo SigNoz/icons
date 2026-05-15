@@ -8,14 +8,14 @@ const ICON_NAME = 'antenna';
 const SvgAntenna = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#antenna_svg__a)">
      <path
-      d="m1.333 8 3.333-6.667m0 6.667L8 1.333M8 8l3.333-6.667m0 6.667 3.333-6.667M3 4.667h10m-5 6v4"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="m1.333 8 3.333-6.667m0 6.667L8 1.333M8 8l3.333-6.667m0 6.667 3.333-6.667M3 4.667h10m-5 6v4"
      />
     </g>
     <defs>

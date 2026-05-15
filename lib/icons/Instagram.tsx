@@ -8,14 +8,14 @@ const ICON_NAME = 'instagram';
 const SvgInstagram = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#instagram_svg__a)">
      <path
-      d="M11.666 4.333h.007m-7.007-3h6.667a3.333 3.333 0 0 1 3.333 3.334v6.666a3.333 3.333 0 0 1-3.333 3.334H4.666a3.333 3.333 0 0 1-3.333-3.334V4.667a3.333 3.333 0 0 1 3.333-3.334Zm6 6.247a2.667 2.667 0 1 1-5.275.782 2.667 2.667 0 0 1 5.275-.782Z"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M11.666 4.333h.007m-7.007-3h6.667a3.333 3.333 0 0 1 3.333 3.334v6.666a3.333 3.333 0 0 1-3.333 3.334H4.666a3.333 3.333 0 0 1-3.333-3.334V4.667a3.333 3.333 0 0 1 3.333-3.334m6 6.247a2.667 2.667 0 1 1-5.275.782 2.667 2.667 0 0 1 5.275-.782"
      />
     </g>
     <defs>

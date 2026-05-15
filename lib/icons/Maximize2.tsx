@@ -8,13 +8,13 @@ const ICON_NAME = 'maximize-2';
 const SvgMaximize2 = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M10 2h4m0 0v4m0-4L9.333 6.667M6 14H2m0 0v-4m0 4 4.667-4.667"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M10 2h4m0 0v4m0-4L9.333 6.667M6 14H2m0 0v-4m0 4 4.667-4.667"
     />
    </svg>
   );

@@ -8,13 +8,13 @@ const ICON_NAME = 'expand';
 const SvgExpand = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="m14 14-4-4m4 4v-3.2m0 3.2h-3.2M2 10.8V14m0 0h3.2M2 14l4-4m8-4.8V2m0 0h-3.2M14 2l-4 4m-8-.8V2m0 0h3.2M2 2l4 4"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="m14 14-4-4m4 4v-3.2m0 3.2h-3.2M2 10.8V14m0 0h3.2M2 14l4-4m8-4.8V2m0 0h-3.2M14 2l-4 4m-8-.8V2m0 0h3.2M2 2l4 4"
     />
    </svg>
   );

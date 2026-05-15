@@ -8,14 +8,14 @@ const ICON_NAME = 'lightbulb-off';
 const SvgLightbulbOff = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <g clipPath="url(#lightbulb-off_svg__a)">
      <path
-      d="M11.2 7.467c.533-.6.8-1.334.8-2.134A4 4 0 0 0 5.8 2m-4.467-.667 13.333 13.334M4.2 4.2A3.113 3.113 0 0 0 5 7.667c.466.466.866 1 1 1.666M6 12h4m-3.334 2.667h2.667"
       stroke="inherit"
-      strokeWidth={1.33}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={1.33}
+      d="M11.2 7.467c.533-.6.8-1.334.8-2.134A4 4 0 0 0 5.8 2m-4.467-.667 13.333 13.334M4.2 4.2A3.11 3.11 0 0 0 5 7.667c.466.466.866 1 1 1.666M6 12h4m-3.334 2.667h2.667"
      />
     </g>
     <defs>

@@ -8,13 +8,13 @@ const ICON_NAME = 'lamp-ceiling';
 const SvgLampCeiling = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M8 1.333v3.334m-1.887 6a2 2 0 1 0 3.773 0M4 4.667h8l2.666 6H1.333l2.667-6Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M8 1.333v3.334m-1.887 6a2 2 0 1 0 3.773 0M4 4.667h8l2.666 6H1.333z"
     />
    </svg>
   );

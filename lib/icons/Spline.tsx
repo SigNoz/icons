@@ -8,13 +8,13 @@ const ICON_NAME = 'spline';
 const SvgSpline = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M11.333 3.333a1.333 1.333 0 1 0 2.667 0 1.333 1.333 0 0 0-2.667 0Zm0 0a8 8 0 0 0-8 8m0 0a1.333 1.333 0 1 0 0 2.667 1.333 1.333 0 0 0 0-2.667Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M11.333 3.333a1.333 1.333 0 1 0 2.667 0 1.333 1.333 0 0 0-2.667 0m0 0a8 8 0 0 0-8 8m0 0a1.333 1.333 0 1 0 0 2.667 1.333 1.333 0 0 0 0-2.667"
     />
    </svg>
   );

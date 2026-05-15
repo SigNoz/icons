@@ -8,13 +8,13 @@ const ICON_NAME = 'gallery-thumbnails';
 const SvgGalleryThumbnails = forwardRef<SVGSVGElement, IconProps>(
  ({ color = 'currentColor', size, strokeWidth, className, ...props }, ref) => {
   const element = (
-   <svg width={16} height={16} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" {...props}>
     <path
-     d="M2.667 14h.666M6 14h.667m2.666 0H10m2.667 0h.666m-10-12h9.334C13.403 2 14 2.597 14 3.333V10c0 .736-.597 1.333-1.333 1.333H3.333A1.333 1.333 0 0 1 2 10V3.333C2 2.597 2.597 2 3.333 2Z"
      stroke="inherit"
-     strokeWidth={1.33}
      strokeLinecap="round"
      strokeLinejoin="round"
+     strokeWidth={1.33}
+     d="M2.667 14h.666M6 14h.667m2.666 0H10m2.667 0h.666m-10-12h9.334C13.403 2 14 2.597 14 3.333V10c0 .736-.597 1.333-1.333 1.333H3.333A1.333 1.333 0 0 1 2 10V3.333C2 2.597 2.597 2 3.333 2"
     />
    </svg>
   );
