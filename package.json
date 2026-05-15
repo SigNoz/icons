@@ -1,7 +1,7 @@
 {
  "name": "@signozhq/icons",
  "author": "SigNoz",
- "version": "0.4.2",
+ "version": "0.4.3",
  "description": "SVG-based React icon components",
  "keywords": [
   "React",
