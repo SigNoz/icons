@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.4.3](https://github.com/SigNoz/icons/compare/v0.4.2...v0.4.3) (2026-05-15)
+
+
+### Bug Fixes
+
+* formatting in icon files ([819c22f](https://github.com/SigNoz/icons/commit/819c22fb8b5cd863b75c36ee1dfaaacbe019ff57))
+* formatting in icons ([2aeecb4](https://github.com/SigNoz/icons/commit/2aeecb471ab94a553a665dc6ac46d9256b2b8c16))
+* more packages ([8e563e5](https://github.com/SigNoz/icons/commit/8e563e51a839a0a19c2ee14996fcf1eaf2cc7141))
+* **pnpm:** add pnpm workspace , update deps and fix lint  ([#57](https://github.com/SigNoz/icons/issues/57)) ([538a390](https://github.com/SigNoz/icons/commit/538a390b733ff13c6071bf555fde5c3f13948f8e))
+* update more deps ([49edfef](https://github.com/SigNoz/icons/commit/49edfef72e2c37095b6f2be5a725a2a69a109852))
+
+
+### Miscellaneous Chores
+
+* update deps ([e998c04](https://github.com/SigNoz/icons/commit/e998c0451c48c409432cb774f60ff98226b1faef))
+* update more packages ([3f65a05](https://github.com/SigNoz/icons/commit/3f65a0590bbcbcb7bdf082e90d0ab1230e8b3db0))
+* update readme and formatting ([7b6460d](https://github.com/SigNoz/icons/commit/7b6460dc327728b0e776e922f4dda8c5da8b0cf3))
+* update readme and formatting ([e29ed80](https://github.com/SigNoz/icons/commit/e29ed80b08710ff1988c78624fc4c2a5e8e2f261))
+* update stories ([dbf7364](https://github.com/SigNoz/icons/commit/dbf73649da3d5c0958dfe4d24727d0415caa5699))
+* update to use pnpm 10 ([e0ff78a](https://github.com/SigNoz/icons/commit/e0ff78a9c0f9dda2f48677c4b239327e6f3718fb))
+
+
+### Continuous Integration
+
+* use node 24 ([#58](https://github.com/SigNoz/icons/issues/58)) ([f10413e](https://github.com/SigNoz/icons/commit/f10413e3f96657e1c3c6aa6b70ef5ecc259ef2d8))
+
 ## [0.4.2](https://github.com/SigNoz/icons/compare/v0.4.1...v0.4.2) (2026-05-11)
 
 
