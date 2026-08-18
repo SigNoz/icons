@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.4](https://github.com/SigNoz/icons/compare/v0.4.3...v0.4.4) (2026-08-18)
+
+
+### Miscellaneous Chores
+
+* update dependencies ([#63](https://github.com/SigNoz/icons/issues/63)) ([ff0340b](https://github.com/SigNoz/icons/commit/ff0340bf47baa3cb366998850f343daa7533bac4))
+
+
+### Continuous Integration
+
+* add fmt and lint pipelines using primus workflows ([#61](https://github.com/SigNoz/icons/issues/61)) ([3e4fdaf](https://github.com/SigNoz/icons/commit/3e4fdafd6032112168f0d573589977c2ca9d8b84))
+
 ## [0.4.3](https://github.com/SigNoz/icons/compare/v0.4.2...v0.4.3) (2026-05-15)
 
 
