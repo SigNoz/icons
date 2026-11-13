@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.4.4](https://github.com/SigNoz/icons/compare/v0.4.3...v0.4.4) (2026-11-13)
+
+
+### Miscellaneous Chores
+
+* **audit:** update deps ([#64](https://github.com/SigNoz/icons/issues/64)) ([b339355](https://github.com/SigNoz/icons/commit/b3393555e6960927409880de634bf45db8c21b7d))
+* **deps:** bump glob and pin transitive deps to fix audit ([#66](https://github.com/SigNoz/icons/issues/66)) ([48c4bfd](https://github.com/SigNoz/icons/commit/48c4bfd96dac7f71a1a6cd1ef4b4f870d92a35ec))
+* **deps:** bump storybook to 10.6.5 ([#65](https://github.com/SigNoz/icons/issues/65)) ([644b3f2](https://github.com/SigNoz/icons/commit/644b3f2ea548522a9ac5236d63ff0093ba12d48a))
+* update dependencies ([#63](https://github.com/SigNoz/icons/issues/63)) ([ff0340b](https://github.com/SigNoz/icons/commit/ff0340bf47baa3cb366998850f343daa7533bac4))
+
+
+### Continuous Integration
+
+* add fmt and lint pipelines using primus workflows ([#61](https://github.com/SigNoz/icons/issues/61)) ([3e4fdaf](https://github.com/SigNoz/icons/commit/3e4fdafd6032112168f0d573589977c2ca9d8b84))
+
 ## [0.4.3](https://github.com/SigNoz/icons/compare/v0.4.2...v0.4.3) (2026-05-15)
 
 
